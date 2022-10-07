@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+  </head>
+  <body style="background-color: #ffe8e5">
+    <script src="js/bootstrap.bundle.js"></script>
+    <header>
+      <div class="title">
+        <h1>Don't know what to eat? No worry we gotcha!</h1>
+      </div>
+    </header>
+    <div class="log">
+      <img src="IMG/logo.png" alt="A welcome toaster" class="logo" />
+    </div>
+    <div id="NavPanel">
+      <nav>
+        <ul>
+          <li><a href="ICook.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="help.html">Help</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div id="menuBotton">
+      <img src="IMG/menu.png" id="menu" />
+    </div>
+    <script>
+      var menuBotton = document.getElementById("menuBotton");
+      var NavPanel = document.getElementById("NavPanel");
+      var menu = document.getElementById("menu");
+
+      NavPanel.style.right = "-250px";
+
+      menuBotton.onclick = function () {
+        if (NavPanel.style.right == "-250px") {
+          NavPanel.style.right = "0";
+          menu.src = "IMG/close.png";
+        } else {
+          NavPanel.style.right = "-250px";
+          menu.src = "IMG/menu.png";
+        }
+      };
+    </script>
+  </body>
+</html>

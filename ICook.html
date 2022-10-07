@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width = device-width, initial-scale=1" />
+    <title>iCook?Ucook!</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- <link href="css/bootstrap.css" rel="stylesheet" /> -->
+  </head>
+
+  <body style="background-color: #ffe8e5">
+    <script src="js/bootstrap.bundle.js"></script>
+    <header>
+      <div class="title">
+        <h1><span class="auto-input"></span></h1>
+      </div>
+      <div class="veg">
+        <p>What <strong>veggies</strong> in the fridge?</p>
+      </div>
+      <div class="veg-butn">
+        <a href="#"><span></span>Potato</a>
+        <a href="#"><span></span>Tofu</a>
+        <a href="#"><span></span>Broccoli</a>
+        <a href="#"><span></span>Cabbage</a>
+        <a href="#"><span></span>Tomato</a>
+        <a href="#"><span></span>Carrot</a>
+        <a href="#"><span></span>Pumpkin</a>
+        <a href="#"><span></span>Mushroom</a>
+        <a href="#"><span></span>Eggplant</a>
+        <a href="#"><span></span>Corn</a>
+        <a href="#"><span></span>Lettuce</a>
+      </div>
+      <div class="meat">
+        <p>what <strong>meat</strong> we have today?</p>
+      </div>
+      <div class="meat-butn">
+        <a href="#"><span></span>Chicken</a>
+        <a href="#"><span></span>Beef</a>
+        <a href="#"><span></span>Pork</a>
+        <a href="#"><span></span>Fish</a>
+        <a href="#"><span></span>Lamb</a>
+      </div>
+      <div class="cookware">
+        <p>Most importantly what <strong>cookware </strong>?</p>
+      </div>
+      <div class="cookware-butn">
+        <a href="#"><span></span>Pan</a>
+        <a href="#"><span></span>Mircowave</a>
+        <a href="#"><span></span>Pot</a>
+        <a href="#"><span></span>Air-fryer</a>
+        <a href="#"><span></span>Oven</a>
+      </div>
+      <div class="row justify-content-around">
+        <div class="col-4">Any <b>starch</b> today?(optional)</div>
+        <div class="col-4">Some tasty <b>dessert</b> maybe?(optinal)</div>
+      </div>
+    </header>
+    <div class="container">
+      <img src="IMG/logo.png" alt="A welcome toaster" class="logo" />
+    </div>
+    <div id="NavPanel">
+      <nav>
+        <ul>
+          <li><a href="ICook.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="help.html">Help</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div id="menuBotton">
+      <img src="IMG/menu.png" id="menu" />
+    </div>
+    <script>
+      var menuBotton = document.getElementById("menuBotton");
+      var NavPanel = document.getElementById("NavPanel");
+      var menu = document.getElementById("menu");
+
+      NavPanel.style.right = "-250px";
+
+      menuBotton.onclick = function () {
+        if (NavPanel.style.right == "-250px") {
+          NavPanel.style.right = "0";
+          menu.src = "IMG/close.png";
+        } else {
+          NavPanel.style.right = "-250px";
+          menu.src = "IMG/menu.png";
+        }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+      var typed = new Typed(".auto-input", {
+        strings: [
+          "Don't know what to eat? No worry we gotcha!",
+          "Ready to cook?",
+          "Cooking isn't that hard",
+        ],
+        typeSpeed: 110,
+        backSpeed: 100,
+        loop: true,
+      });
+    </script>
+  </body>
+</html>
