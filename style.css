@@ -49,36 +49,22 @@
   margin: 10px auto 0;
 }
 
-.veg-butn a {
+.veg-butn button {
   width: 150px;
   text-decoration: none;
-  display: inline-block;
   margin: 0 5px;
   padding: 6px 0;
-  background-color: green;
-  color: #fff;
-  border: 1px solid rgb(85, 254, 0);
+  background-color: #86efca33;
+  color: rgb(0, 0, 0);
+  border: 3px solid rgb(85, 254, 0);
   position: relative;
   z-index: 1;
+  cursor: pointer;
+  transition: 0.8s;
 }
 
-.veg-butn a span {
-  width: 0;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background: #fff;
-  z-index: -1;
-  transition: 0.5s;
-}
-
-.veg-butn a:hover span {
-  width: 100%;
-}
-
-.veg-butn a:hover {
-  color: green;
+.veg-butn button:hover {
+  color: rgb(255, 0, 0);
 }
 
 .meat-butn {
@@ -86,36 +72,22 @@
   margin: 10px auto 0;
 }
 
-.meat-butn a {
+.meat-butn button {
   width: 150px;
   text-decoration: none;
-  display: inline-block;
   margin: 0 5px;
   padding: 6px 0;
-  background-color: green;
-  color: #fff;
-  border: 1px solid rgb(85, 254, 0);
+  background-color: #86efca33;
+  color: rgb(0, 0, 0);
+  border: 3px solid rgb(85, 254, 0);
   position: relative;
   z-index: 1;
+  cursor: pointer;
+  transition: 0.8s;
 }
 
-.meat-butn a span {
-  width: 0;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background: #fff;
-  z-index: -1;
-  transition: 0.5s;
-}
-
-.meat-butn a:hover span {
-  width: 100%;
-}
-
-.meat-butn a:hover {
-  color: green;
+.meat-butn button:hover {
+  color: #991b1b;
 }
 
 .cookware-butn {
@@ -123,36 +95,23 @@
   margin: 10px auto 0;
 }
 
-.cookware-butn a {
+.cookware-butn button {
   width: 150px;
   text-decoration: none;
   display: inline-block;
   margin: 0 5px;
   padding: 6px 0;
-  background-color: green;
-  color: #fff;
-  border: 1px solid rgb(85, 254, 0);
+  background-color: #86efca33;
+  color: rgb(0, 0, 0);
+  border: 3px solid rgb(85, 254, 0);
   position: relative;
   z-index: 1;
+  cursor: pointer;
+  transition: 0.8s;
 }
 
-.cookware-butn a span {
-  width: 0;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background: #fff;
-  z-index: -1;
-  transition: 0.5s;
-}
-
-.cookware-butn a:hover span {
-  width: 100%;
-}
-
-.cookware-butn a:hover {
-  color: green;
+.cookware-butn button:hover {
+  color: #854d0e;
 }
 
 #NavPanel {
@@ -174,6 +133,14 @@ nav ul li {
 nav ul li {
   text-decoration: none;
   color: aqua;
+}
+
+.cart-icon {
+  position: absolute;
+  top: 90%;
+  left: 95%;
+  width: 100px;
+  cursor: pointer;
 }
 
 #menuBotton {
