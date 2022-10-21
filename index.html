@@ -16,64 +16,82 @@
   </head>
 
   <body>
-    <script src="js/bootstrap.bundle.js"></script>
-    <center>
-      <br />
-      <h1>This is a title</h1>
-    </center>
-    <br /><br /><br /><br /><br /><br /><br /><br />
-    <div ="title">
-      <center>
-        <h1><span class="auto-input"></span></h1>
-      </center>
-    </div>
-    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-    <h1 class="paragraph">
-      This is a website designed for beginner to learn how to cook<br />
-      from the scratch! if you are a totally new to the kitchen,<br />
-      that's fine! We are here to help :)
-    <div id="NavPanel">
-      <nav>
-        <ul>
-          <li><a href="ICook.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="help.html">Help</a></li>
-        </ul>
-      </nav>
-    </div>
-    <div id="menuBotton">
-      <img src="IMG/menu.png" id="menu" />
-    </div>
-    <script>
-      var menuBotton = document.getElementById("menuBotton");
-      var NavPanel = document.getElementById("NavPanel");
-      var menu = document.getElementById("menu");
+    <div>
+      <script src="js/bootstrap.bundle.js"></script>
+      <div>
+        <div>
+          <img class="logo" src="IMG/logo.png" alt="A welcome toaster" />
+        </div>
+        <div>
+          <h1 class="header">Crookie</h1>
+        </div>
+        <div>
+          <div id="menuBotton">
+            <img src="IMG/menu.png" id="menu" />
+          </div>
+        </div>
+      </div>
+      <br /><br /><br /><br /><br /><br /><br /><br />
+      <div class="auto-ipt">
+        <center>
+          <h1 class="fixed-p">
+            Stomache growling? <span class="auto-input"></span>
+          </h1>
+        </center>
+      </div>
+      <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+      <h1 class="paragraph">
+        This is a website designed for beginner to learn how to cook<br />
+        from the scratch! if you are a totally new to the kitchen,<br />
+        that's fine! We are here to help :)
+      </h1>
+      <button
+        class="to-cook"
+        onclick="location.href='ICook.html'"
+        type="button"
+      >
+        ready to go?
+      </button>
+      <div id="NavPanel">
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="help.html">Help</a></li>
+          </ul>
+        </nav>
+      </div>
+      <script>
+        var menuBotton = document.getElementById("menuBotton");
+        var NavPanel = document.getElementById("NavPanel");
+        var menu = document.getElementById("menu");
 
-      NavPanel.style.right = "-250px";
+        NavPanel.style.right = "-250px";
 
-      menuBotton.onclick = function () {
-        if (NavPanel.style.right == "-250px") {
-          NavPanel.style.right = "0";
-          menu.src = "IMG/close.png";
-        } else {
-          NavPanel.style.right = "-250px";
-          menu.src = "IMG/menu.png";
-        }
-      };
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-    <script>
-      var typed = new Typed(".auto-input", {
-        strings: [
-          "Don't know what to eat? No worry we gotcha!",
-          "Ready to cook?",
-          "Cooking isn't that hard",
-        ],
-        typeSpeed: 110,
-        backSpeed: 100,
-        loop: true,
-      });
-    </script>
-    <script src="js/jquery-3.6.1.min.js"></script>
+        menuBotton.onclick = function () {
+          if (NavPanel.style.right == "-250px") {
+            NavPanel.style.right = "0";
+            menu.src = "IMG/close.png";
+          } else {
+            NavPanel.style.right = "-250px";
+            menu.src = "IMG/menu.png";
+          }
+        };
+      </script>
+      <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+      <script>
+        var typed = new Typed(".auto-input", {
+          strings: [
+            "Don't know what to eat? No worry we gotcha!",
+            "Ready to cook?",
+            "Cooking isn't that hard",
+          ],
+          typeSpeed: 110,
+          backSpeed: 100,
+          loop: true,
+        });
+      </script>
+      <script src="js/jquery-3.6.1.min.js"></script>
+    </div>
   </body>
 </html>

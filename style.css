@@ -4,16 +4,22 @@
 }
 
 .logo {
-  width: 7%;
-  height: 7%;
+  width: 5%;
+  height: 5%;
   position: absolute;
-  top: 1%;
-  left: 7%;
+  top: 1.5%;
+  left: 4%;
 }
 
-.title {
+.auto-ipt {
   text-align: center;
   padding-top: 10px;
+}
+
+.header {
+  margin-top: 1%;
+  text-align: center;
+  background-color: #f7f7f7;
 }
 
 .title h1 {
@@ -24,9 +30,44 @@
   margin-left: 22%;
 }
 
+.fixed-p {
+  position: absolute;
+  margin-left: 25%;
+}
+
+.to-cook {
+  font-size: 20px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 13px 50px 13px;
+  margin: 5% 35%;
+  outline: 0;
+  border: 1px solid black;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.to-cook::after {
+  content: "";
+  background-color: #ffa07a;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+
+.to-cook:hover::after {
+  top: 0px;
+  left: 0px;
+}
+
 .veg {
   text-align: center;
-  padding-top: 3%;
+  padding-top: 1%;
   font-family: cursive;
 }
 
@@ -48,74 +89,103 @@
   font-family: cursive;
 }
 
-.veg-butn {
-  text-align: center;
-  margin: 10px auto 0;
-}
-
-.veg-butn button {
-  width: 150px;
-  text-decoration: none;
-  margin: 0 5px;
-  padding: 6px 0;
-  background-color: #86efca33;
-  color: rgb(0, 0, 0);
-  border: 3px solid rgb(85, 254, 0);
+.veg-table {
   position: relative;
-  z-index: 1;
-  cursor: pointer;
-  transition: 0.8s;
 }
 
-.veg-butn button:hover {
-  color: rgb(255, 0, 0);
+.veg-butn:first-child {
+  margin-top: 1%;
+  margin-left: 7%;
+}
+
+.veg-butn {
+  margin-left: 2%;
+  width: 120px;
+  height: 50px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: bold;
+  color: black;
+  background: #e9ffdb;
+  border: 1px solid black;
+  border-radius: 16px;
+  box-shadow: 1px 1px 0 #e9ffdb, -1px -1px 0 #e9ffdb, -1px 1px 0 #e9ffdb,
+    1px -1px 0 #e9ffdb;
+  transition: 500ms ease-in-out;
+}
+
+.veg-butn:hover {
+  box-shadow: 10px 1px 0 #7cfc00, -10px -1px 0 #7cfc00;
+}
+
+.veg-butn:focus {
+  outline: none;
+}
+
+.meat-table {
+  position: relative;
+}
+
+.meat-butn:first-child {
+  margin-top: 1%;
+  margin-left: 30%;
 }
 
 .meat-butn {
-  text-align: center;
-  margin: 10px auto 0;
-}
-
-.meat-butn button {
-  width: 150px;
-  text-decoration: none;
-  margin: 0 5px;
-  padding: 6px 0;
-  background-color: #86efca33;
-  color: rgb(0, 0, 0);
-  border: 3px solid rgb(85, 254, 0);
-  position: relative;
-  z-index: 1;
+  margin-left: 2%;
+  width: 120px;
+  height: 50px;
   cursor: pointer;
-  transition: 0.8s;
+  font-size: 13px;
+  font-weight: bold;
+  color: black;
+  background: #ffcccb;
+  border: 1px solid black;
+  border-radius: 16px;
+  box-shadow: 1px 1px 0 #ffcccb, -1px -1px 0 #ffcccb, -1px 1px 0 #ffcccb,
+    1px -1px 0 #ffcccb;
+  transition: 500ms ease-in-out;
 }
 
-.meat-butn button:hover {
-  color: #991b1b;
+.meat-butn:hover {
+  box-shadow: 10px 1px 0 #fd5c63, -10px -1px 0 #fd5c63;
+}
+
+.meat-butn:focus {
+  outline: none;
+}
+
+.cookware-table {
+  position: relative;
+}
+
+.cookware-butn:first-child {
+  margin-top: 1%;
+  margin-left: 30%;
 }
 
 .cookware-butn {
-  text-align: center;
-  margin: 10px auto 0;
-}
-
-.cookware-butn button {
-  width: 150px;
-  text-decoration: none;
-  display: inline-block;
-  margin: 0 5px;
-  padding: 6px 0;
-  background-color: #86efca33;
-  color: rgb(0, 0, 0);
-  border: 3px solid rgb(85, 254, 0);
-  position: relative;
-  z-index: 1;
+  margin-left: 2%;
+  width: 120px;
+  height: 50px;
   cursor: pointer;
-  transition: 0.8s;
+  font-size: 13px;
+  font-weight: bold;
+  color: black;
+  background: #f8f8ff;
+  border: 1px solid black;
+  border-radius: 16px;
+  box-shadow: 1px 1px 0 #f8f8ff, -1px -1px 0 #f8f8ff, -1px 1px 0 #f8f8ff,
+    1px -1px 0 #f8f8ff;
+  transition: 500ms ease-in-out;
 }
 
-.cookware-butn button:hover {
-  color: #854d0e;
+.cookware-butn:hover {
+  box-shadow: 10px 1px 0 #d3d3d3, -10px -1px 0 #d3d3d3;
+}
+
+.cookware-butn:focus {
+  outline: none;
 }
 
 #NavPanel {
@@ -164,6 +234,7 @@ nav ul li {
   height: 75%;
   margin-top: 10%;
 }
+
 @media screen and (max-width: 770px) {
   .title h1 {
     font-size: 12px;
