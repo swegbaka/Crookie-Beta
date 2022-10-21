@@ -4,18 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width = device-width, initial-scale=1" />
     <title>iCook</title>
-    <style>
-      body {
-        background-image: url("IMG/PureBackground.png");
-      }
-    </style>
+    <link rel="stylesheet2" href="css/bootstrap.css">
     <link rel="stylesheet" href="style.css" />
     <script src="js/jquery-3.6.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
-    <!-- <link href="css/bootstrap.css" rel="stylesheet" /> -->
   </head>
 
-  <body>
+  <body class="anotherpage">
     <script src="js/bootstrap.bundle.js"></script>
     <header>
       <div>
@@ -69,6 +64,7 @@
         <button class="cookware-butn">💨🔥 Air-fryer</button>
         <button class="cookware-butn">🎞️ Oven</button>
       </div>
+
     </header>
     <div id="NavPanel">
       <nav>
@@ -79,6 +75,22 @@
         </ul>
       </nav>
     </div>
+
+    <div class="container">
+        <div class="starch">
+          Any <strong>starch</strong> today?(optional)<br>
+          <button class="starch-butn">Rice</button><br>
+          <button class="starch-butn">noodle</button>
+        </div>
+        <div class="result">
+          Let's see what's delicacy for today!
+        </div>
+        <div class="dessert">
+          Some tasty <strong>dessert</strong> maybe?(optional)<br>
+          <button class="dessert-butn">Cake</button>
+        </div>
+    </div>
+
     <script>
       var menuBotton = document.getElementById("menuBotton");
       var NavPanel = document.getElementById("NavPanel");

@@ -3,6 +3,14 @@
   padding: 0;
 }
 
+.homepage {
+  background-image: url("IMG/Background.png");
+}
+
+.anotherpage {
+  background-image: url("IMG/PureBackground.png");
+}
+
 .logo {
   width: 5%;
   height: 5%;
@@ -35,7 +43,16 @@
   margin-left: 25%;
 }
 
-.to-cook {
+.container {
+  background-color: #faeaec;
+  display: grid;
+  text-align: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 500px;
+  margin: 3% auto 1% auto;
+}
+
+.ready-to-cook {
   font-size: 20px;
   font-weight: 200;
   letter-spacing: 1px;
@@ -48,7 +65,7 @@
   background-color: rgba(0, 0, 0, 0);
 }
 
-.to-cook::after {
+.ready-to-cook::after {
   content: "";
   background-color: #ffa07a;
   width: 100%;
@@ -60,7 +77,7 @@
   transition: 0.2s;
 }
 
-.to-cook:hover::after {
+.ready-to-cook:hover::after {
   top: 0px;
   left: 0px;
 }
@@ -182,6 +199,50 @@
 
 .cookware-butn:hover {
   box-shadow: 10px 1px 0 #d3d3d3, -10px -1px 0 #d3d3d3;
+}
+
+.cookware-butn:focus {
+  outline: none;
+}
+
+.starch-butn {
+  margin-top: 6%;
+  width: 120px;
+  height: 50px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: bold;
+  color: black;
+  background: #ffffff;
+  border: 1px solid black;
+  border-radius: 16px;
+  box-shadow: 1px 1px 0 #ffffff, -1px -1px 0 #ffffff, -1px 1px 0 #ffffff,
+    1px -1px 0 #ffffff;
+  transition: 500ms ease-in-out;
+}
+
+.starch-butn:hover {
+  box-shadow: 10px 1px 0 #ffffff, -10px -1px 0 #ffffff;
+}
+
+.dessert-butn {
+  margin-top: 6%;
+  width: 120px;
+  height: 50px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: bold;
+  color: black;
+  background: #e29f6f;
+  border: 1px solid black;
+  border-radius: 16px;
+  box-shadow: 1px 1px 0 #e29f6f, -1px -1px 0 #e29f6f, -1px 1px 0 #e29f6f,
+    1px -1px 0 #e29f6f;
+  transition: 500ms ease-in-out;
+}
+
+.dessert-butn:hover {
+  box-shadow: 10px 1px 0 #e29f6f, -10px -1px 0 #e29f6f;
 }
 
 .cookware-butn:focus {
