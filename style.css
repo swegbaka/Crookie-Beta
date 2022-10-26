@@ -26,8 +26,10 @@
 
 .header {
   margin-top: 1%;
+  margin-left: 38%;
+  width: 25%;
+  height: 25%;
   text-align: center;
-  background-color: #f7f7f7;
 }
 
 .title h1 {

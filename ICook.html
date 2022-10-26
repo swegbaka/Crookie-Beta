@@ -18,7 +18,7 @@
           <img class="logo" src="IMG/logo.png" alt="A welcome toaster" />
         </div>
         <div>
-          <h1 class="header">Crookie</h1>
+          <img class="header" src="IMG/Crookies.png" alt="Crookies">
         </div>
         <div>
           <div id="menuBotton">
@@ -176,6 +176,9 @@
       let btn_meat = document.querySelectorAll('.meat-table > button');
       let btn_cookware = document.querySelectorAll('.cookware-table > button');
 
+    
+  
+
       for(let i = 0; i < btn_veg.length; i++){
         btn_veg[i].onclick = function(){
           document.querySelector('.veg-table > button.veg-butn-on ').classList.remove('-on');
@@ -200,8 +203,14 @@
           this.classList.add('-on');
           result.innerHTML = btn_cookware[i].innerHTML;
           img.src = imgArr3[i];
-        }
+
+          if(btn_cookware[i].innerHTML == "🍳 Pan"){
+            console.log("PAN!!");
+          }
+
+        }   
       }
+
 
     </script>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
