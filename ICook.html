@@ -32,7 +32,7 @@
         <p>What <strong>veggies</strong> in the fridge?</p>
       </div>
       <div class="veg-table">
-        <button class="veg-butn">🥔 potato</button>
+        <button class="veg-butn-on">🥔 potato</button>
         <button class="veg-butn">🧈 Tofu</button>
         <button class="veg-butn">🥦 Broccoli</button>
         <button class="veg-butn">🥬 Cabbage</button>
@@ -48,7 +48,7 @@
         <p>what <strong>meat</strong> we have today?</p>
       </div>
       <div class="meat-table">
-        <button class="meat-butn">🐔 Chicken</button>
+        <button class="meat-butn-on">🐔 Chicken</button>
         <button class="meat-butn">🐄 Beef</button>
         <button class="meat-butn">🐷 Pork</button>
         <button class="meat-butn">🐟 Fish</button>
@@ -58,12 +58,13 @@
         <p>Most importantly what <strong>cookware </strong>?</p>
       </div>
       <div class="cookware-table">
-        <button class="cookware-butn">🍳 Pan</button>
+        <button class="cookware-butn-on">🍳 Pan</button>
         <button class="cookware-butn">📟 Mircowave</button>
         <button class="cookware-butn">🥘 Pot</button>
         <button class="cookware-butn">💨🔥 Air-fryer</button>
         <button class="cookware-butn">🎞️ Oven</button>
       </div>
+
 
     </header>
     <div id="NavPanel">
@@ -84,11 +85,22 @@
         </div>
         <div class="result">
           Let's see what's delicacy for today!
+            <p> <label>Detail:<button id="result"></button></label>
+              <ul id="display">
+                <img src="IMG/logo.png" alt="">
+                </ul>
+                <button>START COOKING!!</button>
         </div>
         <div class="dessert">
           Some tasty <strong>dessert</strong> maybe?(optional)<br>
           <button class="dessert-butn">Cake</button>
         </div>
+      
+        
+        
+
+        
+
     </div>
 
     <script>
@@ -107,6 +119,90 @@
           menu.src = "IMG/menu.png";
         }
       };
+
+      /*let btn_cookware = document.querySelectorAll('.cookware-butn');
+      console.log(btn_cookware.length);
+
+      for(let i = 0; i < btn_cookware.length; i++){
+        btn_cookware[i].onclick = function(){
+          console.log("got it~");
+        }
+      }*/
+
+      let imgArr1 = ['IMG/vegetable/potato.jpg',
+      'IMG/vegetable/tofu.jpg',
+      'IMG/vegetable/broccoli.jpg',
+      'IMG/vegetable/cabbage.jpg',
+      'IMG/vegetable/tomato.jpg',
+      'IMG/vegetable/carrot.jpg',
+      'IMG/vegetable/pumpkin.jpg',
+      'IMG/vegetable/mushroom.jpg',
+      'IMG/vegetable/eggplant.jpg',
+      'IMG/vegetable/corn.jpg',
+      'IMG/vegetable/lettuce.jpg'];
+
+      let imgArr2 = ['IMG/meat/chicken.jpg',
+      'IMG/meat/beef.jpg',
+      'IMG/meat/pork.jpg',
+      'IMG/meat/fish.jpg',
+      'IMG/meat/lamb.jpg'];
+
+      let imgArr3 = ['IMG/cookware/pan.jpg',
+      'IMG/cookware/microwave.jpg',
+      'IMG/cookware/pot.jpg',
+      'IMG/cookware/air-fryer-oven.jpg',
+      'IMG/cookware/oven.jpg'];
+
+      /*window.onload = function(){
+        //add a cookware to the box
+        myClick(".cookware-butn",function(){
+          alert("hello")
+          var li = document.createElement("li");
+          var gzText = document.createTextNode("cookware1");
+          li.appendChild(gzText);
+
+          var list = document.getElementById("display");
+          list.appendChild(li);
+        });
+      };
+
+      function myClick(idStr, fun){
+        var btn = document.querySelector(idStr);
+        btn.onclick = fun;
+      }*/
+
+      let img = document.querySelector('#display > img');
+      let btn_veg = document.querySelectorAll('.veg-table > button');
+      let btn_meat = document.querySelectorAll('.meat-table > button');
+      let btn_cookware = document.querySelectorAll('.cookware-table > button');
+
+      for(let i = 0; i < btn_veg.length; i++){
+        btn_veg[i].onclick = function(){
+          document.querySelector('.veg-table > button.veg-butn-on ').classList.remove('-on');
+          this.classList.add('-on');
+          result.innerHTML = btn_veg[i].innerHTML;
+          img.src = imgArr1[i];
+        }
+      }
+
+      for(let i = 0; i < btn_meat.length; i++){
+        btn_meat[i].onclick = function(){
+          document.querySelector('.meat-table > button.meat-butn-on ').classList.remove('-on');
+          this.classList.add('-on');
+          result.innerHTML = btn_meat[i].innerHTML;
+          img.src = imgArr2[i];
+        }
+      }
+      
+      for(let i = 0; i < btn_cookware.length; i++){
+        btn_cookware[i].onclick = function(){
+          document.querySelector('.cookware-table > button.cookware-butn-on ').classList.remove('-on');
+          this.classList.add('-on');
+          result.innerHTML = btn_cookware[i].innerHTML;
+          img.src = imgArr3[i];
+        }
+      }
+
     </script>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script src="js/jquery-3.6.1.min.js"></script>
