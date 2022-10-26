@@ -26,8 +26,10 @@
 
 .header {
   margin-top: 1%;
+  margin-left: 38%;
+  width: 25%;
+  height: 25%;
   text-align: center;
-  background-color: #f7f7f7;
 }
 
 .title h1 {
@@ -110,6 +112,35 @@
   position: relative;
 }
 
+.veg-butn-on:first-child {
+  margin-top: 1%;
+  margin-left: 4.4%;
+}
+
+.veg-butn-on {
+  margin-left: 2%;
+  width: 120px;
+  height: 50px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: bold;
+  color: black;
+  background: #e9ffdb;
+  border: 1px solid black;
+  border-radius: 16px;
+  box-shadow: 1px 1px 0 #e9ffdb, -1px -1px 0 #e9ffdb, -1px 1px 0 #e9ffdb,
+    1px -1px 0 #e9ffdb;
+  transition: 500ms ease-in-out;
+}
+
+.veg-butn-on:hover {
+  box-shadow: 10px 1px 0 #7cfc00, -10px -1px 0 #7cfc00;
+}
+
+.veg-butn-on:focus {
+  outline: none;
+}
+
 .veg-butn:first-child {
   margin-top: 1%;
   margin-left: 7%;
@@ -143,6 +174,35 @@
   position: relative;
 }
 
+.meat-butn-on:first-child {
+  margin-top: 1%;
+  margin-left: 30%;
+}
+
+.meat-butn-on {
+  margin-left: 2%;
+  width: 120px;
+  height: 50px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: bold;
+  color: black;
+  background: #ffcccb;
+  border: 1px solid black;
+  border-radius: 16px;
+  box-shadow: 1px 1px 0 #ffcccb, -1px -1px 0 #ffcccb, -1px 1px 0 #ffcccb,
+    1px -1px 0 #ffcccb;
+  transition: 500ms ease-in-out;
+}
+
+.meat-butn-on:hover {
+  box-shadow: 10px 1px 0 #fd5c63, -10px -1px 0 #fd5c63;
+}
+
+.meat-butn-on:focus {
+  outline: none;
+}
+
 .meat-butn:first-child {
   margin-top: 1%;
   margin-left: 30%;
@@ -174,6 +234,35 @@
 
 .cookware-table {
   position: relative;
+}
+
+.cookware-butn-on:first-child {
+  margin-top: 1%;
+  margin-left: 30%;
+}
+
+.cookware-butn-on {
+  margin-left: 2%;
+  width: 120px;
+  height: 50px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: bold;
+  color: black;
+  background: #f8f8ff;
+  border: 1px solid black;
+  border-radius: 16px;
+  box-shadow: 1px 1px 0 #f8f8ff, -1px -1px 0 #f8f8ff, -1px 1px 0 #f8f8ff,
+    1px -1px 0 #f8f8ff;
+  transition: 500ms ease-in-out;
+}
+
+.cookware-butn-on:hover {
+  box-shadow: 10px 1px 0 #d3d3d3, -10px -1px 0 #d3d3d3;
+}
+
+.cookware-butn-on:focus {
+  outline: none;
 }
 
 .cookware-butn:first-child {
@@ -245,8 +334,52 @@
   box-shadow: 10px 1px 0 #e29f6f, -10px -1px 0 #e29f6f;
 }
 
-.cookware-butn:focus {
-  outline: none;
+.veg-receipe {
+  margin-top: 2%;
+  width: 120px;
+  height: 50px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: bold;
+  color: black;
+  background: #e9ffdb;
+  border: 1px solid black;
+  border-radius: 16px;
+  box-shadow: 1px 1px 0 #e9ffdb, -1px -1px 0 #e9ffdb, -1px 1px 0 #e9ffdb,
+    1px -1px 0 #e9ffdb;
+  display: none;
+}
+
+.meat-receipe {
+  margin-top: 2%;
+  width: 120px;
+  height: 50px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: bold;
+  color: black;
+  background: #ffcccb;
+  border: 1px solid black;
+  border-radius: 16px;
+  box-shadow: 1px 1px 0 #ffcccb, -1px -1px 0 #ffcccb, -1px 1px 0 #ffcccb,
+    1px -1px 0 #ffcccb;
+  display: none;
+}
+
+.cookware-receipe {
+  margin-top: 2%;
+  width: 120px;
+  height: 50px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: bold;
+  color: black;
+  background: #f8f8ff;
+  border: 1px solid black;
+  border-radius: 16px;
+  box-shadow: 1px 1px 0 #f8f8ff, -1px -1px 0 #f8f8ff, -1px 1px 0 #f8f8ff,
+    1px -1px 0 #f8f8ff;
+  display: none;
 }
 
 #NavPanel {
@@ -301,3 +434,14 @@ nav ul li {
     font-size: 12px;
   }
 }
+
+#display img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 25%;
+  border: 1px solid black;
+}
+
