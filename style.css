@@ -25,9 +25,10 @@
 }
 
 .header {
+  margin-top: 1px;
   margin-left: 38%;
   width: 25%;
-  height: 25%;
+  height: 120px;
   text-align: center;
 }
 
