@@ -1,0 +1,116 @@
+{
+    "Vegetable": [
+        {
+            "name": "Potato",
+            "description": "John",
+            "image": "./IMG/vegetable/potato.jpg",
+            "unit": "Smith"
+        },
+        {
+            "name": "Tofu",
+            "description": "John",
+            "image": "./IMG/vegetable/tofu.jpg"
+        },
+        {
+            "name": "Broccoli",
+            "description": "John",
+            "image": "./IMG/vegetable/broccoli.jpg"
+        },
+        {
+            "name": "Cabbage",
+            "description": "John",
+            "image": "./IMG/vegetable/cabbage.jpg"
+        },
+        {
+            "name": "Tomato",
+            "description": "John",
+            "image": "./IMG/vegetable/tomato.jpg"
+        },
+        {
+            "name": "Carrot",
+            "description": "John",
+            "image": "./IMG/vegetable/carrot.jpg"
+        },
+        {
+            "name": "Pumpkin",
+            "description": "John",
+            "image": "./IMG/vegetable/pumpkin.jpg"
+        },
+        {
+            "name": "Mushroom",
+            "description": "John",
+            "image": "./IMG/vegetable/mushroom.jpg"
+        },
+        {
+            "name": "Eggplant",
+            "description": "John",
+            "image": "./IMG/vegetable/eggplant.jpg"
+        },
+        {
+            "name": "Corn",
+            "description": "John",
+            "image": "./IMG/vegetable/corn.jpg"
+        },
+        {
+            "name": "Lettuce",
+            "description": "John",
+            "image": "./IMG/vegetable/lettuce.jpg"
+        }
+    ],
+    "Meat": [
+        {
+            "name": "Chicken",
+            "description": "John",
+            "image": "./IMG/meat/chicken.jpg",
+            "unit": "Smith"
+        },
+        {
+            "name": "Beef",
+            "description": "John",
+            "image": "./IMG/meat/beef.jpg"
+        },
+        {
+            "name": "Pork",
+            "description": "John",
+            "image": "./IMG/meat/pork.jpg"
+        },
+        {
+            "name": "Fish",
+            "description": "John",
+            "image": "./IMG/meat/fish.jpg"
+        },
+        {
+            "name": "Lamb",
+            "description": "John",
+            "image": "./IMG/meat/lamb.jpg"
+        }
+    ],
+    "Cookware": [
+        {
+            "name": "Pan",
+            "description": "John",
+            "image": "./IMG/cookware/pan.jpg",
+            "unit": "Smith"
+        },
+        {
+            "name": "Microwave",
+            "description": "John",
+            "image": "./IMG/cookware/microwave.jpg"
+        },
+        {
+            "name": "Pot",
+            "description": "John",
+            "image": "./IMG/cookware/pot.jpg"
+        },
+        {
+            "name": "air-fryer-oven",
+            "description": "John",
+            "image": "./IMG/cookware/air-fryer-oven.jpg"
+        },
+        {
+            "name": "Oven",
+            "description": "John",
+            "image": "./IMG/cookware/oven.jpg"
+        }
+    ]
+}
