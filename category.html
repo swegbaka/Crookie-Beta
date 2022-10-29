@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width = device-width, initial-scale=1" />
+    <title>iCook</title>
+    <link rel="stylesheet2" href="css/bootstrap.css">
+    <link rel="stylesheet" href="style.css" />
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+  </head>
+
+  <body class="anotherpage">
+    <header>
+        <div>
+          <div>
+            <img class="logo" src="IMG/logo.png" alt="A welcome toaster" />
+          </div>
+          <div>
+            <img class="header" src="IMG/Crookies.png" alt="Crookies">
+          </div>
+            <div id="menuBotton">
+              <img src="IMG/menu.png" id="menu" />
+            </div>
+        </div>
+    </header>
+    <div id="NavPanel">
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="category.html">Category</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="help.html">Help</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="cookware">
+        <p>Food Category </strong></p>
+    </div>
+
+    <table class="category-table">
+        <thead> <th id="tableTile"> Vegetable</th>
+          <tr> 
+            <th> Food </th>
+            <th> Nutrition per Serving</th>
+            <th> Variety </th>
+            <th> Description </th>
+            <th> Use</th>
+          </tr>
+        </thead>
+        <tbody class="veg-category">
+            <!---- Populated from the javascript file-->
+        </tbody>
+    </table>
+
+    <table class="category-table">
+        <thead> <th> Meat </th>
+          <tr> 
+            <th> Food </th>
+            <th> Nutrition per Serving</th>
+            <th> Variety </th>
+            <th> Description </th>
+            <th> Use</th>
+          </tr>
+        </thead>
+        
+        <tbody class="meat-category">
+            <!---- Populated from the javascript file-->
+        </tbody>
+    </table>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script type="module" src="ICook.js"></script>
+    <script type="module" src="category.js"></script>
+    
+</body>
+</html>

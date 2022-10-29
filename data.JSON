@@ -4,57 +4,169 @@
             "name": "Potato",
             "description": "John",
             "image": "./IMG/vegetable/potato.jpg",
-            "unit": "Smith"
+            "nutrition": {
+                "Calories": 161,
+                "Protein": 4.3,
+                "Fat": 0.2,
+                "Carbohydrates": 37,
+                "Fiber": 3.8,
+                "Sugar": 2
+            },
+            "variety": "none",
+            "use": "empty"
         },
         {
             "name": "Tofu",
             "description": "John",
-            "image": "./IMG/vegetable/tofu.jpg"
+            "image": "./IMG/vegetable/tofu.jpg",
+            "nutrition": {
+                "Calories": 161,
+                "Protein": 4.3,
+                "Fat": 0.2,
+                "Carbohydrates": 37,
+                "Fiber": 3.8,
+                "Sugar": 2
+            },
+            "variety": "none",
+            "use": "empty"
+            
         },
         {
             "name": "Broccoli",
             "description": "John",
-            "image": "./IMG/vegetable/broccoli.jpg"
+            "image": "./IMG/vegetable/broccoli.jpg",
+            "nutrition": {
+                "Calories": 161,
+                "Protein": 4.3,
+                "Fat": 0.2,
+                "Carbohydrates": 37,
+                "Fiber": 3.8,
+                "Sugar": 2
+            },
+            "variety": "none",
+            "use": "empty"
+            
         },
         {
             "name": "Cabbage",
             "description": "John",
-            "image": "./IMG/vegetable/cabbage.jpg"
+            "image": "./IMG/vegetable/cabbage.jpg",
+            "nutrition": {
+                "Calories": 161,
+                "Protein": 4.3,
+                "Fat": 0.2,
+                "Carbohydrates": 37,
+                "Fiber": 3.8,
+                "Sugar": 2
+            },
+            "variety": "none",
+            "use": "empty"
         },
         {
             "name": "Tomato",
             "description": "John",
-            "image": "./IMG/vegetable/tomato.jpg"
+            "image": "./IMG/vegetable/tomato.jpg",
+            "nutrition": {
+                "Calories": 161,
+                "Protein": 4.3,
+                "Fat": 0.2,
+                "Carbohydrates": 37,
+                "Fiber": 3.8,
+                "Sugar": 2
+            },
+            "variety": "none",
+            "use": "empty"
         },
         {
             "name": "Carrot",
             "description": "John",
-            "image": "./IMG/vegetable/carrot.jpg"
+            "image": "./IMG/vegetable/carrot.jpg",
+            "nutrition": {
+                "Calories": 161,
+                "Protein": 4.3,
+                "Fat": 0.2,
+                "Carbohydrates": 37,
+                "Fiber": 3.8,
+                "Sugar": 2
+            },
+            "variety": "none",
+            "use": "empty"
         },
         {
             "name": "Pumpkin",
             "description": "John",
-            "image": "./IMG/vegetable/pumpkin.jpg"
+            "image": "./IMG/vegetable/pumpkin.jpg",
+            "nutrition": {
+                "Calories": 161,
+                "Protein": 4.3,
+                "Fat": 0.2,
+                "Carbohydrates": 37,
+                "Fiber": 3.8,
+                "Sugar": 2
+            },
+            "variety": "none",
+            "use": "empty"
         },
         {
             "name": "Mushroom",
             "description": "John",
             "image": "./IMG/vegetable/mushroom.jpg"
+            ,
+            "nutrition": {
+                "Calories": 161,
+                "Protein": 4.3,
+                "Fat": 0.2,
+                "Carbohydrates": 37,
+                "Fiber": 3.8,
+                "Sugar": 2
+            },
+            "variety": "none",
+            "use": "empty"
         },
         {
             "name": "Eggplant",
             "description": "John",
-            "image": "./IMG/vegetable/eggplant.jpg"
+            "image": "./IMG/vegetable/eggplant.jpg",
+            "nutrition": {
+                "Calories": 161,
+                "Protein": 4.3,
+                "Fat": 0.2,
+                "Carbohydrates": 37,
+                "Fiber": 3.8,
+                "Sugar": 2
+            },
+            "variety": "none",
+            "use": "empty"
         },
         {
             "name": "Corn",
             "description": "John",
-            "image": "./IMG/vegetable/corn.jpg"
+            "image": "./IMG/vegetable/corn.jpg",
+            "nutrition": {
+                "Calories": 161,
+                "Protein": 4.3,
+                "Fat": 0.2,
+                "Carbohydrates": 37,
+                "Fiber": 3.8,
+                "Sugar": 2
+            },
+            "variety": "none",
+            "use": "empty"
         },
         {
             "name": "Lettuce",
             "description": "John",
-            "image": "./IMG/vegetable/lettuce.jpg"
+            "image": "./IMG/vegetable/lettuce.jpg",
+            "nutrition": {
+                "Calories": 161,
+                "Protein": 4.3,
+                "Fat": 0.2,
+                "Carbohydrates": 37,
+                "Fiber": 3.8,
+                "Sugar": 2
+            },
+            "variety": "none",
+            "use": "empty"
         }
     ],
     "Meat": [

@@ -1,8 +1,5 @@
 import data from './data.JSON' assert { type: 'json' };
-console.log(data.Vegetable[0].image);
-
-
-
+//console.log(data.Vegetable[0].image);
 
 var menuBotton = document.getElementById("menuBotton");
 var NavPanel = document.getElementById("NavPanel");
