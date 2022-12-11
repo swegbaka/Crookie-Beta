@@ -5,6 +5,7 @@ import data from './data.JSON' assert { type: 'json' };
 
 var vegTable = document.querySelector('.veg-category');
 var meatTable = document.querySelector('.meat-category');
+var cookwareTable = document.querySelector('.cookware-category');
 
 console.log(data.Vegetable[0].image);
 
@@ -55,22 +56,17 @@ for (var i in data.Meat) {
 for (var i in data.Cookware) {
     var row = `<tr>
                     <td>
-                    <img src='${data.Meat[i].image}' width="120px" height="100px">
-                    <div>${data.Meat[i].name}</div>
+                    <img src='${data.Cookware[i].image}' width="120px" height="100px">
+                    <div>${data.Cookware[i].name}</div>
                     </td>
                     <td>
-                    ${data.Meat[i].nutrition[0][0]}:${data.Meat[i].nutrition[0][1]}
-                    ${data.Meat[i].nutrition[1][0]}:${data.Meat[i].nutrition[1][1]}
-                    ${data.Meat[i].nutrition[2][0]}:${data.Meat[i].nutrition[2][1]}
-                    ${data.Meat[i].nutrition[3][0]}:${data.Meat[i].nutrition[3][1]}
-                    ${data.Meat[i].nutrition[4][0]}:${data.Meat[i].nutrition[4][1]}
-                    ${data.Meat[i].nutrition[5][0]}:${data.Meat[i].nutrition[5][1]}
+                    ${data.Cookware[i].nutrition}
                     </td>
-                    <td>${data.Meat[i].variety}</td>
-                    <td>${data.Meat[i].description}</td>
-                    <td>${data.Meat[i].use}</td>
+                    <td>${data.Cookware[i].variety}</td>
+                    <td>${data.Cookware[i].description}</td>
+                    <td>${data.Cookware[i].use}</td>
                 </tr>`
-    meatTable.innerHTML += row; 
+    cookwareTable.innerHTML += row; 
 }
 
 
