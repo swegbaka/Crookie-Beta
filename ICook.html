@@ -17,7 +17,7 @@
     <div>
       <div>
         <a href="../index.html">
-        <img class="logo" src="IMG/logo.png" alt="A welcome toaster" />
+          <img class="logo" src="IMG/logo.png" alt="A welcome toaster" />
         </a>
       </div>
       <div>
@@ -91,12 +91,13 @@
 
     <div class="result">
       Let's see what's delicacy for today!
-      <p> 
+      <p>
         <span id="result"></span></label>
       <div id="choice1">
         <div class="collasped">
           <button class="filterBtn pan noodle" onclick="build()"><a href="../1-potato.html">Nigujaga</a></button>
-          <button class="filterBtn mircowave rice" onclick="build()"><a href="../2-potato.html">mircowave potato</a></button>
+          <button class="filterBtn mircowave rice" onclick="build()"><a href="../2-potato.html">mircowave
+              potato</a></button>
           <button class="filterBtn pot noodle"><a href="#">ufo potato</a></button>
           <button class="filterBtn air-fryer rice"><a href="#">fries</a></button>
           <button class="filterBtn oven"><a href="#">chips</a></button>
@@ -175,7 +176,7 @@
       </div>
 
       <div id="choice2">
-        <div class="collasped-on">
+        <div class="collasped">
           <button class="filterBtn pan"><a href="#">It is a pan Chicken</a></button>
           <button class="filterBtn mircowave"><a href="#">mircowave Chicken</a></button>
           <button class="filterBtn pot"><a href="#">ufo Chicken</a></button>
@@ -203,7 +204,7 @@
           <button class="filterBtn air-fryer"><a href="#"> salmon fries</a></button>
           <button class="filterBtn oven"><a href="#"> salmon chips</a></button>
         </div>
-      
+
         <div class="collasped">
           <button class="filterBtn pan"><a href="#">It is a pan Lamb</a></button>
           <button class="filterBtn mircowave"><a href="#">mircowave Lamb</a></button>
@@ -211,21 +212,23 @@
           <button class="filterBtn air-fryer"><a href="#"> Lamb fries</a></button>
           <button class="filterBtn oven"><a href="#"> Lamb chips</a></button>
         </div>
-        
+
       </div>
 
       <div id="choice3">
         <div class="collasped">
-          <button><a href="#"></a></button>
-          <button><a href="#"></a></button>
-          <button><a href="#"></a></button>
+          <button><a href="#">Pan</a></button>
+          <button><a href="#">Mircowave</a></button>
+          <button><a href="#">Pot</a></button>
+          <button><a href="#">Air-fryer</a></button>
+          <button><a href="#">Oven</a></button>
         </div>
 
       </div>
       <ul id="display">
         <img src="IMG/logo.png" alt="">
       </ul>
-      <input type="text" id="myInput" onkeyup="filter()" placeholder="Search for names.." title="Type in a name">
+      <input type="text" id="myInput" onkeyup="SearchFilter()" placeholder="Search for names.." title="Type in a name">
       <div id="clear">
         <button id="clear-butn" onclick="reload()">Clear</button>
       </div>
@@ -237,48 +240,37 @@
     <div class="dessert">
       Are you a <strong>dessert</strong> stomach? (*☌ᴗ☌)｡*ﾟ<br>
       <button class="dessert-butn">Cake</button>
-    
+
     </div>
 
 
   </div>
 
   <script>
-    function filter() {
-      var a, i, j, txtValue;
+    function SearchFilter() {
+      var aElement, i, txtValue;
       var input = document.getElementById("myInput");
       var filter = input.value.toUpperCase();
 
-      var choice1 = document.getElementById("choice1");
-      var btn1 = choice1.getElementsByTagName("button");
-      var choice2 = document.getElementById("choice2");
-      var btn2 = choice2.getElementsByTagName("button");
-      var choice3 = document.getElementById("choice3");
-      var btn3 = choice3.getElementsByTagName("button");
+      var btnList = document.querySelectorAll(".collasped > button");
 
-      for (i = 0; i < btn1.length; i++) {
-        a = btn1[i].getElementsByTagName("a")[0];
-        b = btn2[i].getElementsByTagName("a")[0];
-        c = btn3[i].getElementsByTagName("a")[0];
-        txtValue = a.textContent || a.innerText;
-        txtValue1 = b.textContent || b.innerText;
-        txtValue2 = c.textContent || c.innerText;
-        if (txtValue.toUpperCase().indexOf(filter) > -1 || txtValue1.toUpperCase().indexOf(filter) > -1 || txtValue2.toUpperCase().indexOf(filter) > -1) {
-          btn1[i].style.display = "";
-          btn2[i].style.display = "";
-          btn3[i].style.display = "";
+      for (i = 0; i < btnList.length; i++) {
 
+        console.log(btnList[i] + "ababababab");
+        aElement = btnList[i].getElementsByTagName("a")[0];
+        txtValue = aElement.textContent || aElement.innerText;
+
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+          btnList[i].style.display = "";
+          console.log("welldone");
         }
-        else {
-          btn1[i].style.display = "none";
-          btn2[i].style.display = "none";
-          btn3[i].style.display = "none";
 
+        else {
+          btnList[i].style.display = "none";
+          console.log("none");
         }
       }
     }
-
-
   </script>
 
 
@@ -286,7 +278,7 @@
   <script src="js/jquery-3.6.1.min.js"></script>
   <script src="filter.js"></script>
   <script type="module" src="ICook.js"></script>
-  <script type ="module" src="cuisine.js"></script>
+  <script type="module" src="cuisine.js"></script>
 </body>
 
 </html>
