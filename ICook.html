@@ -85,8 +85,8 @@
   <div class="container">
     <div class="starch">
       Any <strong>starch</strong> today?<br>
-      <button class="starch-butn" onclick="filterSelection('rice')">Rice</button><br>
-      <button class="starch-butn" onclick="filterSelection('noodle')">Noodle</button>
+      <button class="starch-butn" onclick="filterSelection('rice')">🍚Rice</button><br>
+      <button class="starch-butn" onclick="filterSelection('noodle')">🍜Noodle</button>
     </div>
 
     <div class="result">
@@ -239,7 +239,8 @@
 
     <div class="dessert">
       Are you a <strong>dessert</strong> stomach? (*☌ᴗ☌)｡*ﾟ<br>
-      <button class="dessert-butn">Cake</button>
+      <button class="dessert-butn" onclick="filterSelection('cake')">🥧Cake</button><br>
+      <button class="dessert-butn" onclick="filterSelection('ice')">🍨Ice Cream</button>
 
     </div>
 
@@ -256,7 +257,6 @@
 
       for (i = 0; i < btnList.length; i++) {
 
-        console.log(btnList[i] + "ababababab");
         aElement = btnList[i].getElementsByTagName("a")[0];
         txtValue = aElement.textContent || aElement.innerText;
 
