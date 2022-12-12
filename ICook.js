@@ -19,7 +19,7 @@ menuBotton.onclick = function () {
 };
 
 
-var menuSpan = document.querySelectorAll(".menuSpan");
+
 
 let img = document.querySelector('#display > img');
 let btn_veg = document.querySelectorAll('.veg-table > button');
@@ -46,28 +46,27 @@ for (let i = 0; i < btn_veg.length; i++) {
       result.innerHTML += menuSpan[i].innerHTML;
     }
   });
-
-
 }
+
 for (let i = 0; i < btn_meat.length; i++) {
+  count2[i] = 0;
   btn_meat[i].onclick = function () {
     count2[i]++;
     console.log(count2[i]);
     img.src = data.Meat[i].image;
- 
+    if (count2[i] <= 1) {
       document.querySelector('.meat-table > button.meat-butn-on ').classList.remove('-on');
       this.classList.add('-on');
       result.innerHTML += menuSpan2[i].innerHTML;
+    }
   }
 }
 
 
-refresh.addEventListener("click",function(){
+refresh.addEventListener("click", function () {
   window.location.reload();
   //refresh the page
 });
-
-
 
 
 
