@@ -19,6 +19,140 @@
   left: 4%;
 }
 
+.logbtn {
+  margin-top: 1%;
+  margin-right: 10%;
+  top: 0;
+  right: 0;
+  position: absolute;
+  align-self: center;
+  background-color: #fff;
+  background-image: none;
+  background-position: 0 90%;
+  background-repeat: repeat no-repeat;
+  background-size: 4px 3px;
+  border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+  border-style: solid;
+  border-width: 2px;
+  box-shadow: rgba(0, 0, 0, 0.2) 15px 28px 25px -18px;
+  box-sizing: border-box;
+  color: #41403e;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Neucha, sans-serif;
+  font-size: 1rem;
+  line-height: 15px;
+  outline: none;
+  padding: 0.75rem;
+  text-decoration: none;
+  transition: all 235ms ease-in-out;
+  border-bottom-left-radius: 15px 255px;
+  border-bottom-right-radius: 225px 15px;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.logbtn a {
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  padding: 2em;
+  margin: -2em;
+}
+
+.logbtn:hover {
+  box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 8px -5px;
+  transform: translate3d(0, 2px, 0);
+}
+
+.logbtn:focus {
+  box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 4px -6px;
+}
+
+.signupbtn {
+  margin-top: 0.85%;
+  margin-right: 5%;
+  top: 0;
+  right: 0;
+  position: absolute;
+  align-self: center;
+  background-color: #fff;
+  background-image: none;
+  background-position: 0 90%;
+  background-repeat: repeat no-repeat;
+  background-size: 4px 3px;
+  border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+  border-style: solid;
+  border-width: 2px;
+  box-shadow: rgba(0, 0, 0, 0.2) 15px 28px 25px -18px;
+  box-sizing: border-box;
+  color: #41403e;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Neucha, sans-serif;
+  font-size: 1rem;
+  line-height: 15px;
+  outline: none;
+  padding: 0.75rem;
+  text-decoration: none;
+  transition: all 235ms ease-in-out;
+  border-bottom-left-radius: 15px 255px;
+  border-bottom-right-radius: 225px 15px;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.signupbtn a {
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  padding: 2em;
+  margin: -2em;
+}
+
+.signupbtn:hover {
+  box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 8px -5px;
+  transform: translate3d(0, 2px, 0);
+}
+
+.signupbtn:focus {
+  box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 4px -6px;
+}
+
+.submitbtn {
+  appearance: none;
+  background-color: #2ea44f;
+  border: 1px solid rgba(27, 31, 35, 0.15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, 0.1) 0 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial,
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 6px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
 .auto-ipt {
   text-align: center;
   padding-top: 10px;
@@ -59,12 +193,22 @@
   font-weight: 200;
   letter-spacing: 1px;
   padding: 13px 50px 13px;
-  margin: 5% 35%;
+  margin: 2% 35% 44%;
   outline: 0;
   border: 1px solid black;
   cursor: pointer;
-  position: relative;
+  position: absolute;
   background-color: rgba(0, 0, 0, 0);
+}
+
+.ready-to-cook a {
+  text-decoration: none;
+  color: #faeaec;
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  padding: 2em;
+  margin: -2em;
 }
 
 .ready-to-cook::after {
@@ -445,8 +589,7 @@ nav ul li {
   border: 1px solid black;
 }
 
-.category-table{
-  
+.category-table {
   border-collapse: collapse;
   margin-left: auto;
   margin-right: auto;
@@ -458,77 +601,121 @@ nav ul li {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
 
-
-.category-table th:first-child, td:first-child {
-  
+.category-table th:first-child,
+td:first-child {
   margin-left: 25px 0;
   font-size: 0.9em;
   min-width: 200px;
   text-align: center;
   padding: 12px 15px;
-  font-family:cursive;
+  font-family: cursive;
 }
 
-.category-table th:nth-child(2), td:nth-child(2) {
+.category-table th:nth-child(2),
+td:nth-child(2) {
   white-space: pre-line;
   margin-left: 25px 0;
   font-size: 0.9em;
   min-width: 100px;
   text-align: left;
   padding: 12px 15px;
-  font-family:cursive;
+  font-family: cursive;
 }
-.category-table th:nth-child(3), td:nth-child(3) {
-  
+.category-table th:nth-child(3),
+td:nth-child(3) {
   margin-left: 25px 0;
   font-size: 0.9em;
   min-width: 150px;
   text-align: center;
   padding: 12px 15px;
-  font-family:cursive;
+  font-family: cursive;
 }
-.category-table th:nth-child(4), td:nth-child(4) {
-  
+.category-table th:nth-child(4),
+td:nth-child(4) {
   margin-left: 25px 0;
   font-size: 0.9em;
   min-width: 00px;
   text-align: center;
   padding: 12px 15px;
-  font-family:cursive;
+  font-family: cursive;
 }
-.category-table th:nth-child(5), td:nth-child(5) {
-  
+.category-table th:nth-child(5),
+td:nth-child(5) {
   margin-left: 25px 0;
   font-size: 0.9em;
   min-width: 300px;
   text-align: center;
   padding: 12px 15px;
-  font-family:cursive;
+  font-family: cursive;
 }
 
-.category-table thead tr{
+.category-table thead tr {
   background-color: #009879;
-  color:#ffffff;
+  color: #ffffff;
   font-weight: bold;
 }
 
 .category-table tbody td {
-  
   border-bottom: 1px solid #d1cccc;
 }
 
-.category-table tbody tr:nth-of-type(even) td{
+.category-table tbody tr:nth-of-type(even) td {
   background-color: #f3f3f3;
 }
 
-.category-table tbody tr:last-of-type td{
+.category-table tbody tr:last-of-type td {
   border-bottom: 5px solid #009879;
 }
 
-.category-table::after thead tr{
+.category-table::after thead tr {
   background-color: #980026;
-  color:#ffffff;
+  color: #ffffff;
   font-weight: bold;
 }
 
+.loginbackground {
+  background-image: url("IMG/PureBackground.png");
+}
 
+.loginpage {
+  margin-top: 10%;
+  margin-left: 37%;
+  width: 382px;
+  overflow: hidden;
+  padding: 80px;
+  background: #23463f;
+  border-radius: 15px;
+  position: absolute;
+}
+
+.logintitle {
+  text-align: center;
+  color: #277582;
+  padding: 20px;
+}
+label {
+  color: #08ffd1;
+  font-size: 17px;
+}
+#Uname {
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  padding-left: 8px;
+}
+#Pass {
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  padding-left: 8px;
+}
+#log {
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-radius: 17px;
+  padding-left: 7px;
+  color: blue;
+}

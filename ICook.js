@@ -1,5 +1,5 @@
-import data from './data.JSON' assert { type: 'json' };
-console.log(data.Cookware[0].image);
+import data from "./data.JSON" assert { type: "json" };
+// console.log(data.Cookware[0].image);
 
 var menuBotton = document.getElementById("menuBotton");
 var NavPanel = document.getElementById("NavPanel");
@@ -26,8 +26,6 @@ for(let i = 0; i < btn_cookware.length; i++){
   }
 }*/
 
-
-
 /*window.onload = function(){
   //add a cookware to the box
   myClick(".cookware-butn",function(){
@@ -46,37 +44,39 @@ function myClick(idStr, fun){
   btn.onclick = fun;
 }*/
 
-
-let img = document.querySelector('#display > img');
-let btn_veg = document.querySelectorAll('.veg-table > button');
-let btn_meat = document.querySelectorAll('.meat-table > button');
-let btn_cookware = document.querySelectorAll('.cookware-table > button');
-
+let img = document.querySelector("#display > img");
+let btn_veg = document.querySelectorAll(".veg-table > button");
+let btn_meat = document.querySelectorAll(".meat-table > button");
+let btn_cookware = document.querySelectorAll(".cookware-table > button");
 
 for (let i = 0; i < btn_veg.length; i++) {
   btn_veg[i].onclick = function () {
-    document.querySelector('.veg-table > button.veg-butn-on ').classList.remove('-on');
-    this.classList.add('-on');
+    document
+      .querySelector(".veg-table > button.veg-butn-on ")
+      .classList.remove("-on");
+    this.classList.add("-on");
     result.innerHTML = btn_veg[i].innerHTML;
-    img.src = data.Vegetable[i].image;
-  }
+    // img.src = data.Vegetable[i].image;
+  };
 }
-
 
 for (let i = 0; i < btn_meat.length; i++) {
   btn_meat[i].onclick = function () {
-    document.querySelector('.meat-table > button.meat-butn-on ').classList.remove('-on');
-    this.classList.add('-on');
+    document
+      .querySelector(".meat-table > button.meat-butn-on ")
+      .classList.remove("-on");
+    this.classList.add("-on");
     result.innerHTML = btn_meat[i].innerHTML;
-    img.src = data.Meat[i].image;
-  }
+  };
 }
 
 for (let i = 0; i < btn_cookware.length; i++) {
   btn_cookware[i].onclick = function () {
-    document.querySelector('.cookware-table > button.cookware-butn-on ').classList.remove('-on');
-    this.classList.add('-on');
+    document
+      .querySelector(".cookware-table > button.cookware-butn-on ")
+      .classList.remove("-on");
+    this.classList.add("-on");
     result.innerHTML = btn_cookware[i].innerHTML;
     img.src = data.Cookware[i].image;
-  }
+  };
 }
