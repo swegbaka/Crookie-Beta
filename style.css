@@ -16,7 +16,7 @@
   max-height: 50%;
   width: auto;
   height: auto;
-  position: fixed;
+  position:absolute;
   top: 1%;
   left: 3%;
 }
@@ -190,6 +190,8 @@
   grid-template-columns: 1fr 1fr 1fr;
   height: 500px;
   margin: 3% auto 1% auto;
+  font-size: 1em;
+  font-family: cursive;
 }
 
 .ready-to-cook {
@@ -574,6 +576,7 @@
   background: #ffd9f2;
   z-index: 2;
   transition: 0.5s;
+  font-family: cursive;
 }
 
 nav ul li {
@@ -616,6 +619,7 @@ nav ul li {
   .title h1 {
     font-size: 12px;
   }
+
 }
 
 #display img {
@@ -744,7 +748,7 @@ td:nth-child(5) {
 
 /* CHOICE1-3 hide other choice */
 #choice1 {
-  display: grid;
+  display: none;
 }
 
 #choice2 {
@@ -753,6 +757,13 @@ td:nth-child(5) {
 
 #choice3 {
   display: none;
+}
+
+#choice1,#choice2,#choice3{
+  border: 2px solid#4ba6b6;
+  border-radius: 30px;
+  box-shadow: 1px 1px 0 #4ba6b6, -1px -1px 0 #4ba6b6, -1px 1px 0 #4ba6b6,
+    1px -1px 0 #4ba6b6;
 }
 
 .select {
@@ -806,34 +817,173 @@ td:nth-child(5) {
   color: rgb(172, 207, 13);
 }
 
-#thumbnail {
-  margin-top: 30px;
-  margin-left: 90px;
-  width: 384px;
-  height: 216px;
-  border: 8px solid;
-  border-image: linear-gradient(
-      to right,
-      rgb(255, 190, 250),
-      rgb(185, 255, 245)
-    )
-    1;
+.left-side{
+  height: 100%;
+  width: 300px;
+  position: relative;
+  z-index: auto;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
 }
 
-#ingredient {
-  float: left;
+
+#thumbnail {
+  margin-top: 30px;
+  margin-left: 250px;
+  margin-right: 600px;
+  margin-bottom: 30px;
+  width: 384px;
+  height: 216px;
+  position: static;
+  border: 8px solid;
+  border-image: linear-gradient(to right, rgb(255, 190, 250), rgb(185, 255, 245))1;
+  font-size: 2em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  color:#015847;
 }
+
+#nutri {
+  float: right;
+  color:#015847;
+  display: block;
+  
+  padding-top: 35px;
+  margin-right: 250px;
+  padding-bottom: 35px;
+  text-align: center;
+  position: static;
+  font-size: 0.8em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+}
+
+#match{
+  float: right;
+  padding-top: 100px;
+  padding-left: 100px;
+  position: static;
+  font-size: 0.9em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: right;
+  color:#015847;
+}
+
+.imgBorder{
+  width: 300px;
+  height: 169px;
+  display: inline-flex;
+  
+  position: static;
+  border: 8px solid;
+  border-image: linear-gradient(to right, rgb(255, 190, 250), rgb(185, 255, 245))1;
+}
+
 
 .title {
   font-size: 3em;
   font-weight: 600;
-  background-image: linear-gradient(to left, #553c9a, #b393d3);
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  background-image: linear-gradient(to left, #48ebb4, #eb8fee);
   color: transparent;
+  
+  display: inline;
   background-clip: padding-box;
   -webkit-background-clip: text;
 }
 
-#instruction {
-  float: right;
-  text-align: right;
+.sub-title{
+  font-weight:bold;
+  
+  color:#015847;
 }
+
+#ingredient {
+  margin-left: 35px;
+  margin-top: 35px;
+  position: static;
+  
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+  text-align: left;
+  color:#015847;
+}
+
+#instruction{
+  margin-top: 50px;
+  margin-left: 35px;
+  margin-right: 200px;
+  position: static;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: left;
+  color:#015847;
+}
+
+#instruction strong{
+  padding-left: 1px;
+}
+
+
+#video{
+  margin-top: 35px;
+  margin-left: 35px;
+  margin-right: 200px;
+  position: static;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: left;
+  color:#015847;
+  max-width:550px;
+}
+
+.videoLink{
+  width: 320px; 
+  height: 240px;
+  border: 8px solid;
+  border-image: linear-gradient(to right, rgb(255, 190, 250), rgb(185, 255, 245))1;
+  font-size: 1em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  color:#015847;
+}
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+  background-color: rgb(162, 224, 178);
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+  background-color: rgb(139, 235, 222);
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Style the image inside the centered container, if needed */
+.centered img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+
+
+

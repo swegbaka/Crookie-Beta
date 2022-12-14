@@ -1,116 +1,3 @@
-<!-- <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width = device-width, initial-scale=1" />
-    <title>iCook</title>
-    <link rel="stylesheet2" href="css/bootstrap.css">
-    <link rel="stylesheet" href="style.css" />
-    <script src="js/jquery-3.6.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
-  </head>
-
-  <body class="anotherpage">
-    <script src="js/bootstrap.bundle.js"></script>
-    <header>
-      <div>
-        <div>
-          <img class="logo" src="IMG/logo.png" alt="A welcome toaster" />
-        </div>
-        <div>
-          <img class="header" src="IMG/Crookies.png" alt="Crookies">
-        </div>
-        <div>
-          <div class="logbtn">
-            <a href="login.html">login</a>
-          </div>
-          <div class="signupbtn">
-            <a href="ICook.html">signup</a>
-          </div>
-          <div id="menuBotton">
-            <img src="IMG/menu.png" id="menu" />
-          </div>
-        </div>
-      <div class="cart-nav">
-        <img src="IMG/WOItems.png" class="cart-icon" />
-      </div>
-      <div class="veg">
-        <p>What <strong>veggies</strong> in the fridge?</p>
-      </div>
-      <div class="veg-table">
-        <button class="veg-butn-on">🥔 Potato</button>
-        <button class="veg-butn">🧈 Tofu</button>
-        <button class="veg-butn">🥦 Broccoli</button>
-        <button class="veg-butn">🥬 Cabbage</button>
-        <button class="veg-butn">🍅 Tomato</button>
-        <button class="veg-butn">🥕 Carrot</button>
-        <button class="veg-butn">🎃 Pumpkin</button>
-        <button class="veg-butn">🍄 Mushroom</button>
-        <button class="veg-butn">🍆 Eggplant</button>
-        <button class="veg-butn">🌽 Corn</button>
-        <button class="veg-butn">🥬 Lettuce</button>
-      </div>
-      <div class="meat">
-        <p>what <strong>meat</strong> we have today?</p>
-      </div>
-      <div class="meat-table">
-        <button class="meat-butn-on">🐔 Chicken</button>
-        <button class="meat-butn">🐄 Beef</button>
-        <button class="meat-butn">🐷 Pork</button>
-        <button class="meat-butn">🐟 Fish</button>
-        <button class="meat-butn">🐑 Lamb</button>
-      </div>
-      <div class="cookware">
-        <p>Most importantly what <strong>cookware </strong>?</p>
-      </div>
-      <div class="cookware-table">
-        <button class="cookware-butn-on">🍳 Pan</button>
-        <button class="cookware-butn">📟 Mircowave</button>
-        <button class="cookware-butn">🥘 Pot</button>
-        <button class="cookware-butn">💨🔥 Air-fryer</button>
-        <button class="cookware-butn">🎞️ Oven</button>
-      </div>
-
-
-    </header>
-    <div id="NavPanel">
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="category.html">Category</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="help.html">Help</a></li>
-        </ul>
-      </nav>
-    </div>
-
-    <div class="container">
-        <div class="starch">
-          Any <strong>starch</strong> today?(optional)<br>
-          <button class="starch-butn">Rice</button><br>
-          <button class="starch-butn">noodle</button>
-        </div>
-        <div class="result">
-          Let's see what's delicacy for today!
-            <p> <label>Detail:<button id="result"></button></label>
-              <ul id="display">
-                <img src="IMG/logo.png" alt="">
-                </ul>
-                <button>START COOKING!!</button>
-        </div>
-        <div class="dessert">
-          Some tasty <strong>dessert</strong> maybe?(optional)<br>
-          <button class="dessert-butn">Cake</button>
-        </div>
-    </div>
-    <p class="footer">&copy; by Jinwei Shao. All rights reserved.</p>
-
-    
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-    <script src="js/jquery-3.6.1.min.js"></script>
-    <script type="module" src="ICook.js"></script>
-  </body>
-</html> -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -168,7 +55,7 @@
         <button class="meat-butn-on">🐔 Chicken</button>
         <button class="meat-butn">🐄 Beef</button>
         <button class="meat-butn">🐷 Pork</button>
-        <button class="meat-butn">🐟 Fish</button>
+        <button class="meat-butn">🐟 Seafood</button>
         <button class="meat-butn">🐑 Lamb</button>
       </div>
       <div class="cookware">
@@ -191,6 +78,7 @@
         <li><a href="../category.html">Category</a></li>
         <li><a href="../about.html">About</a></li>
         <li><a href="../help.html">Help</a></li>
+        <li><a href="../Compare.html">Compare</a></li>
       </ul>
     </nav>
   </div>
@@ -203,14 +91,13 @@
     </div>
 
     <div class="result">
-      Let's see what's delicacy for today!
+      Let's see what's delicacy for today!</br>
       <p>
         <span id="result"></span></label>
       <div id="choice1">
         <div class="collasped">
-          <button class="filterBtn pan noodle" onclick="build()"><a href="../1-potato.html">Nigujaga</a></button>
-          <button class="filterBtn mircowave rice" onclick="build()"><a href="../2-potato.html">mircowave
-              potato</a></button>
+          <button class="filterBtn pan noodle"><a href="../0-potato.html">Nigujaga</a></button>
+          <button class="filterBtn mircowave rice"><a href="../2-potato.html">mircowave potato</a></button>
           <button class="filterBtn pot noodle"><a href="#">ufo potato</a></button>
           <button class="filterBtn air-fryer rice"><a href="#">fries</a></button>
           <button class="filterBtn oven"><a href="#">chips</a></button>
@@ -218,7 +105,7 @@
         <div class="collasped">
           <button class="filterBtn pan"><a href="#">It is a pan tofu</a></button>
           <button class="filterBtn mircowave noodle"><a href="#">mircowave tofu</a></button>
-          <button class="filterBtn pot"><a href="#">ufo tofu</a></button>
+          <button class="filterBtn pot"><a href="../0-tofu.html">Miso Soup</a></button>
           <button class="filterBtn air-fryer"><a href="#">fries</a></button>
           <button class="filterBtn oven"><a href="#">chips</a></button>
         </div>
@@ -230,7 +117,7 @@
           <button class="filterBtn oven"><a href="#">chips</a></button>
         </div>
         <div class="collasped">
-          <button class="filterBtn pan"><a href="#">It is a pan cabbage</a></button>
+          <button class="filterBtn pan"><a href="../0-cabbage.html">Sautéed Cabbage</a></button>
           <button class="filterBtn mircowave"><a href="#">mircowave cabbage</a></button>
           <button class="filterBtn pot noodle"><a href="#">ufo cabbage</a></button>
           <button class="filterBtn air-fryer"><a href="#">fries</a></button>
@@ -297,7 +184,7 @@
           <button class="filterBtn oven"><a href="#"> Chicken chips</a></button>
         </div>
         <div class="collasped">
-          <button class="filterBtn pan"><a href="#">It is a pan beef</a></button>
+          <button class="filterBtn pan"><a href="0-beef.html">Beef Stroganoff</a></button>
           <button class="filterBtn mircowave"><a href="#">mircowave beef</a></button>
           <button class="filterBtn pot"><a href="#">ufo beef</a></button>
           <button class="filterBtn air-fryer"><a href="#"> beef fries</a></button>
@@ -313,7 +200,7 @@
         <div class="collasped">
           <button class="filterBtn pan"><a href="#">It is a pan salmon</a></button>
           <button class="filterBtn mircowave"><a href="#">mircowave salmon</a></button>
-          <button class="filterBtn pot"><a href="#">ufo salmon</a></button>
+          <button class="filterBtn pot ice"><a href="#">ICE CREAM TEMPURA</a></button>
           <button class="filterBtn air-fryer"><a href="#"> salmon fries</a></button>
           <button class="filterBtn oven"><a href="#"> salmon chips</a></button>
         </div>
@@ -323,7 +210,7 @@
           <button class="filterBtn mircowave"><a href="#">mircowave Lamb</a></button>
           <button class="filterBtn pot"><a href="#">ufo Lamb</a></button>
           <button class="filterBtn air-fryer"><a href="#"> Lamb fries</a></button>
-          <button class="filterBtn oven"><a href="#"> Lamb chips</a></button>
+          <button class="filterBtn oven cake"><a href="#"> Lamb +111 chips</a></button>
         </div>
 
       </div>
@@ -341,7 +228,7 @@
       <ul id="display">
         <img src="IMG/logo.png" alt="">
       </ul>
-      <input type="text" id="myInput" onkeyup="SearchFilter()" placeholder="Search for names.." title="Type in a name">
+      <input type="text" id="myInput" onkeyup="SearchFilter()" placeholder="Search for names..." title="Type in a name">
       <div id="clear">
         <button id="clear-butn" onclick="reload()">Clear</button>
       </div>
@@ -393,3 +280,4 @@
   <script type="module" src="ICook.js"></script>
   <script type="module" src="cuisine.js"></script>
 </body>
+
