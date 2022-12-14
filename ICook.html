@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -110,4 +110,286 @@
     <script src="js/jquery-3.6.1.min.js"></script>
     <script type="module" src="ICook.js"></script>
   </body>
-</html>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width = device-width, initial-scale=1" />
+  <title>iCook</title>
+  <link rel="stylesheet2" href="css/bootstrap.css">
+  <link rel="stylesheet" href="style.css" />
+  <script src="js/jquery-3.6.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+</head>
+
+<body class="anotherpage">
+  <script src="js/bootstrap.bundle.js"></script>
+  <header>
+    <div>
+      <div>
+        <a href="../index.html">
+          <img class="logo" src="IMG/logo.png" alt="A welcome toaster" />
+        </a>
+      </div>
+      <div>
+        <img class="header" src="IMG/Crookies.png" alt="Crookies">
+      </div>
+      <div>
+        <div id="menuBotton">
+          <img src="IMG/menu.png" id="menu" />
+        </div>
+      </div>
+      <div class="cart-nav">
+        <img src="IMG/WOItems.png" class="cart-icon" />
+      </div>
+      <div class="veg">
+        <p>What <strong>veggies</strong> in the fridge?</p>
+      </div>
+      <div class="veg-table">
+        <button class="veg-butn-on">🥔 Potato</button>
+        <button class="veg-butn">🧈 Tofu</button>
+        <button class="veg-butn">🥦 Broccoli</button>
+        <button class="veg-butn">🥬 Cabbage</button>
+        <button class="veg-butn">🍅 Tomato</button>
+        <button class="veg-butn">🥕 Carrot</button>
+        <button class="veg-butn">🎃 Pumpkin</button>
+        <button class="veg-butn">🍄 Mushroom</button>
+        <button class="veg-butn">🍆 Eggplant</button>
+        <button class="veg-butn">🌽 Corn</button>
+        <button class="veg-butn">🥬 Lettuce</button>
+      </div>
+
+      <div class="meat">
+        <p>What <strong>meat</strong> we have today?</p>
+      </div>
+      <div class="meat-table">
+        <button class="meat-butn-on">🐔 Chicken</button>
+        <button class="meat-butn">🐄 Beef</button>
+        <button class="meat-butn">🐷 Pork</button>
+        <button class="meat-butn">🐟 Fish</button>
+        <button class="meat-butn">🐑 Lamb</button>
+      </div>
+      <div class="cookware">
+        <p>Most importantly what <strong>cookware </strong>?</p>
+      </div>
+      <div class="cookware-table">
+        <button class="cookware-butn-on" onclick="filterSelection('pan')">🍳 Pan</button>
+        <button class="cookware-butn" onclick="filterSelection('mircowave')">📟 Mircowave</button>
+        <button class="cookware-butn" onclick="filterSelection('pot')">🥘 Pot</button>
+        <button class="cookware-butn" onclick="filterSelection('air-fryer')">💨🔥 Air-fryer</button>
+        <button class="cookware-butn" onclick="filterSelection('oven')">🎞️ Oven</button>
+      </div>
+
+
+  </header>
+  <div id="NavPanel">
+    <nav>
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../category.html">Category</a></li>
+        <li><a href="../about.html">About</a></li>
+        <li><a href="../help.html">Help</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <div class="container">
+    <div class="starch">
+      Any <strong>starch</strong> today?<br>
+      <button class="starch-butn" onclick="filterSelection('rice')">🍚Rice</button><br>
+      <button class="starch-butn" onclick="filterSelection('noodle')">🍜Noodle</button>
+    </div>
+
+    <div class="result">
+      Let's see what's delicacy for today!
+      <p>
+        <span id="result"></span></label>
+      <div id="choice1">
+        <div class="collasped">
+          <button class="filterBtn pan noodle" onclick="build()"><a href="../1-potato.html">Nigujaga</a></button>
+          <button class="filterBtn mircowave rice" onclick="build()"><a href="../2-potato.html">mircowave
+              potato</a></button>
+          <button class="filterBtn pot noodle"><a href="#">ufo potato</a></button>
+          <button class="filterBtn air-fryer rice"><a href="#">fries</a></button>
+          <button class="filterBtn oven"><a href="#">chips</a></button>
+        </div>
+        <div class="collasped">
+          <button class="filterBtn pan"><a href="#">It is a pan tofu</a></button>
+          <button class="filterBtn mircowave noodle"><a href="#">mircowave tofu</a></button>
+          <button class="filterBtn pot"><a href="#">ufo tofu</a></button>
+          <button class="filterBtn air-fryer"><a href="#">fries</a></button>
+          <button class="filterBtn oven"><a href="#">chips</a></button>
+        </div>
+        <div class="collasped">
+          <button class="filterBtn pan"><a href="#">It is a pan Broccoli</a></button>
+          <button class="filterBtn mircowave"><a href="#">mircowave Broccoli</a></button>
+          <button class="filterBtn pot noodle"><a href="#">ufo Broccoli</a></button>
+          <button class="filterBtn air-fryer rice"><a href="#">fries</a></button>
+          <button class="filterBtn oven"><a href="#">chips</a></button>
+        </div>
+        <div class="collasped">
+          <button class="filterBtn pan"><a href="#">It is a pan cabbage</a></button>
+          <button class="filterBtn mircowave"><a href="#">mircowave cabbage</a></button>
+          <button class="filterBtn pot noodle"><a href="#">ufo cabbage</a></button>
+          <button class="filterBtn air-fryer"><a href="#">fries</a></button>
+          <button class="filterBtn oven"><a href="#">chips</a></button>
+        </div>
+        <div class="collasped">
+          <button class="filterBtn pan"><a href="#">It is a pan tomato</a></button>
+          <button class="filterBtn mircowave"><a href="#">mircowave tomato</a></button>
+          <button class="filterBtn pot"><a href="#">ufo tomato</a></button>
+          <button class="filterBtn air-fryer"><a href="#">fries</a></button>
+          <button class="filterBtn oven"><a href="#">chips</a></button>
+        </div>
+        <div class="collasped">
+          <button class="filterBtn pan rice"><a href="#">It is a pan carrot</a></button>
+          <button class="filterBtn mircowave "><a href="#">mircowave carrot</a></button>
+          <button class="filterBtn pot"><a href="#">ufo carrot</a></button>
+          <button class="filterBtn air-fryer"><a href="#">fries</a></button>
+          <button class="filterBtn oven"><a href="#">chips</a></button>
+        </div>
+        <div class="collasped">
+          <button class="filterBtn pan"><a href="#">It is a pan pumpkin</a></button>
+          <button class="filterBtn mircowave"><a href="#">mircowave pumpkin</a></button>
+          <button class="filterBtn pot"><a href="#">ufo pumpkin</a></button>
+          <button class="filterBtn air-fryer"><a href="#">fries</a></button>
+          <button class="filterBtn oven"><a href="#">chips</a></button>
+        </div>
+        <div class="collasped">
+          <button class="filterBtn pan"><a href="#">It is a pan Mushroom</a></button>
+          <button class="filterBtn mircowave"><a href="#">mircowave Mushroom</a></button>
+          <button class="filterBtn pot"><a href="#">ufo Mushroom</a></button>
+          <button class="filterBtn air-fryer"><a href="#">fries</a></button>
+          <button class="filterBtn oven"><a href="#">chips</a></button>
+        </div>
+        <div class="collasped">
+          <button class="filterBtn pan"><a href="#">It is a pan Eggplant</a></button>
+          <button class="filterBtn mircowave"><a href="#">mircowave Eggplant</a></button>
+          <button class="filterBtn pot"><a href="#">ufo Eggplant</a></button>
+          <button class="filterBtn air-fryer"><a href="#">fries</a></button>
+          <button class="filterBtn oven"><a href="#">chips</a></button>
+        </div>
+        <div class="collasped">
+          <button class="filterBtn pan"><a href="#">It is a pan corn</a></button>
+          <button class="filterBtn mircowave"><a href="#">mircowave corn</a></button>
+          <button class="filterBtn pot"><a href="#">ufo corn</a></button>
+          <button class="filterBtn air-fryer"><a href="#">fries</a></button>
+          <button class="filterBtn oven"><a href="#">chips</a></button>
+        </div>
+        <div class="collasped">
+          <button class="filterBtn pan"><a href="#">It is a pan lettuce</a></button>
+          <button class="filterBtn mircowave"><a href="#">mircowave lettuce</a></button>
+          <button class="filterBtn pot"><a href="#">ufo lettuce</a></button>
+          <button class="filterBtn air-fryer"><a href="#">fries</a></button>
+          <button class="filterBtn oven"><a href="#">chips</a></button>
+        </div>
+
+      </div>
+
+      <div id="choice2">
+        <div class="collasped">
+          <button class="filterBtn pan"><a href="#">It is a pan Chicken</a></button>
+          <button class="filterBtn mircowave"><a href="#">mircowave Chicken</a></button>
+          <button class="filterBtn pot"><a href="#">ufo Chicken</a></button>
+          <button class="filterBtn air-fryer"><a href="#"> Chicken fries</a></button>
+          <button class="filterBtn oven"><a href="#"> Chicken chips</a></button>
+        </div>
+        <div class="collasped">
+          <button class="filterBtn pan"><a href="#">It is a pan beef</a></button>
+          <button class="filterBtn mircowave"><a href="#">mircowave beef</a></button>
+          <button class="filterBtn pot"><a href="#">ufo beef</a></button>
+          <button class="filterBtn air-fryer"><a href="#"> beef fries</a></button>
+          <button class="filterBtn oven"><a href="#"> beef chips</a></button>
+        </div>
+        <div class="collasped">
+          <button class="filterBtn pan"><a href="#">It is a pan pork</a></button>
+          <button class="filterBtn mircowave"><a href="#">mircowave pork</a></button>
+          <button class="filterBtn pot"><a href="#">ufo pork</a></button>
+          <button class="filterBtn air-fryer"><a href="#"> pork fries</a></button>
+          <button class="filterBtn oven"><a href="#"> pork chips</a></button>
+        </div>
+        <div class="collasped">
+          <button class="filterBtn pan"><a href="#">It is a pan salmon</a></button>
+          <button class="filterBtn mircowave"><a href="#">mircowave salmon</a></button>
+          <button class="filterBtn pot"><a href="#">ufo salmon</a></button>
+          <button class="filterBtn air-fryer"><a href="#"> salmon fries</a></button>
+          <button class="filterBtn oven"><a href="#"> salmon chips</a></button>
+        </div>
+
+        <div class="collasped">
+          <button class="filterBtn pan"><a href="#">It is a pan Lamb</a></button>
+          <button class="filterBtn mircowave"><a href="#">mircowave Lamb</a></button>
+          <button class="filterBtn pot"><a href="#">ufo Lamb</a></button>
+          <button class="filterBtn air-fryer"><a href="#"> Lamb fries</a></button>
+          <button class="filterBtn oven"><a href="#"> Lamb chips</a></button>
+        </div>
+
+      </div>
+
+      <div id="choice3">
+        <div class="collasped">
+          <button><a href="#">Pan</a></button>
+          <button><a href="#">Mircowave</a></button>
+          <button><a href="#">Pot</a></button>
+          <button><a href="#">Air-fryer</a></button>
+          <button><a href="#">Oven</a></button>
+        </div>
+
+      </div>
+      <ul id="display">
+        <img src="IMG/logo.png" alt="">
+      </ul>
+      <input type="text" id="myInput" onkeyup="SearchFilter()" placeholder="Search for names.." title="Type in a name">
+      <div id="clear">
+        <button id="clear-butn" onclick="reload()">Clear</button>
+      </div>
+    </div>
+
+
+
+
+    <div class="dessert">
+      Are you a <strong>dessert</strong> stomach? (*☌ᴗ☌)｡*ﾟ<br>
+      <button class="dessert-butn" onclick="filterSelection('cake')">🥧Cake</button><br>
+      <button class="dessert-butn" onclick="filterSelection('ice')">🍨Ice Cream</button>
+
+    </div>
+
+
+  </div>
+
+  <script>
+    function SearchFilter() {
+      var aElement, i, txtValue;
+      var input = document.getElementById("myInput");
+      var filter = input.value.toUpperCase();
+
+      var btnList = document.querySelectorAll(".collasped > button");
+
+      for (i = 0; i < btnList.length; i++) {
+
+        aElement = btnList[i].getElementsByTagName("a")[0];
+        txtValue = aElement.textContent || aElement.innerText;
+
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+          btnList[i].style.display = "";
+          console.log("welldone");
+        }
+
+        else {
+          btnList[i].style.display = "none";
+          console.log("none");
+        }
+      }
+    }
+  </script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="js/jquery-3.6.1.min.js"></script>
+  <script src="filter.js"></script>
+  <script type="module" src="ICook.js"></script>
+  <script type="module" src="cuisine.js"></script>
+</body>

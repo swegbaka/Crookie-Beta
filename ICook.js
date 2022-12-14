@@ -17,14 +17,11 @@ menuBotton.onclick = function () {
   }
 };
 
-/*let btn_cookware = document.querySelectorAll('.cookware-butn');
-console.log(btn_cookware.length);
-
-for(let i = 0; i < btn_cookware.length; i++){
-  btn_cookware[i].onclick = function(){
+for (let i = 0; i < btn_cookware.length; i++) {
+  btn_cookware[i].onclick = function () {
     console.log("got it~");
-  }
-}*/
+  };
+}
 
 /*window.onload = function(){
   //add a cookware to the box
@@ -58,25 +55,77 @@ for (let i = 0; i < btn_veg.length; i++) {
     result.innerHTML = btn_veg[i].innerHTML;
     // img.src = data.Vegetable[i].image;
   };
-}
 
-for (let i = 0; i < btn_meat.length; i++) {
-  btn_meat[i].onclick = function () {
+  let img = document.querySelector("#display > img");
+  let btn_veg = document.querySelectorAll(".veg-table > button");
+  let btn_meat = document.querySelectorAll(".meat-table > button");
+  let btn_cookware = document.querySelectorAll(".cookware-table > button");
+  var menuSpan = document.querySelectorAll(
+    ".container > .result > #choice1 > .collasped"
+  );
+  var menuSpan2 = document.querySelectorAll(
+    ".container > .result > #choice2 > .collasped"
+  );
+  var menuSpan3 = document.querySelectorAll(
+    ".container > .result > #choice3 > .collasped"
+  );
+
+  var count = [];
+  var count2 = [];
+
+  var refresh = document.getElementById("clear-butn");
+
+  for (let i = 0; i < btn_veg.length; i++) {
+    count[i] = 0;
+    btn_veg[i].addEventListener("click", function () {
+      count[i]++;
+      console.log(count[i]);
+      img.src = data.Vegetable[i].image;
+      if (count[i] <= 1) {
+        document
+          .querySelector(".veg-table > button.veg-butn-on ")
+          .classList.remove("-on");
+        this.classList.add("-on");
+        result.innerHTML += menuSpan[i].innerHTML;
+      }
+    });
+  }
+
+  for (let i = 0; i < btn_meat.length; i++) {
+    count2[i] = 0;
+    btn_meat[i].onclick = function () {
+      document
+        .querySelector(".meat-table > button.meat-butn-on ")
+        .classList.remove("-on");
+      this.classList.add("-on");
+      result.innerHTML = btn_meat[i].innerHTML;
+    };
+  }
+
+  for (let i = 0; i < btn_cookware.length; i++) {
+    btn_cookware[i].onclick = function () {
+      document
+        .querySelector(".cookware-table > button.cookware-butn-on ")
+        .classList.remove("-on");
+      this.classList.add("-on");
+      result.innerHTML = btn_cookware[i].innerHTML;
+      img.src = data.Cookware[i].image;
+    };
+  }
+
+  count2[i]++;
+  console.log(count2[i]);
+  img.src = data.Meat[i].image;
+  if (count2[i] <= 1) {
     document
       .querySelector(".meat-table > button.meat-butn-on ")
       .classList.remove("-on");
     this.classList.add("-on");
-    result.innerHTML = btn_meat[i].innerHTML;
-  };
+    result.innerHTML += menuSpan2[i].innerHTML;
+  }
 }
 
-for (let i = 0; i < btn_cookware.length; i++) {
-  btn_cookware[i].onclick = function () {
-    document
-      .querySelector(".cookware-table > button.cookware-butn-on ")
-      .classList.remove("-on");
-    this.classList.add("-on");
-    result.innerHTML = btn_cookware[i].innerHTML;
-    img.src = data.Cookware[i].image;
-  };
-}
+refresh.addEventListener("click", function () {
+  window.location.reload();
+  //refresh the page
+});
