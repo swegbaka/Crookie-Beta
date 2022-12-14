@@ -70,6 +70,3 @@ refresh.addEventListener("click", function () {
 
 
 
-
-
-
