@@ -25,7 +25,16 @@ npm i morgan
 Copy `.env.example` rename it `.env`
 In `.env` input valid values
 ```sh
+PORT=3000
+DATABASE=mongodb+srv://crookie:<password>@cluster0.u2w5zqi.mongodb.net/Recipe?retryWrites=true&w=majority
+DATABASE_PASSWORD=
 
+JWT_SECRET=my-childhood-onepiece-pirateking
+JWT_EXPIRES_IN=1d
+JWT_COOKIE_EXPIRES_IN=90
+
+EMAIL_USERNAME=3e70ea6c99371c
+EMAIL_PASSWORD=4d03b69eae744b
 ```sh
 
 //Localhost website
