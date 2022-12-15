@@ -2,7 +2,7 @@
 
 Gain happiness from cooking!
 
-#Dev Environment
+## Dev Environment
 
 ```bash
 !!!Nodejs is required!!!
@@ -22,7 +22,7 @@ npm i mongoose
 npm i morgan
 ```
 
-Copy `.env.example` rename it `.env`
+## Copy `.env.example` rename it `.env`
 In `.env` input valid values
 ```sh
 PORT=3000
