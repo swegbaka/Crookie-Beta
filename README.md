@@ -22,7 +22,7 @@ npm i mongoose
 npm i morgan
 ```
 
-## Copy `.env.example` rename it `.env`
+## Rename `.env.example` to `.env`
 In `.env` input valid values
 ```sh
 PORT=3000
