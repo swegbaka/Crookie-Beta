@@ -2,7 +2,7 @@
 
 Gain happiness from cooking!
 
-##Dev Environment
+#Dev Environment
 
 ```bash
 !!!Nodejs is required!!!
