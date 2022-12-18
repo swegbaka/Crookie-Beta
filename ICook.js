@@ -27,6 +27,10 @@ var menuSpan = document.querySelectorAll('.container > .result > #choice1 > .col
 var menuSpan2 = document.querySelectorAll('.container > .result > #choice2 > .collasped');
 //var menuSpan3 = document.querySelectorAll('.container > .result > #choice3 > .collasped');
 
+var count = [];
+var count2 = [];
+
+var refresh = document.getElementById("clear-butn");
 
 
 /*traverse all veg-btn with a click, also added a count to avoid more clicks increasing duplicated options
