@@ -18,22 +18,26 @@ menuBotton.onclick = function () {
   }
 };
 
-
-
-
+/*match all the tags with method querySelector in arrays
+*/
 let img = document.querySelector('#display > img');
 let btn_veg = document.querySelectorAll('.veg-table > button');
 let btn_meat = document.querySelectorAll('.meat-table > button');
-let btn_cookware = document.querySelectorAll('.cookware-table > button');
+//let btn_cookware = document.querySelectorAll('.cookware-table > button');
 var menuSpan = document.querySelectorAll('.container > .result > #choice1 > .collasped');
 var menuSpan2 = document.querySelectorAll('.container > .result > #choice2 > .collasped');
-var menuSpan3 = document.querySelectorAll('.container > .result > #choice3 > .collasped');
+//var menuSpan3 = document.querySelectorAll('.container > .result > #choice3 > .collasped');
 
 var count = [];
 var count2 = [];
 
 var refresh = document.getElementById("clear-butn");
 
+
+/*traverse all veg-btn with a click, also added a count to avoid more clicks increasing duplicated options
+  querySelector with the classList.remove and classList.add, the -on can move to next.
+  assign all the tags with the value in Json
+*/
 for (let i = 0; i < btn_veg.length; i++) {
   count[i] = 0;
   btn_veg[i].addEventListener("click", function () {
@@ -47,7 +51,7 @@ for (let i = 0; i < btn_veg.length; i++) {
     }
   });
 }
-
+// same as above but for meat-btn
 for (let i = 0; i < btn_meat.length; i++) {
   count2[i] = 0;
   btn_meat[i].onclick = function () {

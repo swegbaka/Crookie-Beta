@@ -27,30 +27,134 @@
                     <img src="IMG/menu.png" id="menu" />
                 </div>
             </div>
-            <div class="cart-nav">
-                <img src="IMG/WOItems.png" class="cart-icon" />
-            </div>
+
     </header>
 
-    <div id="cuisine2">
-    <div id="thumbnail">
-        <img width="384px" height="216px" src="" alt="Korokke">
+    <div id="nutri">
+        <p><span class="">Nutrition Facts(Per Serving)</span>
+            </br>
+                <strong>---------------------------</strong>
+                <div></div>
+                <strong>---------------------------</strong>
+                <div></div>
+                <strong>---------------------------</strong>
+                <div></div>
+                <strong>---------------------------</strong>
+                <div></div>
+                <strong>---------------------------</strong>
+                <div></div>
+                <strong>---------------------------</strong>
+                <div></div>
+                <strong>---------------------------</strong>
+                <div></div>
+                <strong>---------------------------</strong>
+                <div></div>
+                <strong>---------------------------</strong>
+                <div></div>
+                <strong>---------------------------</strong>
+                <div></div>
+                
+            </p>
+    </div>
+
+
+    <div id="cuisine1">
+        
+        <div class="left-sdie">
+            <div id="thumbnail">
+                <img width="384px" height="216px" src="" alt="Nikujaga">
+                <strong>French Fries</strong>
+            </div>
+            <br>
+
+            <div id="match">
+                <strong class="title">BEST*MATCH</strong></p>
+                <div class="imgBorder"><img width="300px" height="169px" src="" alt="roasted-parmesan-carrots"></div></br>
+                <strong><a href="./0-carrot.html">Roasted Parmesan Carrots</a></strong></br>
+                <div class="imgBorder"><img width="300px" height="169px" src="" alt="ICE-CREAM-TEMPURA"></div></br>
+                <strong><a href="./0-seafood.html">ICE CREAM TEMPURA</a></strong></br>
+            </div>
+        
+
+            <div id="ingredient">
+                <p> <span class="title">Ingredient</span></p>
+                <br>
+                <strong></strong>
+                <div></div>
+                <strong></strong>
+                <div></div>
+                <strong></strong>
+                <div></div>
+                <strong></strong>
+                <div></div>
+                <strong></strong>
+                <div></div>
+                <strong></strong>
+                <div></div>
+                <strong></strong>
+                <div></div>
+                <strong></strong>
+                <div></div>
+                <strong></strong>
+                <div></div>
+                <strong></strong>
+                <div></div>
+                <strong></strong>
+                <div></div>
+                <strong></strong>
+                <div></div>
+            </div>
+            </br>
+            <div id="instruction">
+                <p> <span class="title">Instruction</span></p>
+                </br>
+                <span class="sub-title">Preparation</span>
+                </br>
+                <strong>1.</strong>
+                <div></div>
+                </br>
+                <strong>2.</strong>
+                <div></div>
+                </br>
+                <strong>3.</strong>
+                <div></div>
+             
+                <strong>4.</strong>
+                <div></div>
+                </br>
+                <strong>5.</strong>
+                <div></div>
+                <strong>6.</strong>
+                <div></div>
+                <strong>7.</strong>
+                <div></div>
+                <strong>8.</strong>
+                <div></div>
+                <strong>9.</strong>
+                <div></div>
+                <strong>10.</strong>
+                <div></div>
+          </br>
+                
+                
+            </div>
         </div>
-
-    <div class="ingredient">
-        <p>
-            <strong>1.</strong><div></div>
-            <strong>2.</strong><div></div>
-            <strong>3.</strong><div></div>
-            <strong>4.</strong><div></div>
-            <strong>5.</strong><div></div>
+        <div class="right-side">
+            <div id="video">
+                <p> <span class="title">Video Tutorial</span></p>
+                </br>
+                <div class="videoLink">
+                        <video width="320" height="240" controls>
+                        <source src="" type="video/mp4">
+                        </video>
+                    </br>
+                    <a href="https://www.youtube.com/watch?v=I-mWa_GqIEg">French Fries Recipe - Epicurious</a></br>
+                </div>
+                <div></div>
+            </div>
+        </div>
+    
     </div>
-    </div>
-
-
-
-
-  
 
 
     <div id="NavPanel">
@@ -63,6 +167,61 @@
             </ul>
         </nav>
     </div>
+
+    <script>
+        var menuBotton = document.getElementById("menuBotton");
+        var NavPanel = document.getElementById("NavPanel");
+        var menu = document.getElementById("menu");
+
+        NavPanel.style.right = "-250px";
+
+        menuBotton.onclick = function () {
+        if (NavPanel.style.right == "-250px") {
+            NavPanel.style.right = "0";
+            menu.src = "IMG/close.png";
+        } else {
+            NavPanel.style.right = "-250px";
+            menu.src = "IMG/menu.png";
+        }
+        };
+
+        var img, ingredient, instruction, tutorial_link;
+
+        var request = new XMLHttpRequest();
+        request.open("GET", "../data.JSON", false);
+        request.send(null);
+        var data = JSON.parse(request.responseText);
+
+
+        img = document.querySelector('#thumbnail > img');
+        img.src = data.Cuisine_Potato[2].image;
+
+        bestMatch = document.querySelectorAll('#match> div> img');
+        ingredient = document.querySelectorAll('#ingredient> div');
+        instruction = document.querySelectorAll('#instruction> div');
+        tutorial_link = document.querySelector('#video> .videoLink > video');
+        nutriValue = document.querySelectorAll('#nutri> div');
+        stepsPicture = document.querySelectorAll('#instruction> img');
+
+        tutorial_link.src = data.Cuisine_Potato[2].video;
+
+
+        for (let i = 0; i < bestMatch.length; i++) {
+            bestMatch[i].src = data.Cuisine_Potato[2].match[i][1];
+        }
+        for (let i = 0; i < instruction.length; i++) {
+            instruction[i].innerHTML = data.Cuisine_Potato[2].instruction[i][1];
+        }
+        
+        for (var i in data.Cuisine_Potato[1].nutrition) {
+            nutriValue[i].innerHTML = data.Cuisine_Potato[2].nutrition[i][0] + " = " + data.Cuisine_Potato[2].nutrition[i][1];
+            ingredient[i].innerHTML = data.Cuisine_Potato[2].ingredients[i][0] + " → " + data.Cuisine_Potato[2].ingredients[i][1];
+        }
+        for (let i = 0; i < stepsPicture.length; i++) {
+            stepsPicture[i].src = data.Cuisine_Potato[2].steps[i][1];
+        }
+      
+    </script>
 
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script src="js/jquery-3.6.1.min.js"></script>

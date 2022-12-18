@@ -36,7 +36,13 @@
             <div class="collasped">
                 <button><a href="#" onclick="left-nutri">select</a></button>
             </div>
-            <div class="nutriTable"></div>
+            <div class="nutriTable">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
         </div>
       </div>
       
@@ -81,6 +87,12 @@
         request.send(null);
         var data = JSON.parse(request.responseText);
 
+        var value = document.querySelectorAll(".nutriTable > div");
+        console.log(value);
+
+        for(let i=0; i<data.Vegetable[i].length; i++){
+            value.innerHTML = data.Vegetable[i].nutrition[i][0]+data.Vegetable[i].nutrition[i][0];
+        }
 
     </script>
 
