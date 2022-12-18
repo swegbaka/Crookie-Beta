@@ -2,136 +2,136 @@
     "Vegetable": [
         {
             "name": "Potato",
-            "description": "John",
+            "description": "In the United States, potatoes are the most often eaten vegetable. It was calculated that each individual consumed 49.2 pounds of potatoes in 2017. This popular vegetable is simple to cultivate and is used in a variety of cuisines all year long.",
             "image": "./IMG/vegetable/potato.jpg",
             "nutrition":[
                 ["Calories", 161],
-                ["Protein", 4.3],
-                ["Fat", 0.2],
-                ["Carbohydrates", 37],
-                ["Fiber", 3.8],
-                ["Sugar", 2]
+                ["Protein(g)", 4.3],
+                ["Fat(g)", 0.2],
+                ["Carbohydrates(g)", 37],
+                ["Fiber(g)", 3.8],
+                ["Sugar(g)", 2]
             ],
-            "variety": "none",
-            "use": "empty"
+            "variety": "Russet Potatoes, Red Potatoes, White Potatoes, Yellow Potatoes, Purple/Blue Potatoes, Fingerling Potatoes, Petite Potatoes",
+            "use": "Potatoes are high in fiber, which might help you lose weight by keeping you fuller for longer. Fiber can help prevent heart disease by maintaining healthy cholesterol and blood sugar levels. Potatoes are also high in antioxidants, which assist to prevent disease, as well as vitamins, which help your body function efficiently."
         },
         {
             "name": "Tofu",
-            "description": "John",
+            "description": "It is created by curdling fresh soya milk, pressing it into a solid block, and then chilling it, just how regular dairy cheese is created by curdling and solidifying milk.",
             "image": "./IMG/vegetable/tofu.jpg",
             "nutrition":[
-                ["Calories", 161],
-                ["Protein", 4.3],
-                ["Fat", 0.2],
-                ["Carbohydrates", 37],
-                ["Fiber", 3.8],
-                ["Sugar", 2]
+                ["Calories", 94],
+                ["Protein(g)", 10],
+                ["Fat(g)", 6],
+                ["Carbohydrates(g)", 2.3],
+                ["Fiber(g)", 0.4],
+                ["Sugar(g)", 0]
             ],
-            "variety": "none",
-            "use": "empty"
+            "variety": "silken, regular, firm, extra-firm, super-firm",
+            "use": "Tofu includes plant estrogens, much as other soy-based meals. For many years, people believed that soy increased estrogen levels in the body and caused breast cancer in women. However, much of the studies that sparked this worry focused on the effects of soy on rats. These animals digest soy in a different way than humans. Tofu does not contain enough plant estrogens to induce breast cancer, according to human studies. Furthermore, some evidence shows that tofu may reduce your chance of developing the condition."
             
         },
         {
             "name": "Broccoli",
-            "description": "John",
+            "description": "Broccoli was first grown in the Mediterranean area under the Roman Empire. Farmers in the United States did not begin growing it until the 1920s. Today, if you're like the average American, you eat over 6 pounds of the stuff each year. How much you enjoy its cabbage-like flavor may be determined in part by your DNA. Some people are born with a hypersensitivity to bitter tastes, such as broccoli.",
             "image": "./IMG/vegetable/broccoli.jpg",
             "nutrition":[
-                ["Calories", 161],
-                ["Protein", 4.3],
-                ["Fat", 0.2],
-                ["Carbohydrates", 37],
-                ["Fiber", 3.8],
-                ["Sugar", 2]
+                ["Calories", 50],
+                ["Protein(g)", 4.2],
+                ["Fat(g)", 0.5],
+                ["Carbohydrates(g)", 10],
+                ["Fiber(g)", 3.8],
+                ["Sugar(g)", 2.5]
             ],
-            "variety": "none",
-            "use": "empty"
+            "variety": "Calabrese broccoli, Destiny broccoli, Belstar broccoli",
+            "use": "Packed with Vitamins, Minerals, and Bioactive Compounds. Contains Antioxidants With Health-Protective Properties. Bioactive Compounds May Aid in Inflammation Reduction.May Protect Against Certain Types of Cancer. Antioxidants and fiber may help with blood sugar control. may help with heart health in a number of ways."
         },
         {
             "name": "Cabbage",
-            "description": "John",
+            "description": "Cabbage, a member of the Brassica oleracea species, is related to kale, broccoli, and cauliflower. The spherical, hefty vegetable comes in green, white, or purple varieties. It has smooth or crinkly leaves. Historians think cabbage was initially grown in Europe before 1,000 B.C., although it is now used in cuisines all across the world.",
             "image": "./IMG/vegetable/cabbage.jpg",
             "nutrition":[
-                ["Calories", 161],
-                ["Protein", 4.3],
-                ["Fat", 0.2],
-                ["Carbohydrates", 37],
-                ["Fiber", 3.8],
-                ["Sugar", 2]
+                ["Calories", 17],
+                ["Protein(g)", 1],
+                ["Fat(g)", 0],
+                ["Carbohydrates(g)", 4],
+                ["Fiber(g)", 2],
+                ["Sugar(g)", 0]
             ],
-            "variety": "none",
-            "use": "empty"
+            "variety": "Charleston Wakefield, Earliana, Golden Acre, January King, Savoy Perfection...",
+            "use": "Cabbage is high in fiber and low in calories. As a result, it is a fantastic choice for keeping a healthy digestive system. Cabbage also includes antioxidant chemicals that combat free radicals and lessen stress on your cells. Anthocyanin, in particular, provides a variety of advantages, including red blood cell protection."
         },
         {
             "name": "Tomato",
-            "description": "John",
+            "description": "Tomatoes are a nightshade fruit that originated in South America. Tomatoes are now grown all over the planet. It has been a staple of human cuisine since at least 500 BC, when historians think inhabitants in what is now southern Mexico cultivated the plant. Tomatoes were popular among Europeans, who spread them to other regions of the world.",
             "image": "./IMG/vegetable/tomato.jpg",
             "nutrition":[
-                ["Calories", 161],
-                ["Protein", 4.3],
-                ["Fat", 0.2],
-                ["Carbohydrates", 37],
-                ["Fiber", 3.8],
-                ["Sugar", 2]
+                ["Calories", 16],
+                ["Protein(g)", 1],
+                ["Fat(g)", 0],
+                ["Carbohydrates(g)", 4],
+                ["Fiber(g)", 1],
+                ["Sugar(g)", 2]
             ],
-            "variety": "none",
-            "use": "empty"
+            "variety": "Red Beefsteak Tomatoes, Green Beefsteak Tomatoes, Cherry Tomatoes, Roma Tomatoes, Heirloom Tomatoes...",
+            "use": "Tomatoes include the antioxidant lycopene, which has been linked to a number of health advantages, including a lower risk of heart disease and some malignancies. Tomatoes have several health advantages. They are high in fiber and low in calories, have no fat, and include a variety of nutritional vitamins and antioxidants."
         },
         {
             "name": "Carrot",
-            "description": "John",
+            "description": "Carrots are high in nutrients such as potassium, antioxidants, and vitamin A, among others. The component that colors carrots orange and supports excellent health is beta-carotene, a kind of carotenoid. It transforms to vitamin A when taken in meals and provides other fruits and vegetables their yellow or orange hue.",
             "image": "./IMG/vegetable/carrot.jpg",
             "nutrition":[
-                ["Calories", 161],
-                ["Protein", 4.3],
-                ["Fat", 0.2],
-                ["Carbohydrates", 37],
-                ["Fiber", 3.8],
-                ["Sugar", 2]
+                ["Calories", 25],
+                ["Protein(g)", 1],
+                ["Fat(g)", 0],
+                ["Carbohydrates(g)", 6],
+                ["Fiber(g)", 2],
+                ["Sugar(g)", 3]
             ],
-            "variety": "none",
-            "use": "empty"
+            "variety": "Danvers, Nantes, Chantenay, Imperator, Ball, Mini carrots",
+            "use": "Carrots are high in nutrients that are beneficial to your health. They include antioxidants, which may aid in the protection of your cells and the prevention of diseases such as cancer and heart disease. Eye health, lower cancer risk, weight loss, and lower cholesterol are all benefits."
         },
         {
             "name": "Pumpkin",
-            "description": "John",
+            "description": "Pumpkin may bring a splash of color to your dish as well as a plethora of nutrients to your diet. It is also low in fat, cholesterol, and salt. This huge fruit's robust meat and delectable seeds may both be eaten. Despite their earthy, somewhat sweet flavor, pumpkins are frequently blended with spices like as nutmeg and cinnamon to flavor pastries and seasonal beverages.",
             "image": "./IMG/vegetable/pumpkin.jpg",
             "nutrition":[
-                ["Calories", 161],
-                ["Protein", 4.3],
-                ["Fat", 0.2],
-                ["Carbohydrates", 37],
-                ["Fiber", 3.8],
-                ["Sugar", 2]
+                ["Calories", 15],
+                ["Protein(g)", 1],
+                ["Fat(g)", 0],
+                ["Carbohydrates(g)", 4],
+                ["Fiber(g)", 0],
+                ["Sugar(g)", 1]
             ],
-            "variety": "none",
-            "use": "empty"
+            "variety": "Baby Bear, Autumn Gold, Aspen, Buckskin, Atlantic Giant, Casper",
+            "use": "Because pumpkin is low in calories and high in vitamins, it can aid in weight reduction. You may eat more of it while still meeting your calorie requirements without feeling hungry or deprived. More health advantages of pumpkin include disease prevention, improved vision, and improved heart health."
         },
         {
             "name": "Mushroom",
-            "description": "John",
+            "description": "Crimini mushrooms are a common mushroom kind found in kitchens all over the world. Many don't aware that mushrooms, particularly crimini mushrooms, are essentially a form of fungus. They are indigenous to North America and Europe and are prized for their delicate flavor and meaty texture.",
             "image": "./IMG/vegetable/mushroom.jpg",
             "nutrition":[
-                ["Calories", 161],
-                ["Protein", 4.3],
-                ["Fat", 0.2],
-                ["Carbohydrates", 37],
-                ["Fiber", 3.8],
-                ["Sugar", 2]
+                ["Calories", 5],
+                ["Protein(g)", 1],
+                ["Fat(g)", 0],
+                ["Carbohydrates(g)", 1],
+                ["Fiber(g)", 0],
+                ["Sugar(g)", 0]
             ],
-            "variety": "none",
-            "use": "empty"
+            "variety": "White, Shiitake, Cremini, Oyster, Chanterelle...",
+            "use": "Mushrooms are a low-calorie meal that is high in nutrients. They've long been acknowledged as a crucial element of any diet due to their high concentration of health-promoting vitamins, minerals, and antioxidants. For example, mushrooms grown in the presence of UV light are high in Vitamin D, which is essential for bone and immunological health. Crimini mushrooms are an especially good source of zinc, an important trace element."
         },
         {
             "name": "Eggplant",
             "description": "John",
             "image": "./IMG/vegetable/eggplant.jpg",
             "nutrition":[
-                ["Calories", 161],
-                ["Protein", 4.3],
-                ["Fat", 0.2],
-                ["Carbohydrates", 37],
-                ["Fiber", 3.8],
-                ["Sugar", 2]
+                ["Calories", 94],
+                ["Protein(g)", 10],
+                ["Fat(g)", 6],
+                ["Carbohydrates(g)", 2.3],
+                ["Fiber(g)", 0.4],
+                ["Sugar(g)", 0]
             ],
             "variety": "none",
             "use": "empty"
@@ -141,12 +141,12 @@
             "description": "John",
             "image": "./IMG/vegetable/corn.jpg",
             "nutrition":[
-                ["Calories", 161],
-                ["Protein", 4.3],
-                ["Fat", 0.2],
-                ["Carbohydrates", 37],
-                ["Fiber", 3.8],
-                ["Sugar", 2]
+                ["Calories", 94],
+                ["Protein(g)", 10],
+                ["Fat(g)", 6],
+                ["Carbohydrates(g)", 2.3],
+                ["Fiber(g)", 0.4],
+                ["Sugar(g)", 0]
             ],
             "variety": "none",
             "use": "empty"
@@ -156,12 +156,12 @@
             "description": "John",
             "image": "./IMG/vegetable/lettuce.jpg",
             "nutrition":[
-                ["Calories", 161],
-                ["Protein", 4.3],
-                ["Fat", 0.2],
-                ["Carbohydrates", 37],
-                ["Fiber", 3.8],
-                ["Sugar", 2]
+                ["Calories", 94],
+                ["Protein(g)", 10],
+                ["Fat(g)", 6],
+                ["Carbohydrates(g)", 2.3],
+                ["Fiber(g)", 0.4],
+                ["Sugar(g)", 0]
             ],
             "variety": "none",
             "use": "empty"
@@ -174,12 +174,12 @@
             "description": "John",
             "image": "./IMG/meat/chicken.jpg",
             "nutrition":[
-                ["Calories", 161],
-                ["Protein", 4.3],
-                ["Fat", 0.2],
-                ["Carbohydrates", 37],
-                ["Fiber", 3.8],
-                ["Sugar", 2]
+                ["Calories", 94],
+                ["Protein(g)", 10],
+                ["Fat(g)", 6],
+                ["Carbohydrates(g)", 2.3],
+                ["Fiber(g)", 0.4],
+                ["Sugar(g)", 0]
             ],
             "variety": "none",
             "use": "empty"
@@ -189,12 +189,12 @@
             "description": "John",
             "image": "./IMG/meat/beef.jpg",
             "nutrition":[
-                ["Calories", 161],
-                ["Protein", 4.3],
-                ["Fat", 0.2],
-                ["Carbohydrates", 37],
-                ["Fiber", 3.8],
-                ["Sugar", 2]
+                ["Calories", 94],
+                ["Protein(g)", 10],
+                ["Fat(g)", 6],
+                ["Carbohydrates(g)", 2.3],
+                ["Fiber(g)", 0.4],
+                ["Sugar(g)", 0]
             ],
             "variety": "none",
             "use": "empty"
@@ -204,12 +204,12 @@
             "description": "John",
             "image": "./IMG/meat/pork.jpg",
             "nutrition":[
-                ["Calories", 161],
-                ["Protein", 4.3],
-                ["Fat", 0.2],
-                ["Carbohydrates", 37],
-                ["Fiber", 3.8],
-                ["Sugar", 2]
+                ["Calories", 94],
+                ["Protein(g)", 10],
+                ["Fat(g)", 6],
+                ["Carbohydrates(g)", 2.3],
+                ["Fiber(g)", 0.4],
+                ["Sugar(g)", 0]
             ],
             "variety": "none",
             "use": "empty"
@@ -219,12 +219,12 @@
             "description": "John",
             "image": "./IMG/meat/fish.jpg",
             "nutrition":[
-                ["Calories", 161],
-                ["Protein", 4.3],
-                ["Fat", 0.2],
-                ["Carbohydrates", 37],
-                ["Fiber", 3.8],
-                ["Sugar", 2]
+                ["Calories", 94],
+                ["Protein(g)", 10],
+                ["Fat(g)", 6],
+                ["Carbohydrates(g)", 2.3],
+                ["Fiber(g)", 0.4],
+                ["Sugar(g)", 0]
             ],
             "variety": "none",
             "use": "empty"
@@ -234,13 +234,12 @@
             "description": "John",
             "image": "./IMG/meat/lamb.jpg",
             "nutrition":[
-                ["Calories", 161],
-                ["Protein(g)", 4.3],
-                ["Fat(g)", 0.2],
-                ["Carbohydrates(g)", 23.8],
-                ["Protein(g)", 21.0],
-                ["Cholesterol(mg)", 44.0],
-                ["Sodium(mg)", 826.3]   
+                ["Calories", 94],
+                ["Protein(g)", 10],
+                ["Fat(g)", 6],
+                ["Carbohydrates(g)", 2.3],
+                ["Fiber(g)", 0.4],
+                ["Sugar(g)", 0]
             ],
             "variety": "none",
             "use": "empty"
@@ -358,7 +357,141 @@
                 [14,"./IMG/steps/nikujaga-14-600x338.jpg"],
                 [15,"./IMG/steps/nikujaga-15-600x338.jpg"]
             ]
-        }
+        },
+        {
+            "name": "Microwave Baked Potato",
+            "description": "?",
+            "image": "./IMG/cuisine/microwave-baked-potato.jpg",
+            "nutrition":[
+                ["Calories", 368],
+                ["Fat(g)", 20],
+                ["Cholesterol(mg)", 54],
+                ["Sodium(mg)", 203],
+                ["Potassium(mg)",929],
+                ["Carbohydrates(g)", 39],
+                ["Fiber(g)",3],
+                ["Sugars(g)",2],
+                ["Protein(g)", 9]
+            ],
+            "ingredients":[
+                ["1 unit","large russet potato"],
+                ["1 tbsp","salt and ground black pepper to taste"],
+                ["1 tbsp","butter"],
+                ["2 tbsp","shredded Cheddar cheese"],
+                ["1 tbsp","sour cream"],
+                ["",""],
+                ["", ""],
+                ["",""]
+            ],
+        "attention": "empty",
+        "instruction":[
+            ["1","Scrub the potato and pierce it all over with a fork. Place on a platter that can be microwaved."],
+            ["2","Microwave on high for 5 minutes. Microwave the potato for another 5 minutes, or until tender."],
+            ["3","Take the potato out of the microwave and cut it in half lengthwise. Season with salt and pepper, then mash the insides with a fork."],
+            ["4","Mix in the butter and Cheddar cheese. Microwave for 1 minute more, or until melted."],
+            ["5","Serve with sour cream on top."],
+            ["6", ""],
+            ["7", ""],
+            ["8", ""],
+            ["9",""],
+            ["10",""],
+            ["11",""],
+            ["12",""],
+            ["13",""],
+            ["14",""],
+            ["15",""],
+            ["16",""],
+            ["17",""],
+            ["18",""]
+            ],
+        "video":"./video/Microwave Baked Potato Recipe.mp4",
+        "match":[
+            [1,"./IMG/cuisine/Juicy Stove Top Chicken Breasts.jpg"],
+            [2,"./IMG/cuisine/Sauteed-Cabbage-600x689-1.jpg"]
+        ],
+        "steps":[
+            [1,"./IMG/steps/ice-cream-tempura-01-600x338.jpg"],
+            [2,"./IMG/steps/ice-cream-tempura-02-600x338.jpg"],
+            [4,"./IMG/steps/ice-cream-tempura-04-600x338.jpg"],
+            [5,"./IMG/steps/ice-cream-tempura-05-600x338.jpg"],
+            [8,"./IMG/steps/ice-cream-tempura-08-600x338.jpg"],
+            [9,"./IMG/steps/ice-cream-tempura-09-600x338.jpg"],
+            [11,"./IMG/steps/ice-cream-tempura-11-600x338.jpg"],
+            [12,"./IMG/steps/ice-cream-tempura-12-600x338.jpg"],
+            [14,"./IMG/steps/ice-cream-tempura-14-600x338.jpg"],
+            [17,"./IMG/steps/ice-cream-tempura-14-600x338.jpg"],
+            [18,"./IMG/steps/ice-cream-tempura-14-600x338.jpg"]
+        ]
+    },
+        {
+            
+                "name": "French Fries",
+                "description": "?",
+                "image": "./IMG/cuisine/Homemade-French-Fry-Recipe.jpg",
+                "nutrition":[
+                    ["Calories", 377],
+                    ["Fat(g)", 64],
+                    ["Cholesterol(mg)", 176],
+                    ["Sodium(mg)", 17],
+                    ["Potassium(mg)", 1480],
+                    ["Carbohydrates(g)", 64],
+                    ["Fiber(g)",4],
+                    ["Sugars(g)",2],
+                    ["Protein(g)", 7]
+                ],
+                "ingredients":[
+                    ["10","large russet potatoes, peeled and rinsed"],
+                    ["2","quarts vegetable oil, can sub canola oil"],
+                    ["1 tbsp","Salt"],
+                    ["",""],
+                    ["",""],
+                    ["",""],
+                    ["", ""],
+                    ["",""]
+                ],
+                "attention": "empty",
+                "instruction":[
+                    ["1", "Potatoes should be cut into 12 inch thick sticks. This is considerably easier if you use a French fry cutter."],
+                    ["2", "Soak the potato slices for at least one hour and up to overnight in cold water. The longer the procedure, the better since it eliminates the starch, resulting in super crispy fries."],
+                    ["3", "Cold water should be used to rinse the fries twice."],
+                    ["4", "Place the fries on paper towels or a clean dishcloth and blot them dry."],
+                    ["5", "Heat the oil in a deep fryer or dutch oven to 300°F. Fry in six batches, starting with a quart of oil and adding more as required. When you fry too many at once, they get less crispy."],
+                    ["6", "Add the potatoes to the oil using a slotted spoon and cook for 5-6 minutes. We don't want the potatoes to crisp yet, so the oil should only softly bubble."],
+                    ["7", "Place the cooked potatoes on a dish lined with paper towels and continue to fry the remaining batches."],
+                    ["8", "Increase the heat to 400°F and continue to cook each batch until crisp and golden-brown, about 5 minutes."],
+                    ["9","Remove them and pat them dry with paper towels. As soon as they come out, sprinkle with salt."],
+                    ["10","Serve with ketchup or fry sauce and enjoy!"],
+                    ["",""],
+                    ["",""],
+                    ["",""],
+                    ["",""],
+                    ["",""],
+                    ["",""],
+                    ["",""],
+                    ["",""]
+                    ],
+                "video":"./video/Ice Cream Tempura Recipe_Cooking with Dog.mp4",
+                "match":[
+                    [1,"./IMG/cuisine/roasted-parmesan-carrots-03.jpg"],
+                    [2,"./IMG/cuisine/ice-cream-tempura-00-300x169.jpg"]
+                ],
+                "steps":[
+                    [1,"./IMG/steps/ice-cream-tempura-01-600x338.jpg"],
+                    [2,"./IMG/steps/ice-cream-tempura-02-600x338.jpg"],
+                    [4,"./IMG/steps/ice-cream-tempura-04-600x338.jpg"],
+                    [5,"./IMG/steps/ice-cream-tempura-05-600x338.jpg"],
+                    [8,"./IMG/steps/ice-cream-tempura-08-600x338.jpg"],
+                    [9,"./IMG/steps/ice-cream-tempura-09-600x338.jpg"],
+                    [11,"./IMG/steps/ice-cream-tempura-11-600x338.jpg"],
+                    [12,"./IMG/steps/ice-cream-tempura-12-600x338.jpg"],
+                    [14,"./IMG/steps/ice-cream-tempura-14-600x338.jpg"],
+                    [15,"./IMG/steps/ice-cream-tempura-15-600x338.jpg"],
+                    [16,"./IMG/steps/ice-cream-tempura-16-600x338.jpg"],
+                    [17,"./IMG/steps/ice-cream-tempura-17-600x338.jpg"],
+                    [18,"./IMG/steps/ice-cream-tempura-18-600x338.jpg"]
+                ]
+        
+    }
     ],
         "Cuisine_tofu":[
                 {
@@ -410,7 +543,7 @@
             ],
             "steps":[
                 [1,"./IMG/steps/easy-miso-soup-01-600x338.jpg"],
-                [2,"./IMG/steps/easy-miso-soup-02-600x338.jpg"],
+                [2,"./IMG/steps/ice-cream-tempura-02-600x338.jpg"],
                 [3,"./IMG/steps/easy-miso-soup-03-600x338.jpg"],
                 [4,"./IMG/steps/easy-miso-soup-04-600x338.jpg"],
                 [5,"./IMG/steps/easy-miso-soup-05-600x338.jpg"],
@@ -426,21 +559,91 @@
             ]
         }
     ],
+    "Cuisine_broccoli":[
+        {
+        "name": "CARAMELIZED BROCCOLI",
+        "description": "?",
+        "image": "./IMG/cuisine/Caramelized-Broccoli.jpg",
+        "nutrition":[
+            ["Calories", 197],
+            ["Fat(g)", 12],
+            ["Cholesterol(mg)", 150],
+            ["Sodium(mg)", 102],
+            ["Potassium(mg)", 961],
+            ["Carbohydrates(g)", 20],
+            ["Fiber(g)",8],
+            ["Sugars(g)",5],
+            ["Protein(g)", 9]
+        ],
+        "ingredients":[
+            ["1 scoop","Vanilla Ice Cream"],
+            ["1 scoop","Chocolate Ice Cream"],
+            ["1 scoop","Green Tea Ice Cream"],
+            ["6 slices","Castella"],
+            ["3 tbsp","Cold Water"],
+            ["30 g","Cake Flour or All Purpose Flour"],
+            ["1 pot", "Frying Oil"],
+            ["1 can","Raspberry Jam"]
+        ],
+        "attention": "empty",
+        "instruction":[
+            ["1", "Heat 1 tablespoon oil in a big, deep skillet."],
+            ["2", "When the oil is heated, add the broccoli, cut side down, and cover."],
+            ["3", "Cook for 8 minutes over medium-high heat, or until the bottom is beautiful and golden."],
+            ["4", "Cover and simmer for 7 minutes, or until the broccoli is cooked and the water has gone."],
+            ["5", "Drizzle the broccoli with the remaining oil and season with the garlic powder and red pepper flakes"],
+            ["6", "Cook for 3 minutes, uncovered. Season to taste with salt and pepper."],
+            ["7", ""],
+            ["8", ""],
+            ["9",""],
+            ["10",""],
+            ["11",""],
+            ["12",""],
+            ["13",""],
+            ["14",""],
+            ["15",""],
+            ["16",""],
+            ["17",""],
+            ["18",""]
+            ],
+        "video":"./video/Caramelized Broccoli.mp4",
+        "match":[
+            [1,"./IMG/cuisine/nikujaga.jpg"],
+            [2,"./IMG/cuisine/Juicy-Oven-Baked-Pork-Chops-6.jpg"]
+        ],
+        "steps":[
+            [1,"./IMG/steps/ice-cream-tempura-01-600x338.jpg"],
+            [2,"./IMG/steps/ice-cream-tempura-02-600x338.jpg"],
+            [4,"./IMG/steps/ice-cream-tempura-04-600x338.jpg"],
+            [5,"./IMG/steps/ice-cream-tempura-05-600x338.jpg"],
+            [8,"./IMG/steps/ice-cream-tempura-08-600x338.jpg"],
+            [9,"./IMG/steps/ice-cream-tempura-09-600x338.jpg"],
+            [11,"./IMG/steps/ice-cream-tempura-11-600x338.jpg"],
+            [12,"./IMG/steps/ice-cream-tempura-12-600x338.jpg"],
+            [14,"./IMG/steps/ice-cream-tempura-14-600x338.jpg"],
+            [15,"./IMG/steps/ice-cream-tempura-15-600x338.jpg"],
+            [16,"./IMG/steps/ice-cream-tempura-16-600x338.jpg"],
+            [17,"./IMG/steps/ice-cream-tempura-17-600x338.jpg"],
+            [18,"./IMG/steps/ice-cream-tempura-18-600x338.jpg"]
+        ]
+        }
+    ],
+
     "Cuisine_cabbage":[
                 {
-            "name": "Cabbage",
+            "name": "Sauteed Cabbage",
             "description": "?",
             "image": "./IMG/cuisine/Sauteed-Cabbage-600x689-1.jpg",
             "nutrition":[
-                ["Calories", 689],
-                ["Fat(g)", 38],
-                ["Cholesterol(mg)", 198],
-                ["Sodium(mg)", 608],
-                ["Potassium(mg)", 1025],
-                ["Carbohydrates(g)", 48],
-                ["Fiber(g)",2],
-                ["Sugars(g)",3],
-                ["Protein(g)", 37]
+                ["Calories", 1480],
+                ["Fat(g)", 36],
+                ["Cholesterol(mg)", 176],
+                ["Sodium(mg)", 2150],
+                ["Potassium(mg)", 124],
+                ["Carbohydrates(g)", 53],
+                ["Fiber(g)",0],
+                ["Sugars(g)",11],
+                ["Protein(g)", 5]
             ],
             "ingredients":[
                 ["5 g","Dashi Kombu Seaweed"],
@@ -462,8 +665,8 @@
                 ],
             "video":"./video/Sauteed Cabbage Recipe - How To Cook Cabbage.mp4",
             "match":[
-                [1,"./IMG/cuisine/nikujaga.jpg"],
-                [2,"./IMG/cuisine/ice-cream-tempura-00-300x169.jpg"]
+                [1,"./IMG/cuisine/Beef-Stroganoff-1.jpg"],
+                [2,"./IMG/cuisine/napolitan-00-1024x576.jpg"]
             ],
             "steps":[
                 [1,"./IMG/steps/How-to-Cut-Cabbage-1.jpg"],
@@ -473,24 +676,516 @@
 
         }
     ],
+        "Cuisine_tomato":[
+            {
+        "name": "Melting Tomato",
+        "description": "?",
+        "image": "./IMG/cuisine/melting-potato.jpeg",
+        "nutrition":[
+            ["Calories", 277],
+            ["Fat(g)", 18],
+            ["Cholesterol(mg)", 62],
+            ["Sodium(mg)", 429],
+            ["Potassium(mg)", 124],
+            ["Carbohydrates(g)", 4],
+            ["Fiber(g)",3],
+            ["Sugars(g)",24],
+            ["Protein(g)", 24]
+        ],
+        "ingredients":[
+            ["1 cup","chopped sweet onion"],
+            ["2 tbsp","2 teaspoons minced garlic"],
+            ["2 cups","cherry or grape tomatoes, halved through the stem"],
+            ["1 tbsp","Kosher salt and freshly ground black pepper"],
+            ["1 1/2 tbsp","tablespoons good balsamic vinegar"],
+            ["1 1/2 tbsp","tablespoons julienned fresh basil leaves"],
+            ["1 tbsp","salmon fillet, cut crosswise into 4 pieces"]
+        ],
+        "attention": "empty",
+        "instruction":[
+            ["1", "Preheat the oven to 425 degrees F."],
+            ["2", "In a medium (10-inch) saute pan, heat 3 tablespoons olive oil. Add the onion and cook for 5 minutes, stirring periodically, until very soft but not browned. Cook for 1 minute more after adding the garlic. Cook for 10 to 15 minutes, stirring regularly, until the liquid evaporates and the tomato sauce thickens slightly, after adding the tomatoes, 1 teaspoon salt, and 1/2 teaspoon pepper. Remove from the heat and mix in the vinegar and basil."],
+            ["3", "Meanwhile, heat a large (12-inch) cast-iron skillet on high for 5 minutes. Brush the salmon with olive oil all over, season heavily with salt and pepper, then set it in the pan skin side up. Cook the fish for 3 to 4 minutes, turning once, until golden. With a tiny metal spatula, flip the salmon skin side down and place it in the oven for 8 minutes. (The fish will not be thoroughly cooked.) Transfer the fish to a serving tray, cover with foil, and set aside for 5 minutes."],
+            ["4", "Reheat the tomatoes, season to taste, and serve with the salmon hot, warm, or at room temperature."],
+            ["5", ""],
+            ["6", ""],
+            ["7", ""],
+            ["8", ""],
+            ["9",""],
+            ["10",""],
+            ["11",""],
+            ["12",""],
+            ["13",""],
+            ["14",""],
+            ["15",""],
+            ["16",""],
+            ["17",""],
+            ["18",""]
+            ],
+        "video":"./video/melting-tomato.mp4",
+        "match":[
+            [1,"./IMG/cuisine/Beef-Stroganoff-1.jpg"],
+            [2,"./IMG/cuisine/napolitan-00-1024x576.jpg"]
+        ],
+        "steps":[
+            [1,"./IMG/steps/How-to-Cut-Cabbage-1.jpg"],
+            [2,"./IMG/steps/How-to-Cut-Cabbage-2.jpg"],
+            [3,"./IMG/steps/How-to-Cut-Cabbage-3.jpg"]
+        ]
+
+    }
+    ],
+        "Cuisine_carrot":[
+            {
+        "name": "Parmesan Roasted Carrots",
+        "description": "?",
+        "image": "./IMG/cuisine/roasted-parmesan-carrots-03.jpg",
+        "nutrition":[
+            ["Calories", 176],
+            ["Fat(g)", 11],
+            ["Cholesterol(mg)", 4],
+            ["Sodium(mg)", 193],
+            ["Potassium(mg)", 124],
+            ["Carbohydrates(g)", 18],
+            ["Fiber(g)",4],
+            ["Sugars(g)",7],
+            ["Protein(g)",4]
+        ],
+        "ingredients":[
+            ["2 pounds","carrots"],
+            ["1/4 cup","olive oil"],
+            ["4 units","cloves garlic, minced"],
+            ["1/4 cup","grated parmesan cheese"],
+            ["2 tbsp","Panko bread crumbs"],
+            ["1 tbsp","Salt and pepper, to taste"],
+            ["some","Fresh chopped parsley, optional"]
+        ],
+        "attention": "empty",
+        "instruction":[
+            ["1", "Preheat the oven to 400 degrees Fahrenheit (200 degrees Celsius). Coat a baking sheet lightly with cooking oil spray."],
+            ["2", "Place carrots on a baking sheet. Combine the olive oil, garlic, parmesan, bread crumbs, salt, and pepper in a mixing bowl."],
+            ["3", "Toss all of the ingredients together to coat the carrots completely."],
+            ["4", "Bake for 20-25 minutes, or until the potatoes are cooked. Halfway through, toss with a spatula."],
+            ["5", "Remove from the oven and serve right away. If desired, garnish with fresh parsley."],
+            ["6", ""],
+            ["7", ""],
+            ["8", ""],
+            ["9",""],
+            ["10",""],
+            ["11",""],
+            ["12",""],
+            ["13",""],
+            ["14",""],
+            ["15",""],
+            ["16",""],
+            ["17",""],
+            ["18",""]
+            ],
+        "video":"./video/Garlic Paramesan Carrots.mp4",
+        "match":[
+            [1,"./IMG/cuisine/Beef-Stroganoff-1.jpg"],
+            [2,"./IMG/cuisine/miso.jpg"]
+        ],
+        "steps":[
+            [1,"./IMG/steps/How-to-Cut-Cabbage-1.jpg"],
+            [2,"./IMG/steps/How-to-Cut-Cabbage-2.jpg"],
+            [3,"./IMG/steps/How-to-Cut-Cabbage-3.jpg"]
+        ]
+
+    }
+    ],
+        
+    "Cuisine_pumpkin":[
+        {
+    "name": "Parmesan Roasted Carrots",
+    "description": "?",
+    "image": "./IMG/cuisine/baked-pumpkin-1-2021.jpg",
+    "nutrition":[
+        ["Calories", 108],
+        ["Fat(g)", 7],
+        ["Cholesterol(mg)", 100],
+        ["Sodium(mg)", 286],
+        ["Potassium(mg)", 124],
+        ["Carbohydrates(g)", 12],
+        ["Fiber(g)",1],
+        ["Sugars(g)",180],
+        ["Protein(g)",2]
+    ],
+    "ingredients":[
+        ["2-5 pounds","Small pumpkins"],
+        ["1/4 cup","olive oil"],
+        ["4 units","cloves garlic, minced"],
+        ["1 tbsp","chili powder"],
+        ["1 tbsp","garlic powder"],
+        ["1/2 cup"," minced fresh garlic"],
+        ["1 tbsp","salt"]
+    ],
+    "attention": "empty",
+    "instruction":[
+        ["1", "Preheat the oven to 425 degrees Fahrenheit. Adjust an oven rack to the bottom position. Line a big rimmed baking sheet with parchment paper that is heat resistant."],
+        ["2", "The pumpkin should be washed and dried. Place it in the microwave for one minute on high to soften."],
+        ["3", "Cut the pumpkin in half carefully using a very sharp chef's knife and back-and-forth sawing movements (cutting a sliver off the stem side first if you don't want to cut through the stem, which is tough to accomplish)."],
+        ["4", "Remove the pulp and seeds using a big metal spoon. If any obstinate pulp remains, use kitchen scissors to chop it. Save the seeds if you want to create roasted pumpkin seeds."],
+        ["5", "Return to the sharp knife and sawing movements, and cut each pumpkin half into four 1-inch-thick moon-shaped slices, discarding the ends. "],
+        ["6", "Peel the skin from each pumpkin slice with a vegetable peeler, then cut each pumpkin slice into 1-inch cubes."],
+        ["7", "In a large mixing basin, combine the pumpkin chunks. Add the oil and spices and coat the pumpkin pieces evenly with a big spoon or your hands."],
+        ["8", "Arrange the pumpkin cubes in a single layer on the prepared baking sheet. Bake for 30 minutes, stirring halfway through. Serve immediately."],
+        ["9",""],
+        ["10",""],
+        ["11",""],
+        ["12",""],
+        ["13",""],
+        ["14",""],
+        ["15",""],
+        ["16",""],
+        ["17",""],
+        ["18",""]
+        ],
+    "video":"./video/Garlic Paramesan Carrots.mp4",
+    "match":[
+        [1,"./IMG/cuisine/Cumin-Lamb-Noodles_550.jpg"],
+        [2,"./IMG/cuisine/napolitan-00-1024x576.jpg"]
+    ],
+    "steps":[
+        [1,"./IMG/steps/How-to-Cut-Cabbage-1.jpg"],
+        [2,"./IMG/steps/How-to-Cut-Cabbage-2.jpg"],
+        [3,"./IMG/steps/How-to-Cut-Cabbage-3.jpg"]
+    ]
+
+}
+],
+    "Cuisine_mushroom":[
+        {
+        "name": "Napolitan",
+        "description": "?",
+        "image": "./IMG/cuisine/napolitan-00-1024x576.jpg",
+        "nutrition":[
+            ["Calories", 684],
+            ["Fat(g)", 25],
+            ["Cholesterol(mg)", 23],
+            ["Sodium(mg)", 673],
+            ["Potassium(mg)", 776],
+            ["Carbohydrates(g)", 93],
+            ["Fiber(g)",6],
+            ["Sugars(g)",15],
+            ["Protein(g)",22]
+        ],
+        "ingredients":[
+            ["1/2 unit","Small pumpkins"],
+            ["1/4 to 1/2","green bell pepper"],
+            ["4 units","mushrooms"],
+            ["5 oz","sausages"],
+            ["1 clove","garlic "],
+            ["1/4 tsp","kosher salt"],
+            ["1/3 cup","ketchup"],
+            ["1 tbsp","milk"],
+            ["2 tbsp","Worcestershire sauce"],
+            ["1 tbsp","sugar"],
+            ["1/4 cup","reserved pasta water"],
+            ["7 oz", "spaghetti"],
+            ["1 1/2 tbsp","kosher salt"],
+            ["1 tbsp", "unsalted butter"],
+            ["2 tbsp", "Parmigiano-Reggiano (Parmesan) cheese"]
+        ],
+        "attention": "empty",
+        "instruction":[
+            ["1", "Collect all of the components. Begin heating a big kettle of water (I use a 4 QT pot)."],
+            ["2", "Combine and mix all of the sauce ingredients in a small bowl."],
+            ["3", "Make thin slices of the onion."],
+            ["4", "If the green bell pepper is lengthy, split it in half lengthwise and then into thin strips."],
+            ["5", "Make thin slices of the mushrooms."],
+            ["6", "Cut the sausages into thin slices diagonally."],
+            ["7", "When the water begins to boil, add the salt and spaghetti. Stir to prevent the noodles from sticking together. Cook the pasta as directed on the packet. You will save some pasta cooking water at the conclusion of the cooking process. Prepare the sauce while the pasta is cooking."],
+            ["8", "Melt butter in a large frying pan over medium heat. When the oil is heated, add it and spread it evenly. Sauté the crushed garlic for 1 minute, or until golden and aromatic (I use this garlic press)."],
+            ["9", "Sauté the onions in the pan for 2-3 minutes."],
+            ["10","When the onions have begun to wilt, add the sausages and cook for 1 minute."],
+            ["11","Sauté the bell peppers and mushrooms until they are tender."],
+            ["12","Season with salt and pepper to taste."],
+            ["13","Push the ingredients to one side of the skillet and add the sauce mixture to the other. When the sauce begins to boil and thicken, add the sausages and veggies."],
+            ["14","Scoop off approximately 14 cup of the starchy boiling water from the pasta saucepan for 2 servings. Stir in nearly half of it to the spaghetti sauce. Check the consistency of the sauce and gradually add additional leftover pasta water until it reaches the desired consistency. You might not need all of the pasta water you saved."],
+            ["15","Combine everything and let the sauce to boil and decrease somewhat."],
+            ["16","The pasta should be done cooking by now. Drain it thoroughly in a colander and add it to the sauce in the pan. Toss in the butter with tongs, ensuring sure the sauce coats the pasta evenly."],
+            ["17","Serve the Napolitan on separate dishes right away. Now or at the table, shave the Parmesan cheese over the spaghetti."],
+            ["18",""]
+            ],
+        "video":"./video/Napolitan.mp4",
+        "match":[
+            [1,"./IMG/cuisine/Beef-Stroganoff-1.jpg"],
+            [2,"./IMG/cuisine/napolitan-00-1024x576.jpg"]
+        ],
+        "steps":[
+            [0,"./IMG/steps/Ketchup-Spaghetti-Napolitan-Ingredients.jpg"],
+            [1,"./IMG/steps/ketchup-spaghetti-1.PNG"],
+            [2,"./IMG/steps/ketchup-spaghetti-2.PNG"],
+            [3,"./IMG/steps/ketchup-spaghetti-3.PNG"],
+            [4,"./IMG/steps/ketchup-spaghetti-4.PNG"],
+            [5,"./IMG/steps/ketchup-spaghetti-5.PNG"],
+            [6,"./IMG/steps/ketchup-spaghetti-6.PNG"],
+            [7,"./IMG/steps/ketchup-spaghetti-7.PNG"],
+            [8,"./IMG/steps/ketchup-spaghetti-8.PNG"],
+            [9,"./IMG/steps/ketchup-spaghetti-9.PNG"],
+            [10,"./IMG/steps/ketchup-spaghetti-10.PNG"],
+            [11,"./IMG/steps/ketchup-spaghetti-11.PNG"],
+            [12,"./IMG/steps/ketchup-spaghetti-12.PNG"],
+            [13,"./IMG/steps/ketchup-spaghetti-13.PNG"],
+            [14,"./IMG/steps/ketchup-spaghetti-14.PNG"],
+            [15,"./IMG/steps/ketchup-spaghetti-15.PNG"],
+            [16,"./IMG/steps/ketchup-spaghetti-16.PNG"]      
+        ]
+
+        }
+        ],
+        "Cuisine_eggplant":[
+            {
+            "name": "roasted eggplant",
+            "description": "?",
+            "image": "./IMG/cuisine/roasted-eggplant.jpeg",
+            "nutrition":[
+                ["Calories", 684],
+                ["Fat(g)", 25],
+                ["Cholesterol(mg)", 23],
+                ["Sodium(mg)", 673],
+                ["Potassium(mg)", 776],
+                ["Carbohydrates(g)", 93],
+                ["Fiber(g)",6],
+                ["Sugars(g)",15],
+                ["Protein(g)",22]
+            ],
+            "ingredients":[
+                ["1.2 lb","eggplants"],
+                ["3 tbsp","olive oil"],
+                ["1/2 tsp","salt"],
+                ["1/2 tsp","black pepper"],
+                ["",""],
+                ["",""],
+                ["",""],
+                ["",""],
+                ["",""],
+                ["",""],
+                ["",""],
+                ["", ""],
+                ["",""],
+                ["", ""],
+                ["", ""]
+            ],
+            "attention": "empty",
+            "instruction":[
+                ["1", "Preheat the oven to 240°C/450°F/220°C fan."],
+                ["2", "Line a baking sheet with parchment/baking paper (optional, but suggested for first-timers to avoid losing the caramelized surface)."],
+                ["3", "Cut the eggplant into 3 cm / 1.2′′ cubes. Place in a large mixing bowl and season with salt and pepper."],
+                ["4", "Toss thoroughly, place on a baking sheet, and bake for 20 minutes. Turn and roast for another 10 minutes - the edges should be caramelized and soft on the inside, but not shriveled and sad."],
+                ["5", "Place on a serving dish. Serves well on its own, but check below for additional finishing choices."],
+                ["6", "1 teaspoon fresh thyme leaves (my favorite! ), a drizzle of fresh lemon juice, parsley, chives, or green onions (for a bit of freshness and color but not much flavor), a little drizzle of balsamic vinegar (a little tartness is great! OR drizzle with balsamic glaze), topped with a spoonful of yogurt (creamy yogurt pairs really well with the juicy eggplant flesh)."],
+                ["", ""],
+                ["", ""],
+                ["",""],
+                ["",""],
+                ["",""],
+                ["",""],
+                ["",""],
+                ["",""],
+                ["",""],
+                ["",""],
+                ["",""],
+                ["",""]
+                ],
+            "video":"./video/roastedeggplant.mp4",
+            "match":[
+                [1,"./IMG/cuisine/microwave-baked-potato.jpg"],
+                [2,"./IMG/cuisine/nikujaga.jpg"]
+            ],
+            "steps":[
+                [0,"./IMG/steps/Ketchup-Spaghetti-Napolitan-Ingredients.jpg"],
+                [1,"./IMG/steps/ketchup-spaghetti-1.PNG"],
+                [2,"./IMG/steps/ketchup-spaghetti-2.PNG"],
+                [3,"./IMG/steps/ketchup-spaghetti-3.PNG"],
+                [4,"./IMG/steps/ketchup-spaghetti-4.PNG"],
+                [5,"./IMG/steps/ketchup-spaghetti-5.PNG"],
+                [6,"./IMG/steps/ketchup-spaghetti-6.PNG"],
+                [7,"./IMG/steps/ketchup-spaghetti-7.PNG"],
+                [8,"./IMG/steps/ketchup-spaghetti-8.PNG"],
+                [9,"./IMG/steps/ketchup-spaghetti-9.PNG"],
+                [10,"./IMG/steps/ketchup-spaghetti-10.PNG"],
+                [11,"./IMG/steps/ketchup-spaghetti-11.PNG"],
+                [12,"./IMG/steps/ketchup-spaghetti-12.PNG"],
+                [13,"./IMG/steps/ketchup-spaghetti-13.PNG"],
+                [14,"./IMG/steps/ketchup-spaghetti-14.PNG"],
+                [15,"./IMG/steps/ketchup-spaghetti-15.PNG"],
+                [16,"./IMG/steps/ketchup-spaghetti-16.PNG"]
+                ]   
+        }   
+        ],
+            "Cuisine_corn":[
+                {
+                "name": "Cali Club Quesadillas",
+                "description": "?",
+                "image": "./IMG/cuisine/quesadillas.jpg",
+                "nutrition":[
+                    ["Calories", 196],
+                    ["Fat(g)", 25],
+                    ["Cholesterol(mg)", 23],
+                    ["Sodium(mg)", 673],
+                    ["Potassium(mg)", 776],
+                    ["Carbohydrates(g)", 93],
+                    ["Fiber(g)",6],
+                    ["Sugars(g)",15],
+                    ["Protein(g)",22]
+                ],
+                "ingredients":[
+                    ["1 tbsp","vegetable oil"],
+                    ["4 slices","meaty bacon, finely chopped"],
+                    ["1 unit","small onion, finely chopped"],
+                    ["1 unit","large jalapeño chile, finely chopped"],
+                    ["3 units","garlic, finely chopped"],
+                    ["1 lb","ground turkey"],
+                    ["1 tbsp","chili powder"],
+                    ["1 1/2 tsp","ground coriander"],
+                    ["1 1/2 tsp","ground cumin"],
+                    ["1 tbsp","dried oregano"],
+                    ["1 1/2 cups","grated pepper Jack, grated yellow cheddar"],
+                    ["1 cup", "Mexican crema or sour cream"],
+                    ["4 units","arge flour tortillas"],
+                    ["1 unit", "avocado"],
+                    ["1 unit", "large heirloom tomato or beefsteak tomato, seeded and chopped"]
+                ],
+                "attention": "empty",
+                "instruction":[
+                    ["1", "Heat the oil in a big cast-iron skillet over medium-high heat, one turn of the pan at a time. Mix in the bacon. Cook, stirring often, for 2 to 3 minutes, or until the fat begins to render. Combine the onion, chile, and garlic in a mixing bowl. Cook, stirring often, for 2 to 3 minutes, or until the onion softens. Season the turkey with salt and pepper. Cook, tossing regularly and breaking up the meat with a spoon, for approximately 5 minutes, or until the turkey is browned. Chili powder, coriander, cumin, and dried oregano, to taste. Mix with 1/2 cup water. Cook, stirring often, for 5 to 7 minutes, or until the water is absorbed. Turn the heat down low."],
+                    ["2", "Cook the tortilla for 1 minute, or until it is blistered in areas. Toss the tortilla around. Place a quarter of the turkey filling, a few slices of avocado, some chopped tomato, and a quarter of the cheeses on half of the tortilla."],
+                    ["3", "Fold the tortilla over the ingredients and heat for about 2 minutes, rotating once, until the cheeses melt. Rep with the rest of the tortillas and fillings."],
+                    ["4", "Make wedges out of the quesadillas. Serve with pickled jalapeo slices and cilantro on top. Serve with slices of lime."],
+                    ["", ""],
+                    ["", ""],
+                    ["", ""],
+                    ["",""],
+                    ["",""],
+                    ["",""],
+                    ["",""],
+                    ["",""],
+                    ["",""],
+                    ["",""],
+                    ["",""],
+                    ["",""],
+                    ["",""]
+                    ],
+                "video":"./video/CaliClubQuesadillas.mp4",
+                "match":[
+                    [1,"./IMG/cuisine/Caramelized-Broccoli.jpg"],
+                    [2,"./IMG/cuisine/napolitan-00-1024x576.jpg"]
+                ],
+                "steps":[
+                    [0,"./IMG/steps/Ketchup-Spaghetti-Napolitan-Ingredients.jpg"],
+                    [1,"./IMG/steps/ketchup-spaghetti-1.PNG"],
+                    [2,"./IMG/steps/ketchup-spaghetti-2.PNG"],
+                    [3,"./IMG/steps/ketchup-spaghetti-3.PNG"],
+                    [4,"./IMG/steps/ketchup-spaghetti-4.PNG"],
+                    [5,"./IMG/steps/ketchup-spaghetti-5.PNG"],
+                    [6,"./IMG/steps/ketchup-spaghetti-6.PNG"],
+                    [7,"./IMG/steps/ketchup-spaghetti-7.PNG"],
+                    [8,"./IMG/steps/ketchup-spaghetti-8.PNG"],
+                    [9,"./IMG/steps/ketchup-spaghetti-9.PNG"],
+                    [10,"./IMG/steps/ketchup-spaghetti-10.PNG"],
+                    [11,"./IMG/steps/ketchup-spaghetti-11.PNG"],
+                    [12,"./IMG/steps/ketchup-spaghetti-12.PNG"],
+                    [13,"./IMG/steps/ketchup-spaghetti-13.PNG"],
+                    [14,"./IMG/steps/ketchup-spaghetti-14.PNG"],
+                    [15,"./IMG/steps/ketchup-spaghetti-15.PNG"],
+                    [16,"./IMG/steps/ketchup-spaghetti-16.PNG"]
+                    ]   
+            }   
+            ],
+            "Cuisine_chicken":[
+                {
+                "name": "Juicy Stove Top Chicken Breasts",
+                "description": "?",
+                "image": "./IMG/cuisine/Juicy Stove Top Chicken Breasts.jpg",
+                "nutrition":[
+                    ["Calories", 273],
+                    ["Fat(g)", 19],
+                    ["Cholesterol(mg)", 87],
+                    ["Sodium(mg)", 182],
+                    ["Potassium(mg)", 419],
+                    ["Carbohydrates(g)", 0],
+                    ["Fiber(g)",0],
+                    ["Sugars(g)",0],
+                    ["Protein(g)",24]
+                ],
+                "ingredients":[
+                    ["3 tbsp","vegetable oil or canola oil,"],
+                    ["1 lb","boneless, skinless chicken breasts"],
+                    ["1 unit","cooking spray"],
+                    ["some","salt and fresh ground pepper"],
+                    ["1/2 tbsp","garlic powder"],
+                    ["1/2 tbsp","onion powder"],
+                    ["1/2 tbsp","dried basil"],
+                    ["2 tbsp","smoked or sweet paprika"],
+                    ["", ""],
+                    ["", ""],
+                    ["", ""],
+                    ["",""]
+                 
+                ],
+                "attention": "empty",
+                "instruction":[
+                    ["1", "In a large pan, heat 1 1/2 tablespoons vegetable oil over medium-high heat; use a 10-inch or 12-inch skillet."],
+                    ["2", "Using paper towels, pat dry the chicken breasts."],
+                    ["3", "Drizzle a little amount of oil on each chicken breast, or spritz and massage it all over."],
+                    ["4", "Combine salt, pepper, garlic powder, onion powder, basil, and paprika in a small mixing bowl."],
+                    ["5", "Rub the prepared spice all over the both sides of each chicken breast."],
+                    ["6", "2 chicken breasts should be added to the heating skillet."],
+                    ["7", "Cook the chicken breasts for 5–7 minutes without moving them."],
+                    ["8","Cook the chicken for 7 minutes more, or until the internal temperature reaches 165F, after flipping both breasts over and adding 1 tablespoon of butter to the skillet. The thickness of the chicken breasts will always determine the cooking time."],
+                    ["9","Remove the chicken breasts from the skillet and set aside, covered."],
+                    ["10","Repeat the process with the remaining two chicken breasts."],
+                    ["11","Transfer the chicken to a chopping board to rest for 5 minutes before slicing and serving."],
+                    ["",""],
+                    ["",""],
+                    ["",""],
+                    ["",""],
+                    ["",""],
+                    ["",""]
+                    ],
+                "video":"./video/JUICY STOVE TOP CHICKEN BREASTS.mp4",
+                "match":[
+                    [1,"./IMG/cuisine/Caramelized-Broccoli.jpg"],
+                    [2,"./IMG/cuisine/napolitan-00-1024x576.jpg"]
+                ],
+                "steps":[
+                    [0,"./IMG/steps/Ketchup-Spaghetti-Napolitan-Ingredients.jpg"],
+                    [1,"./IMG/steps/ketchup-spaghetti-1.PNG"],
+                    [2,"./IMG/steps/ketchup-spaghetti-2.PNG"],
+                    [3,"./IMG/steps/ketchup-spaghetti-3.PNG"],
+                    [4,"./IMG/steps/ketchup-spaghetti-4.PNG"],
+                    [5,"./IMG/steps/ketchup-spaghetti-5.PNG"],
+                    [6,"./IMG/steps/ketchup-spaghetti-6.PNG"],
+                    [7,"./IMG/steps/ketchup-spaghetti-7.PNG"],
+                    [8,"./IMG/steps/ketchup-spaghetti-8.PNG"],
+                    [9,"./IMG/steps/ketchup-spaghetti-9.PNG"],
+                    [10,"./IMG/steps/ketchup-spaghetti-10.PNG"],
+                    [11,"./IMG/steps/ketchup-spaghetti-11.PNG"],
+                    [12,"./IMG/steps/ketchup-spaghetti-12.PNG"],
+                    [13,"./IMG/steps/ketchup-spaghetti-13.PNG"],
+                    [14,"./IMG/steps/ketchup-spaghetti-14.PNG"],
+                    [15,"./IMG/steps/ketchup-spaghetti-15.PNG"],
+                    [16,"./IMG/steps/ketchup-spaghetti-16.PNG"]
+                    ]   
+            }   
+            ],
     "Cuisine_beef":[
         {
-        "name": "Beef Stroganoff",
+        "name": "Juicy Stove Top Chicken Breasts",
         "description": "?",
         "image": "./IMG/cuisine/Beef-Stroganoff-1.jpg",
         "nutrition":[
-            ["1 pound","Top sirloin steak, thinly sliced into strips*"],
-            ["2 tbsp","Olive oil"],
-            ["2 tbsp","Unsalted butter"],
-            ["1/2 pounds","Medium onion, finely chopped"],
-            ["1 unit","Garlic cloves, minced"],
-            ["1 tbsp","all-purpose flour"],
-            ["1 cup", "Beef Broth"],
-            ["1/4 cup","Sour cream"],
-            ["1 tbsp", "Worcestershire sauce"],
-            ["1/2 tsp", "Dijon mustard"],
-            ["1/2 tsp" ,"Salt"],
-            ["1/4 tsp", "Black pepper"]
+            ["Calories", 689],
+            ["Fat(g)", 38],
+            ["Cholesterol(mg)", 198],
+            ["Sodium(mg)", 608],
+            ["Potassium(mg)", 1025],
+            ["Carbohydrates(g)", 48],
+            ["Fiber(g)",2],
+            ["Sugars(g)",3],
+            ["Protein(g)", 37]
         ],
         "ingredients":[
             ["1 pound","Top sirloin steak, thinly sliced into strips*"],
@@ -519,15 +1214,231 @@
             ],
         "video":"./video/Beef Stroganoff Recipe - Natasha's Kitchen.mp4",
         "match":[
-            [1,"./IMG/cuisine/nikujaga.jpg"],
-            [2,"./IMG/cuisine/ice-cream-tempura-00-300x169.jpg"]
+            [1,"./IMG/cuisine/Sauteed-Cabbage-600x689-1.jpg"],
+            [2,"./IMG/cuisine/napolitan-00-1024x576.jpg"]
         ],
         "steps":[
             [1,"./IMG/steps/easy-miso-soup-01-600x338.jpg"],
-            [2,"./IMG/steps/easy-miso-soup-02-600x338.jpg"],
+            [2,"./IMG/steps/ice-cream-tempura-02-600x338.jpg"],
             [3,"./IMG/steps/easy-miso-soup-03-600x338.jpg"],
             [4,"./IMG/steps/easy-miso-soup-04-600x338.jpg"],
             [5,"./IMG/steps/easy-miso-soup-05-600x338.jpg"]
+        ]
+    }
+    ],
+        "Cuisine_pork":[
+            {
+            "name": "JUICY BAKED PORK CHOPS",
+            "description": "?",
+            "image": "./IMG/cuisine/Juicy-Oven-Baked-Pork-Chops-6.jpg",
+            "nutrition":[
+                ["Calories", 275],
+                ["Fat(g)", 16],
+                ["Cholesterol(mg)", 90],
+                ["Sodium(mg)", 647],
+                ["Potassium(mg)", 523],
+                ["Carbohydrates(g)", 1],
+                ["Fiber(g)",1],
+                ["Sugars(g)",1],
+                ["Protein(g)",29]
+            ],
+            "ingredients":[
+                ["1 tbsp"," paprika"],
+                ["2 tbsp"," onion powder"],
+                ["2 tbsp"," garlic powder"],
+                ["1 tbsp","salt"],
+                ["1 tbsp","fresh ground pepper"],
+                ["2 tbsp","olive oil"],
+                ["4","boneless pork chops"],
+                ["",""],
+                ["", ""],
+                ["", ""],
+                ["", ""],
+                ["",""]
+            
+            ],
+            "attention": "empty",
+            "instruction":[
+                ["1", "Preheat the oven to 400 degrees Fahrenheit."],
+                ["2", "Combine the paprika, onion powder, garlic powder, salt, pepper, and oregano in a small mixing bowl."],
+                ["3", "Drizzle 1 tablespoon olive oil over the pork chops on each sides. Place the pork chops in a baking dish and sprinkle the spice mixture equally over both sides. (See also the notes) Drizzle with the last tablespoon of olive oil."],
+                ["4", "Bake the pork chops for 18 minutes, or until the internal temperature reaches 145 degrees Fahrenheit. Allow them to rest in the pan for 5 minutes after you take them from the oven."],
+                ["", ""],
+                ["", ""],
+                ["", ""],
+                ["",""],
+                ["",""],
+                ["",""],
+                ["",""],
+                ["",""],
+                ["",""],
+                ["",""],
+                ["",""],
+                ["",""],
+                ["",""]
+                ],
+            "video":"./video/Juicy Baked Pork Chops.mp4",
+            "match":[
+                [1,"./IMG/cuisine/Beef-Stroganoff-1.jpg"],
+                [2,"./IMG/cuisine/napolitan-00-1024x576.jpg"]
+            ],
+            "steps":[
+                [0,"./IMG/steps/Ketchup-Spaghetti-Napolitan-Ingredients.jpg"],
+                [1,"./IMG/steps/ketchup-spaghetti-1.PNG"],
+                [2,"./IMG/steps/ketchup-spaghetti-2.PNG"],
+                [3,"./IMG/steps/ketchup-spaghetti-3.PNG"],
+                [4,"./IMG/steps/ketchup-spaghetti-4.PNG"],
+                [5,"./IMG/steps/ketchup-spaghetti-5.PNG"],
+                [6,"./IMG/steps/ketchup-spaghetti-6.PNG"],
+                [7,"./IMG/steps/ketchup-spaghetti-7.PNG"],
+                [8,"./IMG/steps/ketchup-spaghetti-8.PNG"],
+                [9,"./IMG/steps/ketchup-spaghetti-9.PNG"],
+                [10,"./IMG/steps/ketchup-spaghetti-10.PNG"],
+                [11,"./IMG/steps/ketchup-spaghetti-11.PNG"],
+                [12,"./IMG/steps/ketchup-spaghetti-12.PNG"],
+                [13,"./IMG/steps/ketchup-spaghetti-13.PNG"],
+                [14,"./IMG/steps/ketchup-spaghetti-14.PNG"],
+                [15,"./IMG/steps/ketchup-spaghetti-15.PNG"],
+                [16,"./IMG/steps/ketchup-spaghetti-16.PNG"]
+                ]   
+        }   
+        ],
+    "Cuisine_seafood":[
+        {
+        "name": "Ice Cream Tempura",
+        "description": "?",
+        "image": "./IMG/cuisine/ice-cream-tempura-00-300x169.jpg",
+        "nutrition":[
+            ["Calories", 1480],
+            ["Fat(g)", 36],
+            ["Cholesterol(mg)", 176],
+            ["Sodium(mg)", 2150],
+            ["Potassium(mg)", 124],
+            ["Carbohydrates(g)", 53],
+            ["Fiber(g)",0],
+            ["Sugars(g)",11],
+            ["Protein(g)", 5]
+        ],
+        "ingredients":[
+            ["1 scoop","Vanilla Ice Cream"],
+            ["1 scoop","Chocolate Ice Cream"],
+            ["1 scoop","Green Tea Ice Cream"],
+            ["6 slices","Castella"],
+            ["3 tbsp","Cold Water"],
+            ["30 g","Cake Flour or All Purpose Flour"],
+            ["1 pot", "Frying Oil"],
+            ["1 can","Raspberry Jam"]
+        ],
+        "attention": "empty",
+        "instruction":[
+            ["1", "To begin, dampen an ice cream scoop and form a ball of vanilla ice cream."],
+            ["2", "Then, place it onto a chilled tray."],
+            ["3", "Make the chocolate and matcha ice cream balls at the same time and place them in the freezer to firm."],
+            ["4", "Next, cut the castella sponge cake into 5mm pieces and wrap them over each ice cream as indicated."],
+            ["5", "You may also substitute standard sponge cake with the castella. The food preparation gloves will help keep the ice cream from melting."],
+            ["6", "If the spaces are not properly closed, the ice cream will melt and spill when deep-fried."],
+            ["7", "Wrap the plastic wrap around the ball."],
+            ["8", "Then, place the ice cream in the freezer for at least 2 to 3 hours to firm up completely."],
+            ["9","And now, let’s make the tempura batter. Combine the cold water and cake flour in a bowl. Mix with a balloon whisk."],
+            ["10","Heat the frying oil to around 190 °C (374 °F), a pretty high temperature for deep-frying."],
+            ["11","Take one of the ice cream balls out of the freezer and coat it with the batter."],
+            ["12","Then, carefully place it in the oil."],
+            ["13","Pour boiling oil over the ball. Avoid touching the ice cream until the outer batter has firmed."],
+            ["14","Deep-fry it for about 30 seconds, or until the surface becomes faintly colored."],
+            ["15","Take it out and set it on a platter."],
+            ["16","Finally, sprinkle the raspberry sauce over top."],
+            ["17","Enjoy the fresh ice cream tempura before it starts to melt."],
+            ["18","You may freeze a lot of ice cream tempura to amaze your pals during a party."]
+            ],
+        "video":"./video/Ice Cream Tempura Recipe_Cooking with Dog.mp4",
+        "match":[
+            [1,"./IMG/cuisine/nikujaga.jpg"],
+            [2,"./IMG/cuisine/miso.jpg"]
+        ],
+        "steps":[
+            [1,"./IMG/steps/ice-cream-tempura-01-600x338.jpg"],
+            [2,"./IMG/steps/ice-cream-tempura-02-600x338.jpg"],
+            [4,"./IMG/steps/ice-cream-tempura-04-600x338.jpg"],
+            [5,"./IMG/steps/ice-cream-tempura-05-600x338.jpg"],
+            [8,"./IMG/steps/ice-cream-tempura-08-600x338.jpg"],
+            [9,"./IMG/steps/ice-cream-tempura-09-600x338.jpg"],
+            [11,"./IMG/steps/ice-cream-tempura-11-600x338.jpg"],
+            [12,"./IMG/steps/ice-cream-tempura-12-600x338.jpg"],
+            [14,"./IMG/steps/ice-cream-tempura-14-600x338.jpg"],
+            [15,"./IMG/steps/ice-cream-tempura-15-600x338.jpg"],
+            [16,"./IMG/steps/ice-cream-tempura-16-600x338.jpg"],
+            [17,"./IMG/steps/ice-cream-tempura-17-600x338.jpg"],
+            [18,"./IMG/steps/ice-cream-tempura-18-600x338.jpg"]
+        ]
+
+    }
+    ],
+    "Cuisine_lamb":[
+        {
+        "name": "Cumin Lamb Noodles",
+        "description": "?",
+        "image": "./IMG/cuisine/Cumin-Lamb-Noodles_550.jpg",
+        "nutrition":[
+            ["Calories", 531],
+            ["Fat(g)", 27.4],
+            ["Cholesterol(mg)", 100],
+            ["Sodium(mg)", 946],
+            ["Potassium(mg)", 514],
+            ["Carbohydrates(g)", 42.6],
+            ["Fiber(g)",3],
+            ["Sugars(g)",6.5],
+            ["Protein(g)",29]
+        ],
+        "ingredients":[
+            ["1 batch","hand-pulled noodles"],
+            ["2 tbsp","whole cumin seeds"],
+            ["2 tbsp","sichuan peppercorns"],
+            ["1 tbsp","whole coriander seeds"],
+            ["1 lb lamb","lamb thinly sliced against the grain"],
+            ["1 tbsp","Shaoxing wine"],
+            ["1 tbsp", "salt and peanut oil"],
+            ["2 teaspons","cornstarch"]
+        ],
+        "attention": "empty",
+        "instruction":[
+            ["1", "In a dry pan, cook the cumin, Sichuan peppercorns, and coriander over medium-low heat. Toss and stir often. Toast for 5 minutes, or until the spices are aromatic and starting to burst."],
+            ["2", "Remove the spices from the heat and pulse until partially pulverized. You may crush the spices with the bottom of a heavy pan, a mortar and pestle, a spice grinder, or a coffee grinder."],
+            ["3", "Mix together the lamb, Shaoxing wine, salt, oil, and 2 tablespoons ground spices. Mix in the cornstarch by hand until the lamb is well covered. Allow for a 15-minute marinade."],
+            ["4", "In a large pan, heat the oil over high heat until it begins to smoke. Spread the marinated lamb out in a single layer. Using tongs or chopsticks, separate the individual pieces with little overlap. Top with the garlic and ginger. Sear the lamb for 30 seconds to 1 minute, or until the bottom is browned."],
+            ["5", "Once the lamb has browned on one side, continue to stir until the lamb has mostly browned on all sides and the aromatics have turned golden. It's fine if the lamb's insides are still somewhat pink."],
+            ["6", "Combine the red onion and green chilies in a mixing bowl. For 10 to 20 seconds, stir fry."],
+            ["7", "Toss in the spice mixture to cover everything with the spices."],
+            ["8", "Pour in the sauce and scrape the pan's bottom to remove any caramelization. Stir fry for 30 seconds more."],
+            ["9", "Turn off the heat and whisk in the cilantro to combine. Transfer everything to a large platter to allow the lamb to finish cooking."],
+            ["10","If using hand-pulled noodles, stretch each piece of dough before adding it to the boiling water. Cook for around 1 to 2 minutes."],
+            ["11","If you're using boxed noodles, follow the package directions."],
+            ["12","Divide the cooked noodles among four bowls."],
+            ["13","Place the lamb and sauce on top of the noodles. To taste, add more chile oil, chinkiang vinegar, and soy sauce. Enjoy!"],
+            ["",""],
+            ["",""],
+            ["",""],
+            ["",""],
+            ["",""]
+            ],
+        "video":"./video/Cumin Lamb Noodles.mp4",
+        "match":[
+            [1,"./IMG/cuisine/nikujaga.jpg"],
+            [2,"./IMG/cuisine/miso.jpg"]
+        ],
+        "steps":[
+            [1,"./IMG/steps/ice-cream-tempura-01-600x338.jpg"],
+            [2,"./IMG/steps/ice-cream-tempura-02-600x338.jpg"],
+            [4,"./IMG/steps/ice-cream-tempura-04-600x338.jpg"],
+            [5,"./IMG/steps/ice-cream-tempura-05-600x338.jpg"],
+            [8,"./IMG/steps/ice-cream-tempura-08-600x338.jpg"],
+            [9,"./IMG/steps/ice-cream-tempura-09-600x338.jpg"],
+            [11,"./IMG/steps/ice-cream-tempura-11-600x338.jpg"],
+            [12,"./IMG/steps/ice-cream-tempura-12-600x338.jpg"],
+            [14,"./IMG/steps/ice-cream-tempura-14-600x338.jpg"],
+            [15,"./IMG/steps/ice-cream-tempura-15-600x338.jpg"],
+            [16,"./IMG/steps/ice-cream-tempura-16-600x338.jpg"],
+            [17,"./IMG/steps/ice-cream-tempura-17-600x338.jpg"],
+            [18,"./IMG/steps/ice-cream-tempura-18-600x338.jpg"]
         ]
 
     }

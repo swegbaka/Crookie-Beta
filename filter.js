@@ -1,14 +1,14 @@
 filterSelection("all")
     function filterSelection(c) {
-      var x, i;
-      x = document.getElementsByClassName("filterBtn");
-      console.log(x);
+      var fBtn, i;
+      fBtn = document.getElementsByClassName("filterBtn");
+      console.log(fBtn);
       if (c == "all")
         c = "";
-      for (i = 0; i < x.length; i++) {
-        RemoveClass(x[i], "show");
-        if (x[i].className.indexOf(c) > -1) {
-          AddClass(x[i], "show");
+      for (i = 0; i < fBtn.length; i++) {
+        RemoveClass(fBtn[i], "show");
+        if (fBtn[i].className.indexOf(c) > -1) {
+          AddClass(fBtn[i], "show");
         }
       }
 
@@ -25,6 +25,7 @@ filterSelection("all")
       }
     }
 
+    
     function RemoveClass(element, name) {
       var i, arr1, arr2;
       arr1 = element.className.split(" ");
@@ -37,7 +38,7 @@ filterSelection("all")
       element.className = arr1.join(" ");
     }
 
-    // Add active class to the current button (highlight it)
+    // place the -on class to the current button
     var btns = document.getElementsByClassName("cookware-butn");
     let img = document.querySelector('#display > img');
     

@@ -61,6 +61,7 @@
       <div class="cookware">
         <p>Most importantly what <strong>cookware </strong>?</p>
       </div>
+      <!-- matching the keyword in veg-butn and meat-butn-->
       <div class="cookware-table">
         <button class="cookware-butn-on" onclick="filterSelection('pan')">🍳 Pan</button>
         <button class="cookware-butn" onclick="filterSelection('mircowave')">📟 Mircowave</button>
@@ -71,6 +72,8 @@
 
 
   </header>
+
+  <!-- NavPanel helps the website redirect to other main pages *--->
   <div id="NavPanel">
     <nav>
       <ul>
@@ -78,143 +81,108 @@
         <li><a href="../category.html">Category</a></li>
         <li><a href="../about.html">About</a></li>
         <li><a href="../help.html">Help</a></li>
-        <li><a href="../Compare.html">Compare</a></li>
       </ul>
     </nav>
   </div>
 
+<!--Container at the bottom create a block for filter options and options display-->
   <div class="container">
     <div class="starch">
       Any <strong>starch</strong> today?<br>
       <button class="starch-butn" onclick="filterSelection('rice')">🍚Rice</button><br>
       <button class="starch-butn" onclick="filterSelection('noodle')">🍜Noodle</button>
+      <div class="vegan">
+        <strong>Vegantrian?</strong> of course!<br>
+        <button class="vegan-butn" onclick="filterSelection('vegan')">*Vegantrian*</button><br>
+        </div>
     </div>
 
     <div class="result">
       Let's see what's delicacy for today!</br>
       <p>
         <span id="result"></span></label>
+
+       <!-- vegetable choice--> 
+       <!-- the class collaseped was created for hiding buttons, but we found other ways-->
+       <!-- keyword in the filterBtn for the function in filter.js-->
+       <!--**** Due to the amount of pages and many of the elements are the same, we try to reduce the repeated work. 
+        Then, only the page with "*" will display recipes. ****-->
       <div id="choice1">
         <div class="collasped">
-          <button class="filterBtn pan noodle"><a href="../0-potato.html">Nigujaga</a></button>
-          <button class="filterBtn mircowave rice"><a href="../2-potato.html">mircowave potato</a></button>
-          <button class="filterBtn pot noodle"><a href="#">ufo potato</a></button>
-          <button class="filterBtn air-fryer rice"><a href="#">fries</a></button>
-          <button class="filterBtn oven"><a href="#">chips</a></button>
+          <button class="filterBtn pan noodle"><a href="../0-potato.html">*Nigujaga*</a></button>
+          <button class="filterBtn mircowave rice"><a href="../1-potato.html">*Microwave Baked Potato*</a></button>
+          <button class="filterBtn air-fryer rice"><a href="/../2-potato.html">*French Fries*</a></button>
+
         </div>
         <div class="collasped">
-          <button class="filterBtn pan"><a href="#">It is a pan tofu</a></button>
-          <button class="filterBtn mircowave noodle"><a href="#">mircowave tofu</a></button>
-          <button class="filterBtn pot"><a href="../0-tofu.html">Miso Soup</a></button>
-          <button class="filterBtn air-fryer"><a href="#">fries</a></button>
-          <button class="filterBtn oven"><a href="#">chips</a></button>
+          <button class="filterBtn pan"><a href="#">Fried Tofu</a></button>
+          <button class="filterBtn pot"><a href="../0-tofu.html">*Miso Soup*</a></button>
+          <button class="filterBtn air-fryer"><a href="#">Crispy Fryer Tofu</a></button>
+
         </div>
         <div class="collasped">
-          <button class="filterBtn pan"><a href="#">It is a pan Broccoli</a></button>
-          <button class="filterBtn mircowave"><a href="#">mircowave Broccoli</a></button>
-          <button class="filterBtn pot noodle"><a href="#">ufo Broccoli</a></button>
-          <button class="filterBtn air-fryer rice"><a href="#">fries</a></button>
-          <button class="filterBtn oven"><a href="#">chips</a></button>
+          <button class="filterBtn pan vegan"><a href="../0-broccoli.html">*Caramelized Broccoli*</a></button>
+
         </div>
         <div class="collasped">
-          <button class="filterBtn pan"><a href="../0-cabbage.html">Sautéed Cabbage</a></button>
-          <button class="filterBtn mircowave"><a href="#">mircowave cabbage</a></button>
-          <button class="filterBtn pot noodle"><a href="#">ufo cabbage</a></button>
-          <button class="filterBtn air-fryer"><a href="#">fries</a></button>
-          <button class="filterBtn oven"><a href="#">chips</a></button>
+          <button class="filterBtn pan"><a href="../0-cabbage.html">*Sautéed Cabbage*</a></button>
+          <button class="filterBtn pot noodle vegan"><a href="#">Cabbage Noodles</a></button>
+
         </div>
         <div class="collasped">
-          <button class="filterBtn pan"><a href="#">It is a pan tomato</a></button>
-          <button class="filterBtn mircowave"><a href="#">mircowave tomato</a></button>
-          <button class="filterBtn pot"><a href="#">ufo tomato</a></button>
-          <button class="filterBtn air-fryer"><a href="#">fries</a></button>
-          <button class="filterBtn oven"><a href="#">chips</a></button>
+          <button class="filterBtn pan vegan"><a href="../0-tomato.html">*Melting Potatoes*</a></button>
+          <button class="filterBtn mircowave"><a href="#">Baked Tomato</a></button>
         </div>
         <div class="collasped">
-          <button class="filterBtn pan rice"><a href="#">It is a pan carrot</a></button>
-          <button class="filterBtn mircowave "><a href="#">mircowave carrot</a></button>
-          <button class="filterBtn pot"><a href="#">ufo carrot</a></button>
-          <button class="filterBtn air-fryer"><a href="#">fries</a></button>
-          <button class="filterBtn oven"><a href="#">chips</a></button>
+          <button class="filterBtn air-fryer"><a href="../0-carrot.html">*Parmesan Garlic Carrot*</a></button>
+          <button class="filterBtn oven cake"><a href="#">Carrot Cake</a></button>
         </div>
         <div class="collasped">
-          <button class="filterBtn pan"><a href="#">It is a pan pumpkin</a></button>
-          <button class="filterBtn mircowave"><a href="#">mircowave pumpkin</a></button>
-          <button class="filterBtn pot"><a href="#">ufo pumpkin</a></button>
-          <button class="filterBtn air-fryer"><a href="#">fries</a></button>
-          <button class="filterBtn oven"><a href="#">chips</a></button>
+          <button class="filterBtn oven"><a href="../0-pumpkin.html">*Savory Baked Pumpkin*</a></button>
         </div>
         <div class="collasped">
-          <button class="filterBtn pan"><a href="#">It is a pan Mushroom</a></button>
-          <button class="filterBtn mircowave"><a href="#">mircowave Mushroom</a></button>
-          <button class="filterBtn pot"><a href="#">ufo Mushroom</a></button>
-          <button class="filterBtn air-fryer"><a href="#">fries</a></button>
-          <button class="filterBtn oven"><a href="#">chips</a></button>
+          <button class="filterBtn pan noodle"><a href="../0-mushroom.html">*Spaghetti Napolitan*</a></button>
+          <button class="filterBtn pot vegan"><a href="#">Hungarian Mushroom Soup</a></button>
         </div>
         <div class="collasped">
-          <button class="filterBtn pan"><a href="#">It is a pan Eggplant</a></button>
-          <button class="filterBtn mircowave"><a href="#">mircowave Eggplant</a></button>
-          <button class="filterBtn pot"><a href="#">ufo Eggplant</a></button>
-          <button class="filterBtn air-fryer"><a href="#">fries</a></button>
-          <button class="filterBtn oven"><a href="#">chips</a></button>
+          <button class="filterBtn air-fryer"><a href="#">Crispy Eggplant</a></button>
+          <button class="filterBtn oven vegan"><a href="../0-eggplant.html">*Roasted Eggplant*</a></button>
         </div>
         <div class="collasped">
-          <button class="filterBtn pan"><a href="#">It is a pan corn</a></button>
-          <button class="filterBtn mircowave"><a href="#">mircowave corn</a></button>
-          <button class="filterBtn pot"><a href="#">ufo corn</a></button>
-          <button class="filterBtn air-fryer"><a href="#">fries</a></button>
-          <button class="filterBtn oven"><a href="#">chips</a></button>
+          <button class="filterBtn pan"><a href="../0-corn.html">*Cali Club Quesadillas*</a></button>
+          <button class="filterBtn pot"><a href="#">Southwestern Sauteed Corn</a></button>
         </div>
         <div class="collasped">
-          <button class="filterBtn pan"><a href="#">It is a pan lettuce</a></button>
-          <button class="filterBtn mircowave"><a href="#">mircowave lettuce</a></button>
-          <button class="filterBtn pot"><a href="#">ufo lettuce</a></button>
-          <button class="filterBtn air-fryer"><a href="#">fries</a></button>
-          <button class="filterBtn oven"><a href="#">chips</a></button>
+          <button class="filterBtn pot vegan"><a href="#">Lettuce Soup</a></button>
         </div>
 
       </div>
-
+      <!-- meat choice--> 
       <div id="choice2">
         <div class="collasped">
-          <button class="filterBtn pan"><a href="#">It is a pan Chicken</a></button>
-          <button class="filterBtn mircowave"><a href="#">mircowave Chicken</a></button>
-          <button class="filterBtn pot"><a href="#">ufo Chicken</a></button>
-          <button class="filterBtn air-fryer"><a href="#"> Chicken fries</a></button>
-          <button class="filterBtn oven"><a href="#"> Chicken chips</a></button>
+          <button class="filterBtn pan"><a href="../0-chicken.html">*Juicy Stove Chicken Breasts*</a></button>
+          <button class="filterBtn oven"><a href="#">Oven Baked Chicken Breast</a></button>
         </div>
         <div class="collasped">
-          <button class="filterBtn pan"><a href="0-beef.html">Beef Stroganoff</a></button>
-          <button class="filterBtn mircowave"><a href="#">mircowave beef</a></button>
-          <button class="filterBtn pot"><a href="#">ufo beef</a></button>
-          <button class="filterBtn air-fryer"><a href="#"> beef fries</a></button>
-          <button class="filterBtn oven"><a href="#"> beef chips</a></button>
+          <button class="filterBtn pan"><a href="../0-beef.html">*Beef Stroganoff*</a></button>
+          <button class="filterBtn pot rice"><a href="#">Korean Ground Beef Rice</a></button>
         </div>
         <div class="collasped">
-          <button class="filterBtn pan"><a href="#">It is a pan pork</a></button>
-          <button class="filterBtn mircowave"><a href="#">mircowave pork</a></button>
-          <button class="filterBtn pot"><a href="#">ufo pork</a></button>
-          <button class="filterBtn air-fryer"><a href="#"> pork fries</a></button>
-          <button class="filterBtn oven"><a href="#"> pork chips</a></button>
+          <button class="filterBtn pan rice"><a href="#">Katsudon</a></button>
+          <button class="filterBtn oven"><a href="../0-pork.html">*Juicy Baked Pork Chops*</a></button>
         </div>
         <div class="collasped">
-          <button class="filterBtn pan"><a href="#">It is a pan salmon</a></button>
-          <button class="filterBtn mircowave"><a href="#">mircowave salmon</a></button>
-          <button class="filterBtn pot ice"><a href="#">ICE CREAM TEMPURA</a></button>
-          <button class="filterBtn air-fryer"><a href="#"> salmon fries</a></button>
-          <button class="filterBtn oven"><a href="#"> salmon chips</a></button>
+          <button class="filterBtn pan"><a href="#">Salmon Meunière</a></button>
+          <button class="filterBtn pot ice"><a href="0-seafood.html">*IceCreamTempura*</a></button>
         </div>
 
         <div class="collasped">
-          <button class="filterBtn pan"><a href="#">It is a pan Lamb</a></button>
-          <button class="filterBtn mircowave"><a href="#">mircowave Lamb</a></button>
-          <button class="filterBtn pot"><a href="#">ufo Lamb</a></button>
-          <button class="filterBtn air-fryer"><a href="#"> Lamb fries</a></button>
-          <button class="filterBtn oven cake"><a href="#"> Lamb +111 chips</a></button>
+          <button class="filterBtn pan noodle"><a href="../0-lamb.html">*Cumin Lamb Noodles*</a></button>
+          <button class="filterBtn air-fryer"><a href="#">British Roast Lamb</a></button>
         </div>
 
       </div>
-
+      <!-- cookware choice--> 
       <div id="choice3">
         <div class="collasped">
           <button><a href="#">Pan</a></button>
@@ -228,12 +196,13 @@
       <ul id="display">
         <img src="IMG/logo.png" alt="">
       </ul>
+      <!-- a searching filter--> 
       <input type="text" id="myInput" onkeyup="SearchFilter()" placeholder="Search for names..." title="Type in a name">
+      <!-- clear the choice if wrong choice made--> 
       <div id="clear">
         <button id="clear-butn" onclick="reload()">Clear</button>
       </div>
     </div>
-
 
 
 
@@ -247,6 +216,7 @@
 
   </div>
 
+  <!-- a searching filter function-->
   <script>
     function SearchFilter() {
       var aElement, i, txtValue;
