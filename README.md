@@ -42,3 +42,8 @@ EMAIL_PASSWORD=4d03b69eae744b
 
 //Localhost website
 nodemon node.js
+
+## Addition Resouce
+There are some CSS format are credited in the follwing:
+- https://getcssscan.com/css-buttons-examples
+- https://www.youtube.com/watch?v=42M9esAvAEU
