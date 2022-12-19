@@ -45,6 +45,6 @@ nodemon node.js
 ```
 
 ## Addition Resouce
-There are some CSS format are credited in the follwing:
+There are some CSS and Javascript files are credited in the follwing:
 - https://getcssscan.com/css-buttons-examples
 - https://www.youtube.com/watch?v=42M9esAvAEU
