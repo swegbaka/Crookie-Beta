@@ -51,10 +51,6 @@
             </button>
           <% } %>
         </div>
-        <!-- <% for(let i=0; i<foodName.length; i++) { %>
-          <p id="test"> <%= foodName[i].link1 %> </p>
-          <p id="test"> <%= foodName[i].Link %> </p>
-        <% } %> -->
         <div class="cookware">
           <p>Most importantly what <strong>cookware </strong>?</p>
         </div>
@@ -87,7 +83,7 @@
         Let&apos;s see what&apos;s delicacy for today!
           <% for(let i=0; i<foodName.length; i++) { %>
             <p class="testing"><a href="<%= foodName[i].Link %>" type="button"><%= foodName[i].foodName %></a></p>
-            <!-- <p class="testing"><a href="<%= foodName[i].link1 %>" type="button"><%= foodName[i].foodName %></a></p> -->
+            <p class="testing"><a href="<%= foodName[i].link1 %>" type="button"><%= foodName[i].foodName %></a></p>
           <% } %>
         <ul id="display">
           <img src="img/cookStart.png" alt="" />
