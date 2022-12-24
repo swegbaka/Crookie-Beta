@@ -1,3 +1,4 @@
+Cuisine Source:
 https://recipes.sparkpeople.com/recipe-calories.asp?recipe=215535
 https://www.wellplated.com/sauteed-cabbage/
 https://cookingwithdog.com/recipe/easy-miso-soup/
@@ -24,3 +25,6 @@ https://www.youtube.com/watch?v=l-EnxL7crts
 https://www.youtube.com/watch?v=EiXzQCQ5Szs
 https://www.youtube.com/watch?v=DFfIrD6raOk
 https://www.youtube.com/watch?v=ZC_EVmIH3W8
+
+Category Ingredients Source:
+https://www.webmd.com/diet/default.htm

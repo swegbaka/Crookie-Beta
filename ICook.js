@@ -1,5 +1,6 @@
-import data from "./data.JSON" assert { type: "json" };
-// console.log(data.Cookware[0].image);
+import data from './data.JSON' assert { type: 'json' };
+console.log(data.Cookware[0].image);
+
 
 var menuBotton = document.getElementById("menuBotton");
 var NavPanel = document.getElementById("NavPanel");
@@ -50,7 +51,7 @@ for (let i = 0; i < btn_veg.length; i++) {
     }
   });
 }
-// same as above but for meat-btn
+// same as above but meat-btn
 for (let i = 0; i < btn_meat.length; i++) {
   count2[i] = 0;
   btn_meat[i].onclick = function () {
@@ -65,7 +66,9 @@ for (let i = 0; i < btn_meat.length; i++) {
   }
 }
 
+
 refresh.addEventListener("click", function () {
   window.location.reload();
   //refresh the page
 });
+

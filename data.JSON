@@ -123,132 +123,132 @@
         },
         {
             "name": "Eggplant",
-            "description": "John",
+            "description": "Eggplant, commonly known as aubergine, is a dark purple nightshade vegetable. Tomatoes, potatoes, and peppers are also nightshades. Eggplant has a sponge-like texture and a moderately bitter flavor. The majority of them are oval in form, although Asian types from China and Japan are long and thin. There are also edible little, beautiful white eggplants, as well as green and orange variants.",
             "image": "./IMG/vegetable/eggplant.jpg",
             "nutrition":[
-                ["Calories", 94],
-                ["Protein(g)", 10],
-                ["Fat(g)", 6],
-                ["Carbohydrates(g)", 2.3],
-                ["Fiber(g)", 0.4],
-                ["Sugar(g)", 0]
+                ["Calories", 10],
+                ["Protein(g)", 0],
+                ["Fat(g)", 0],
+                ["Carbohydrates(g)", 2],
+                ["Fiber(g)", 1],
+                ["Sugar(g)", 1]
             ],
-            "variety": "none",
-            "use": "empty"
+            "variety": "Chinese Eggplant, Fairy Tale Eggplant, American Eggplant, Graffiti/Zebra/Sicilian Eggplant, Indian Eggplant...",
+            "use": "Eggplant is a delectable vegetable that also provides health advantages for individuals who consume it. Including Cancer Prevention, Heart Disease and Lower Calorie Option"
         },
         {
             "name": "Corn",
-            "description": "John",
+            "description": "The husks of maize are used to produce tamales in Latin America, while crushed corn is used as a foundation for many traditional foods, including tortillas. Because maize is inherently gluten-free, it is an ideal substitute for wheat. It's also high in vitamins, minerals, and antioxidants, which can benefit your health in a variety of ways.",
             "image": "./IMG/vegetable/corn.jpg",
             "nutrition":[
-                ["Calories", 94],
-                ["Protein(g)", 10],
-                ["Fat(g)", 6],
-                ["Carbohydrates(g)", 2.3],
-                ["Fiber(g)", 0.4],
-                ["Sugar(g)", 0]
+                ["Calories", 62],
+                ["Protein(g)", 2],
+                ["Fat(g)", 1],
+                ["Carbohydrates(g)", 14],
+                ["Fiber(g)", 1],
+                ["Sugar(g)", 5]
             ],
-            "variety": "none",
-            "use": "empty"
+            "variety": "Six types of corn kernels: flint, flour, dent, pop, sweet, and waxy.",
+            "use": "Corn is high in potassium, an important vitamin that many Americans may not receive enough of. Potassium aids in the regulation of the circulatory system, ensuring enough blood flow and a robust heartbeat. Hypokalemia is a potentially fatal disorder caused by low potassium levels. It is beneficial to eye health, digestive health, prostate health, and the treatment of Alzheimer's and dementia."
         },
         {
             "name": "Lettuce",
-            "description": "John",
+            "description": "Lettuce is a leafy vegetable that is well-known for providing the foundation for salads. There are several varieties of lettuce, all with the scientific name Lactuca sativa. The vitamin content of lettuce is largely responsible for its health advantages. The health benefits of lettuce vary based on the variety consumed.",
             "image": "./IMG/vegetable/lettuce.jpg",
             "nutrition":[
-                ["Calories", 94],
-                ["Protein(g)", 10],
-                ["Fat(g)", 6],
-                ["Carbohydrates(g)", 2.3],
-                ["Fiber(g)", 0.4],
-                ["Sugar(g)", 0]
+                ["Calories", 75],
+                ["Protein(g)", 5],
+                ["Fat(g)", 0],
+                ["Carbohydrates(g)", 16],
+                ["Fiber(g)", 6],
+                ["Sugar(g)", 10]
             ],
-            "variety": "none",
-            "use": "empty"
+            "variety": "Iceberg Lettuce, Butterhead Lettuce, Romaine, Looseleaf Lettuce, Kale, Arugula...",
+            "use": "Health Benefits: Bone Strength, Hydration, Improved Vision, Improved Sleep."
         }
     ]
     ,
     "Meat": [
         {
             "name": "Chicken",
-            "description": "John",
+            "description": "Chicken has several health advantages, but various portions and cooking methods influence how nutritious your chicken-based meal is. Darker cuts, such as the thigh and drumstick, have a higher caloric content than lighter cuts, such as the breast. Keeping the skin on the chicken or frying it will also increase saturated fat.",
             "image": "./IMG/meat/chicken.jpg",
             "nutrition":[
-                ["Calories", 94],
-                ["Protein(g)", 10],
-                ["Fat(g)", 6],
-                ["Carbohydrates(g)", 2.3],
-                ["Fiber(g)", 0.4],
+                ["Calories", 129],
+                ["Protein(g)", 24],
+                ["Fat(g)", 3],
+                ["Carbohydrates(g)", 0],
+                ["Fiber(g)", 0],
                 ["Sugar(g)", 0]
             ],
-            "variety": "none",
-            "use": "empty"
+            "variety": "ISA Brown, Plymouth Rock, Barnevelder, Australorp, Naked Neck, Orpington, Silkie, New Hampshire Red...",
+            "use": "Chicken's lean protein is a good source of amino acids. Amino acids are used by our bodies to generate muscular tissue, which is especially essential as we age. Higher protein consumption has also been found in studies to help preserve bone mineral density. Consuming chicken can assist to create stronger muscles and promote healthier bones, lowering the chance of accidents and disorders like osteoporosis."
         },
         {
             "name": "Beef",
-            "description": "John",
+            "description": "For thousands of years, people have consumed beef. Cattle were initially domesticated in the Middle East around 10,000 years ago, before migrating to Africa. From the savanna to the dinner table, it's been a long journey. Beef now most likely looks substantially different than it did in the early days of farming. Beef, on the other hand, is an excellent source of protein, vitamins, and minerals.",
             "image": "./IMG/meat/beef.jpg",
             "nutrition":[
-                ["Calories", 94],
-                ["Protein(g)", 10],
-                ["Fat(g)", 6],
-                ["Carbohydrates(g)", 2.3],
-                ["Fiber(g)", 0.4],
+                ["Calories", 186],
+                ["Protein(g)", 25],
+                ["Fat(g)", 9],
+                ["Carbohydrates(g)", 0],
+                ["Fiber(g)", 0],
                 ["Sugar(g)", 0]
             ],
-            "variety": "none",
-            "use": "empty"
+            "variety": "Brisket, Chuck, Flank, Loin, Rib, Round, Shank, Short Plate",
+            "use": "Beef is a wonderful source of protein and other nutrients, but it is also high in cholesterol and saturated fats, which can lead to fatty deposits in the blood. Beef may be a nutritious element of your diet if consumed in moderation. 'A cumulative amount of research reveals a strong correlation between excessive intake of red and processed meats and a higher risk of heart disease, cancer, diabetes, and early mortality,' according to Harvard University specialists. Eating beef raises your total health risks. However, there are certain advantages to eating beef in moderate amounts and selecting lean cuts."
         },
         {
             "name": "Pork",
-            "description": "John",
+            "description": "Despite being referred to as 'the other white meat,' pork is classified as red meat. It is consumed globally, despite the fact that eating pork is prohibited by various religions, including Islam and Judaism. Pork, as a red meat, has a bad image for being harmful. It is, nevertheless, an excellent source of some minerals and high-quality protein. When used in moderation, it may be a beneficial supplement to a balanced diet.",
             "image": "./IMG/meat/pork.jpg",
             "nutrition":[
-                ["Calories", 94],
-                ["Protein(g)", 10],
-                ["Fat(g)", 6],
-                ["Carbohydrates(g)", 2.3],
-                ["Fiber(g)", 0.4],
+                ["Calories", 180],
+                ["Protein(g)", 25],
+                ["Fat(g)", 3],
+                ["Carbohydrates(g)", 0],
+                ["Fiber(g)", 0],
                 ["Sugar(g)", 0]
             ],
-            "variety": "none",
-            "use": "empty"
+            "variety": "Bacon, Ham, Belly, Rib Roast, Ribs, Steak, Tenderloin, Shoulder,",
+            "use": "Pork is also high in vitamins and minerals such as phosphorus, selenium, and thiamine. Pork has more thiamine, a B vitamin necessary for a variety of biological activities, than other red meats such as beef and lamb. Vitamins B6 and B12, which are rich in pork, are required for red blood cell production and brain function. Pork is also a good source of iron, as the heme-iron present in red meats is easily absorbed by the human digestive system. Pork contains selenium, which is required for normal thyroid function. A six-ounce pork chop has more than 100% of the daily recommended amount of selenium."
         },
         {
-            "name": "Fish",
-            "description": "John",
+            "name": "Fish(Salmon)",
+            "description": "A salmon is a silver-colored fish that lives in the sea or rivers and travels upstream to lay eggs. Its pink flesh is a nutritious dietary source. Although there is only one Atlantic salmon species, there are seven Pacific salmon species, the majority of which may be found in North American waters:",
             "image": "./IMG/meat/fish.jpg",
             "nutrition":[
-                ["Calories", 94],
-                ["Protein(g)", 10],
-                ["Fat(g)", 6],
-                ["Carbohydrates(g)", 2.3],
-                ["Fiber(g)", 0.4],
+                ["Calories", 211],
+                ["Protein(g)", 23],
+                ["Fat(g)", 13],
+                ["Carbohydrates(g)", 0],
+                ["Fiber(g)", 0],
                 ["Sugar(g)", 0]
             ],
-            "variety": "none",
-            "use": "empty"
+            "variety": "Chinook, Coho, Chum, Sockeye, Pink, Masu, Amago",
+            "use": "Salmon is high in protein and low in saturated fat. It also contains a variety of vitamins and minerals, including zinc, phosphorus, potassium, selenium, and vitamin B. These nutrients are essential for maintaining the health of your blood and nerve cells, as well as for the production of DNA. The majority of the omega-3 fatty acids in salmon are 'essential,' which means your body cannot produce them and you must obtain them from your diet."
         },
         {
             "name": "Lamb",
-            "description": "John",
+            "description": "Lamb is a form of red meat derived from domesticated sheep less than a year old. The majority of lamb is brought to market between the ages of 6 and 8 months. Sheep over a year old are termed mutton, not lamb. Lamb is the earliest known domesticated meat animal, having entered the human diet in the Middle East some 9,000 years ago.",
             "image": "./IMG/meat/lamb.jpg",
             "nutrition":[
-                ["Calories", 94],
-                ["Protein(g)", 10],
-                ["Fat(g)", 6],
-                ["Carbohydrates(g)", 2.3],
-                ["Fiber(g)", 0.4],
+                ["Calories", 171],
+                ["Protein(g)", 32],
+                ["Fat(g)", 0],
+                ["Carbohydrates(g)", 0],
+                ["Fiber(g)", 0],
                 ["Sugar(g)", 0]
             ],
-            "variety": "none",
-            "use": "empty"
+            "variety": "Black Welsh Mountain Sheep, Blueface Leicester Sheep,,Clun Forest Sheep, CVM Sheep (California Variegated Mutant) , Gulf Coast Sheep, Icelandic Sheep, Jacob Sheep, Karakul Sheep...",
+            "use": "Lamb has a lot of protein. One 3-ounce serving of lamb has 23 grams of protein, which is about half of the adult RDA. A high-protein diet is great for athletes, those looking to shed weight, and those recovering from surgery or injury."
         }
     ],
     "Cookware":[
         {
             "name": "Pan",
-            "description": "John",
+            "description": "none",
             "image": "./IMG/cookware/pan.jpg",
             "nutrition":"",
             "variety": "none",
@@ -256,7 +256,7 @@
         },
         {
             "name": "Mircowave",
-            "description": "John",
+            "description": "none",
             "image": "./IMG/cookware/microwave.jpg",
             "nutrition":"",
             "variety": "none",
@@ -264,7 +264,7 @@
         },
         {
             "name": "Pot",
-            "description": "John",
+            "description": "none",
             "image": "./IMG/cookware/pot.jpg",
             "nutrition":"",
             "variety": "none",
@@ -272,7 +272,7 @@
         },
         {
             "name": "Air-Fryer",
-            "description": "John",
+            "description": "none",
             "image": "./IMG/cookware/air-fryer-oven.jpg",
             "nutrition":"",
             "variety": "none",
@@ -280,7 +280,7 @@
         },
         {
             "name": "Oven",
-            "description": "John",
+            "description": "none",
             "image": "./IMG/cookware/oven.jpg",
             "nutrition":"",
             "variety": "none",
