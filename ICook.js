@@ -72,5 +72,3 @@ refresh.addEventListener("click", function () {
   //refresh the page
 });
 
-
-
