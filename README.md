@@ -1,6 +1,6 @@
 # Crookie
 
-Due to the amount of pages and many elements are the same, we try to reduce the duplicated work. 
+Due to the amount of pages and most elements are the same, we try to reduce duplicated works. 
 Then, only the page with "*" will display recipes.
 
 Gain happiness from cooking!
