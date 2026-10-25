@@ -1,7 +1,4 @@
 const Food = require("../models/foodModel");
-const mongoose = require("mongoose");
-const bodyParser = require("body-parser");
-const url = Food.find({}).select("Link -_id");
 
 const catchAsync = (fn) => {
   return (req, res, next) => {

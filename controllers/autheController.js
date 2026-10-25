@@ -2,12 +2,15 @@ const crypto = require("crypto");
 const { promisify } = require("util");
 const User = require("./../models/userModel");
 const jwt = require("jsonwebtoken");
-const AppError = require("./../Crookie/Error");
-const sendemail = require("./../Crookie/email");
+const AppError = require("./../Error");
+const sendemail = require("./../email");
+
+const { loadConfig } = require("../config/environment");
+const config = loadConfig();
 
 const signToken = (id) => {
-  return jwt.sign({ id }, process.env.JWT_SECRET, {
-    expiresIn: process.env.JWT_EXPIRES_IN,
+  return jwt.sign({ id }, config.jwtSecret, {
+    expiresIn: config.jwtExpiresIn,
   });
 };
 
@@ -17,10 +20,11 @@ const createSendToken = (user, statusCode, res) => {
   //send jwt via cookie
   res.cookie("jwt", token, {
     expires: new Date(
-      Date.now() + process.env.JWT_COOKIE_EXPIRES_IN * 86400000
+      Date.now() + config.jwtCookieExpiresIn * 86400000
     ),
-    secure: true,
-    http0nly: true,
+    secure: config.nodeEnv === "production",
+    httpOnly: true,
+    sameSite: "lax",
   });
   //remove password from output
   user.password = undefined;
@@ -86,7 +90,7 @@ exports.login = catchAsync(async (req, res, next) => {
 //   }
 
 //   //validate token
-//   const decoded = await promisify(jwt.verify)(token, process.env.JWT_SECRET);
+//   const decoded = await promisify(jwt.verify)(token, config.jwtSecret);
 
 //   //check if user still exists
 //   const freshUser = await User.findById(decoded.id);
@@ -101,7 +105,7 @@ exports.isLoggedin = catchAsync(async (req, res, nxt) => {
   if (req.cookie.jwt) {
     const decoded = await promisify(jwt.verify)(
       req.cookie.jwt,
-      process.env.JWT_SECRET
+      config.jwtSecret
     );
 
     //check if user still exists
