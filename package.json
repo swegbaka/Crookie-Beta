@@ -2,10 +2,12 @@
   "name": "express",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "node.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "debug": "ndb node.js"
+    "test": "node --test tests/environment.test.js tests/startup.test.js",
+    "debug": "node --inspect node.js",
+    "start": "node node.js",
+    "dev": "node --watch node.js"
   },
   "author": "Jinwei Shao",
   "license": "ISC",

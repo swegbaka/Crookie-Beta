@@ -1,4 +1,4 @@
-const AppError = require("./../Crookie/Error");
+const AppError = require("./../Error");
 const User = require("./../models/userModel");
 
 const catchAsync = (fn) => {

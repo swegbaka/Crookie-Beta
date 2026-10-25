@@ -1,104 +1,42 @@
-require("dotenv").config();
 const path = require("path");
-const express = require("express");
-const app = express();
-const rateLimit = require("express-rate-limit");
-const morgan = require("morgan");
-const AppError = require("./Crookie/Error");
-const helmet = require("helmet");
-const mongoSanitize = require("express-mongo-sanitize");
-const xss = require("xss-clean");
-const cookieparser = require("cookie-parser");
-
-// ROUTES
-const router = express.Router();
-
-//supoort pug internally in express
-app.set("view engine", "ejs");
-app.set("views", path.join(__dirname, "views"));
-
-//Send all static Files via one method
-// app.use(express.static("Crookie"));
-// app.use(express.static(path.join(__dirname, "Crookie")));
-app.use(express.static(path.join(__dirname, "test")));
-
-app.use(
-  helmet({ contentSecurityPolicy: false, crossOriginEmbedderPolicy: false })
-);
-
-//import from beefRouter.js
-const beefRouter = require("./routes/foodRouter");
+require("dotenv").config({ path: path.join(__dirname, ".env") });
 
 const mongoose = require("mongoose");
-const userRouter = require("./routes/userRouter");
-const crookieRouter = require("./routes/crookieRoute");
+const { loadConfig } = require("./config/environment");
 
-app.use(morgan("dev"));
+async function startServer() {
+  // Validate before loading routes, connecting to MongoDB, or listening.
+  const config = loadConfig();
+  const app = require("./app");
 
-// router.get("/", (req, res) => {
-//   res.sendFile(path.join(__dirname, "/Crookie/index.html"));
-// });
-
-//global middlewares
-const limiter = rateLimit({
-  max: 100,
-  windowMs: 3600000, // allow 100 requesst from the same IP address in one hour
-  message: "Too many requests, please try again later",
-});
-app.use("/api", limiter);
-
-//cookie parser
-app.use(cookieparser());
-
-//data sanitization against NoSQL attack  --------aka login wo email, only knowing password
-app.use(mongoSanitize());
-
-//against xss attack
-app.use(xss());
-
-//start mongoose server
-mongoose
-  .connect(
-    "mongodb+srv://crookie:<password>@cluster0.u2w5zqi.mongodb.net/?retryWrites=true&w=majority",
-    {
-      useNewUrlParser: true,
-      useCreateIndex: true,
-      useFindAndModify: false,
-      useUnifiedTopology: true,
-    }
-  )
-  .then(() => {
-    console.log("DB connection successful");
+  await mongoose.connect(config.database, {
+    useNewUrlParser: true,
+    useCreateIndex: true,
+    useFindAndModify: false,
+    useUnifiedTopology: true,
+    serverSelectionTimeoutMS: 10000,
   });
 
-app.listen(3000, function () {
-  console.log("Web is  running on 3000");
-});
-
-app.use((req, res, next) => {
-  console.log(req.cookies);
-  next();
-});
-
-// ROUTES
-app.use("/", crookieRouter);
-//Get all data from database
-app.use("/api/beef", beefRouter);
-//Get all user data from database
-app.use("/api/user", userRouter);
-
-//unknown Routes
-app.all("*", (req, res, next) => {
-  next(new AppError(`Can't find ${req.originalUrl} on this server!`));
-});
-
-//globlal error
-app.use((err, req, res, next) => {
-  err.statusCode = err.statusCode || 500;
-  err.status = err.status || "error";
-
-  res.status(err.statusCode).json({
-    status: err.status,
-    message: err.message,
+  return new Promise((resolve, reject) => {
+    const server = app.listen(config.port, () => {
+      console.log(`Crookie is running on port ${config.port}`);
+      resolve(server);
+    });
+    server.once("error", reject);
   });
-});
+}
+
+if (require.main === module) {
+  startServer().catch(async (error) => {
+    // Driver errors can contain credentials or connection details.
+    console.error(
+      error.name === "ConfigurationError"
+        ? error.message
+        : "Startup failed. Check database connectivity and whether PORT is available."
+    );
+    process.exitCode = 1;
+    await mongoose.disconnect();
+  });
+}
+
+module.exports = { startServer };

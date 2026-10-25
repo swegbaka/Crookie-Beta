@@ -1,27 +1,17 @@
 const nodemailer = require("nodemailer");
+const { loadEmailConfig } = require("./config/environment");
 
 const sendemail = async (options) => {
-  //create a transporter
-  const transporter = nodemailer.createTransport({
-    host: process.env.EMAIL_HOST,
-    port: process.env.EMAIL_PORT,
-    auth: {
-      user: process.env.EMAIL_USERNAME,
-      pass: process.env.EMAIL_PASSWORD,
-    },
-    //option: activate in gmail less secure app option resulting spammer detection
-  });
+  // Email is optional at startup; validate it when a reset email is requested.
+  const { from, ...transportOptions } = loadEmailConfig();
+  const transporter = nodemailer.createTransport(transportOptions);
 
-  //define email options
-  const mailOption = {
-    from: "test sweg <hello@madi.com>",
+  await transporter.sendMail({
+    from,
     to: options.email,
     subject: options.subject,
     text: options.message,
-  };
-
-  //send the email
-  await transporter.sendMail(mailOption);
+  });
 };
 
 module.exports = sendemail;
